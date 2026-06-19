@@ -165,7 +165,7 @@
       "name": "SRF 3 Youth",
       "broadcaster": "SRG SSR",
       "frequency": "92.2MHz FM",
-      "logo": "swiss.srg_ssr",
+      "logo": "swiss.srg_ssr_3",
       "region": "스위스",
       "url": "https://livestreaming-node-3.srg-ssr.ch/srgssr/srf3/mp3/128",
       "streamType": "redirect"
@@ -174,7 +174,7 @@
       "name": "SRF 4 News",
       "broadcaster": "SRG SSR",
       "frequency": "92.2MHz FM",
-      "logo": "swiss.srg_ssr4",
+      "logo": "swiss.srg_ssr_4",
       "region": "스위스",
       "url": "https://livestreaming-node-3.srg-ssr.ch/srgssr/srf4news/mp3/128",
       "streamType": "redirect"
