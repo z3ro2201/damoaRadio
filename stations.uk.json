@@ -1,0 +1,39 @@
+{
+  "country": "UK",
+  "countryName": "영국",
+  "version": 1,
+  "stationList": [
+    {
+      "name": "BBC Radio 1",
+      "broadcaster": "BBC",
+      "frequency": "97.7MHz FM",
+      "logo": "bbc",
+      "url": "https://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_radio_one/bbc_radio_one.isml/bbc_radio_one-audio%3d96000.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "BBC Radio 2",
+      "broadcaster": "BBC",
+      "frequency": "88.0MHz FM",
+      "logo": "bbc",
+      "url": "https://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_radio_two/bbc_radio_two.isml/bbc_radio_two-audio%3d96000.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "BBC Radio 6 Music",
+      "broadcaster": "BBC",
+      "frequency": "",
+      "logo": "bbc",
+      "url": "https://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_6music/bbc_6music.isml/bbc_6music-audio%3d96000.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "BBC World Service",
+      "broadcaster": "BBC",
+      "frequency": "648kHz AM",
+      "logo": "bbc",
+      "url": "https://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_world_service/bbc_world_service.isml/bbc_world_service-audio%3d96000.m3u8",
+      "streamType": "direct"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "country": "US",
+  "countryName": "미국",
+  "version": 1,
+  "stationList": [
+    {
+      "name": "NPR",
+      "broadcaster": "NPR",
+      "frequency": "88.5MHz FM",
+      "logo": "npr",
+      "url": "https://npr-ice.streamguys1.com/live.mp3",
+      "streamType": "direct"
+    },
+    {
+      "name": "WQXR",
+      "broadcaster": "WQXR",
+      "frequency": "105.9MHz FM",
+      "logo": "sqxr",
+      "url": "https://stream.wqxr.org/wqxr-web.aac",
+      "streamType": "direct"
+    },
+    {
+      "name": "KEXP",
+      "broadcaster": "KEXP",
+      "frequency": "90.3MHz FM",
+      "logo": "kexp",
+      "url": "https://kexp-mp3-128.streamguys1.com/kexp128.mp3",
+      "streamType": "direct"
+    },
+    {
+      "name": "WNYC",
+      "broadcaster": "Shonan Beach FM",
+      "frequency": "93.9MHz FM",
+      "logo": "wnyc",
+      "url": "https://stream.wnyc.org/wnyc-fm939-web.aac",
+      "streamType": "direct"
+    },
+    {
+      "name": "Jazz24",
+      "broadcaster": "Jazz24",
+      "frequency": "88.5MHz FM",
+      "logo": "jazz24",
+      "url": "https://live.jazz24.org/jazz24-mp3",
+      "streamType": "direct"
+    }
+  ]
+}

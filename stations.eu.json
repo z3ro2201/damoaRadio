@@ -1,0 +1,129 @@
+{
+  "country": "EU",
+  "countryName": "유럽",
+  "version": 1,
+  "stationList": [
+    {
+      "name": "FIP",
+      "broadcaster": "FIP",
+      "frequency": "105.1MHz FM",
+      "logo": "fip",
+      "region": "프랑스",
+      "url": "https://stream.radiofrance.fr/fip/fip.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "France Musique",
+      "broadcaster": "France Musique",
+      "frequency": "91.7MHz FM",
+      "logo": "franceMusique",
+      "region": "프랑스",
+      "url": "https://stream.radiofrance.fr/francemusique/francemusique.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "SWR3",
+      "broadcaster": "SWR3",
+      "frequency": "92.2MHz FM",
+      "logo": "swr3",
+      "region": "독일",
+      "url": "https://swr-swr3-live.cast.addradio.de/swr/swr3/live/mp3/128/stream.mp3",
+      "streamType": "direct"
+    },
+
+    {
+      "name": "Rai Radio 1",
+      "broadcaster": "Rai",
+      "frequency": "89.3MHz FM",
+      "logo": "rai",
+      "region": "이탈리아",
+      "url": "https://icestreaming.rai.it/1.mp3",
+      "streamType": "direct"
+    },
+    {
+      "name": "Rai Radio 3",
+      "broadcaster": "Rai",
+      "frequency": "93.7MHz FM",
+      "logo": "rai",
+      "region": "이탈리아",
+      "url": "https://icestreaming.rai.it/3.mp3",
+      "streamType": "direct"
+    },
+
+    {
+      "name": "Radio Österreich 1",
+      "broadcaster": "Ö1",
+      "frequency": "92.0MHz FM",
+      "logo": "austriaO1",
+      "region": "오스트리아",
+      "url": "https://loopstream01.wdr.de/wdr/wdr3/live/mp3/128/stream.mp3",
+      "streamType": "direct"
+    },
+    {
+      "name": "FM4",
+      "broadcaster": "FM4",
+      "frequency": "103.8MHz FM",
+      "logo": "austriaFM4",
+      "region": "오스트리아",
+      "url": "https://orf-live.ors-shoutcast.at/fm4-q2a",
+      "streamType": "direct"
+    },
+
+    {
+      "name": "NPO 3FM",
+      "broadcaster": "npoRadio",
+      "frequency": "96.8MHz FM",
+      "logo": "npoRadio",
+      "region": "네덜란드",
+      "url": "http://icecast.omroep.nl/3fm-bb-mp3",
+      "streamType": "direct"
+    },
+    {
+      "name": "NPO Radio 4",
+      "broadcaster": "npoRadio",
+      "frequency": "94.3MHz FM",
+      "logo": "npoRadio",
+      "region": "네덜란드",
+      "url": "http://icecast.omroep.nl/radio4-bb-mp3",
+      "streamType": "direct"
+    },
+
+    {
+      "name": "RNE Radio 1",
+      "broadcaster": "rneRadio",
+      "frequency": "92.2MHz FM",
+      "logo": "rneRadio",
+      "region": "스페인",
+      "url": "https://rtveradiolivemd.akamaized.net/rne_r1_main.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "RNE Radio 3",
+      "broadcaster": "rneRadio",
+      "frequency": "93.2MHz FM",
+      "logo": "rneRadio",
+      "region": "스페인",
+      "url": "https://rtveradiolivemd.akamaized.net/rne_r3_main.m3u8",
+      "streamType": "direct"
+    },
+
+    {
+      "name": "SRF 3",
+      "broadcaster": "srgSsr",
+      "frequency": "92.2MHz FM",
+      "logo": "srgSsr",
+      "region": "스위스",
+      "url": "https://stream.srg-ssr.ch/m/srf3/mp3_128",
+      "streamType": "direct"
+    },
+    {
+      "name": "Couleur 3",
+      "broadcaster": "srgSsr",
+      "frequency": "104.2MHz FM",
+      "logo": "srgSsr",
+      "region": "스위스",
+      "url": "https://stream.srg-ssr.ch/m/couleur3/mp3_128",
+      "streamType": "direct"
+    }
+  ]
+}

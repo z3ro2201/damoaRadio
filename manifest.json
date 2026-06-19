@@ -1,6 +1,10 @@
 {
   "stations_version": {
-    "ko": 2
+    "ko": 2,
+    "ja": 1,
+    "us": 1,
+    "eu": 1,
+    "uk": 1
   },
   "logos_version": 1
 }
