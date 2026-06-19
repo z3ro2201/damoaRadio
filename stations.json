@@ -299,6 +299,30 @@
     "url": "https://bbslive.clouducs.com/bbsradio-mlive/radio.stream/chunklist_w738448087.m3u8",
     "streamType": "direct"
   },
+  {
+    "name": "BBS 불교방송 (부산)",
+    "broadcaster": "BBS",
+    "country": "KR",
+    "region": "부산",
+    "url": "http://live.cdn.smilecdn.com:1935/bbsfm_live/live.sdp/playlist.m3u8",
+    "streamType": "direct"
+  },
+  {
+    "name": "BBS 불교방송 (제주)",
+    "broadcaster": "BBS",
+    "country": "KR",
+    "region": "제주",
+    "url": "http://kdbmobile.clouducs.com:1935/jeju/jeju.stream_aac/playlist.m3u8",
+    "streamType": "direct"
+  },
+  {
+    "name": "BBS 불교방송 (광주)",
+    "broadcaster": "BBS",
+    "country": "KR",
+    "region": "광주",
+    "url": "http://live.cdn.smilecdn.com:1935/kjbbs1_live/live/playlist.m3u8",
+    "streamType": "direct"
+  },
 
   {
     "name": "JTV 파워FM",
@@ -333,6 +357,7 @@
     "url": "https://btn.nowcdn.co.kr/btn_ch1st/live.stream/playlist.m3u8",
     "streamType": "direct"
   },
+
   {
     "name": "WBS 원음방송",
     "broadcaster": "WBS",
@@ -341,10 +366,51 @@
     "streamType": "direct"
   },
   {
+    "name": "WBS 원음방송 (부산)",
+    "broadcaster": "WBS",
+    "country": "KR",
+    "region": "부산",
+    "url": "https://wbsradio2.kr/wbs-b",
+    "streamType": "direct"
+  },
+  {
+    "name": "WBS 원음방송 (광주)",
+    "broadcaster": "WBS",
+    "country": "KR",
+    "region": "광주",
+    "url": "https://wbsradio2.kr/wbs-g",
+    "streamType": "direct"
+  },
+  {
+    "name": "WBS 원음방송 (전북)",
+    "broadcaster": "WBS",
+    "country": "KR",
+    "region": "전북",
+    "url": "https://wbsradio2.kr/wbs-j",
+    "streamType": "direct"
+  },
+
+  {
     "name": "국악방송",
     "broadcaster": "국악방송",
     "country": "KR",
     "url": "https://mgugaklive.nowcdn.co.kr/gugakradio/gugakradio.stream/playlist.m3u8",
+    "streamType": "direct"
+  },
+  {
+    "name": "국악방송 (대전)",
+    "broadcaster": "국악방송",
+    "country": "KR",
+    "region": "대전",
+    "url": "https://mgugaklive.nowcdn.co.kr/gugakdaejeon/Daejeonradio.stream/playlist.m3u8",
+    "streamType": "direct"
+  },
+  {
+    "name": "국악방송 (광주)",
+    "broadcaster": "국악방송",
+    "country": "KR",
+    "region": "광주",
+    "url": "https://mgugaklive.nowcdn.co.kr/gugakgwangju/Glive.stream/playlist.m3u8",
     "streamType": "direct"
   },
 
@@ -360,6 +426,7 @@
     "name": "TBS FM",
     "broadcaster": "TBS 교통방송",
     "country": "KR",
+    "region": "서울",
     "url": "https://cdnfm.tbs.seoul.kr/tbs/_definst_/tbs_fm_web_360.smil/playlist.m3u8",
     "streamType": "direct"
   },
@@ -367,6 +434,7 @@
     "name": "TBS eFM",
     "broadcaster": "TBS 교통방송",
     "country": "KR",
+    "region": "서울",
     "url": "https://cdnefm.tbs.seoul.kr/tbs/_definst_/tbs_efm_web_360.smil/playlist.m3u8",
     "streamType": "direct"
   },
@@ -481,6 +549,31 @@
     "broadcaster": "C채널",
     "country": "KR",
     "url": "https://6835fd66c946c.streamlock.net/radiolive/myStream/playlist.m3u8",
+    "streamType": "direct"
+  },
+
+  {
+    "name": "cpbc 광주가톨릭방송",
+    "broadcaster": "cpbc 가톨릭평화방송",
+    "country": "KR",
+    "region": "광주",
+    "url": "http://pbcradio.dynamicsmart.com:1935/radio/kjpbc2/index.m3u8",
+    "streamType": "direct"
+  },
+  {
+    "name": "cpbc 대구가톨릭방송",
+    "broadcaster": "cpbc 가톨릭평화방송",
+    "country": "KR",
+    "region": "대구",
+    "url": "http://live.dgcpbc.co.kr/dgcpbclive/livestream/playlist.m3u8",
+    "streamType": "direct"
+  },
+  {
+    "name": "cpbc 수도권가톨릭방송",
+    "broadcaster": "cpbc 가톨릭평화방송",
+    "country": "KR",
+    "region": "서울",
+    "url": "http://onair1.cpbc.co.kr:1935/live/_definst_/Instreamer.stream_aac/playlist.m3u8",
     "streamType": "direct"
   },
 
@@ -656,11 +749,112 @@
   },
 
   {
+    "name": "남해FM",
+    "broadcaster": "남해FM공동체라디오",
+    "country": "KR",
+    "region": "경남",
+    "url": "http://icecast.radios.kr:8000/namhaefm",
+    "streamType": "direct"
+  },
+
+  {
     "name": "단원FM",
     "broadcaster": "안산 공동체미디어",
     "country": "KR",
     "region": "경기",
     "url": "https://radiostream.communityradio.kr/dwfm1",
     "streamType": "direct"
+  },
+  {
+    "name": "부산영어방송 Busan e-FM",
+    "broadcaster": "부산영어방송",
+    "country": "KR",
+    "region": "부산",
+    "url": "https://live.cdn.smilecdn.com/befm905_live/live/playlist.m3u8",
+    "streamType": "direct"
+  },
+
+  {
+    "name": "KBS 제주1FM",
+    "broadcaster": "KBS",
+    "region": "제주",
+    "country": "KR",
+    "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/90_21",
+    "streamType": "fetchJson",
+    "jsonPath": "channel_item.0.service_url"
+  },
+  {
+    "name": "KBS 제주 HappyFM",
+    "broadcaster": "KBS",
+    "region": "제주",
+    "country": "KR",
+    "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/90_22",
+    "streamType": "fetchJson",
+    "jsonPath": "channel_item.0.service_url"
+  },
+  {
+    "name": "KBS 제주 Classic FM",
+    "broadcaster": "KBS",
+    "region": "제주",
+    "country": "KR",
+    "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/90_24",
+    "streamType": "fetchJson",
+    "jsonPath": "channel_item.0.service_url"
+  },
+
+  {
+    "name": "KBS 창원 1FM",
+    "broadcaster": "KBS",
+    "region": "창원",
+    "country": "KR",
+    "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/20_21",
+    "streamType": "fetchJson",
+    "jsonPath": "channel_item.0.service_url"
+  },
+  {
+    "name": "KBS 창원 HappyFM",
+    "broadcaster": "KBS",
+    "region": "창원",
+    "country": "KR",
+    "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/20_22",
+    "streamType": "fetchJson",
+    "jsonPath": "channel_item.0.service_url"
+  },
+  {
+    "name": "KBS 창원 Classic FM",
+    "broadcaster": "KBS",
+    "region": "창원",
+    "country": "KR",
+    "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/20_24",
+    "streamType": "fetchJson",
+    "jsonPath": "channel_item.0.service_url"
+  },
+
+  {
+    "name": "KBS 부산 1FM",
+    "broadcaster": "KBS",
+    "region": "부산",
+    "country": "KR",
+    "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/10_21",
+    "streamType": "fetchJson",
+    "jsonPath": "channel_item.0.service_url"
+  },
+  {
+    "name": "KBS 부산 HappyFM",
+    "broadcaster": "KBS",
+    "region": "부산",
+    "country": "KR",
+    "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/10_22",
+    "streamType": "fetchJson",
+    "jsonPath": "channel_item.0.service_url"
+  },
+  {
+    "name": "KBS 부산 Classic FM",
+    "broadcaster": "KBS",
+    "region": "부산",
+    "country": "KR",
+    "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/10_24",
+    "streamType": "fetchJson",
+    "jsonPath": "channel_item.0.service_url"
   }
 ]
