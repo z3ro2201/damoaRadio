@@ -27,14 +27,48 @@
       "url": "https://kexp-mp3-128.streamguys1.com/kexp128.mp3",
       "streamType": "direct"
     },
+
     {
-      "name": "WNYC",
+      "name": "WNYC 93.9",
       "broadcaster": "WNYC",
       "frequency": "93.9MHz FM",
       "logo": "us.wync",
-      "url": "https://stream.wnyc.org/wnyc-fm939-web.aac",
+      "url": "https://fm939.wnyc.org/wnycfm",
       "streamType": "direct"
     },
+    {
+      "name": "WNYC 820",
+      "broadcaster": "WNYC",
+      "frequency": "820MHz AM",
+      "logo": "us.wync",
+      "url": "https://am820.wnyc.org/wnycam",
+      "streamType": "direct"
+    },
+    {
+      "name": "WYNC New Sounds",
+      "broadcaster": "WNYC",
+      "frequency": "",
+      "logo": "us.wync",
+      "url": "https://q2stream.wqxr.org/q2",
+      "streamType": "direct"
+    },
+    {
+      "name": "WYNC Operavore",
+      "broadcaster": "WNYC",
+      "frequency": "",
+      "logo": "us.wync",
+      "url": "https://opera-stream.wqxr.org/operavore",
+      "streamType": "direct"
+    },
+    {
+      "name": "WYNC New Standards",
+      "broadcaster": "WNYC",
+      "frequency": "",
+      "logo": "us.wync",
+      "url": "https://tjc.wnyc.org/js-stream",
+      "streamType": "direct"
+    },
+
     {
       "name": "Jazz24",
       "broadcaster": "KNKX",
