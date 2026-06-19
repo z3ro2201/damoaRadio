@@ -25,7 +25,7 @@
     "name": "OBS 경인방송",
     "broadcaster": "OBS 경인방송",
     "country": "KR",
-    "region": "경기 인천",
+    "region": "경인",
     "url": "https://vod3.obs.co.kr:444/live/obsstream1/radio.stream/playlist.m3u8",
     "streamType": "direct"
   },
@@ -305,7 +305,7 @@
     "broadcaster": "JTV",
     "country": "KR",
     "url": "https://jtvonair.sbsoft.net/jtv_radio/myStream/playlist.m3u8",
-    "region": "전주",
+    "region": "전북",
     "streamType": "direct"
   },
 
@@ -399,7 +399,7 @@
     "name": "극동방송 (창원)",
     "broadcaster": "FEBC 극동방송",
     "country": "KR",
-    "region": "창원",
+    "region": "경남",
     "url": "https://mlive3.febc.net/live5/cwlive/playlist.m3u8",
     "streamType": "direct"
   },
@@ -407,7 +407,7 @@
     "name": "극동방송 (목포)",
     "broadcaster": "FEBC 극동방송",
     "country": "KR",
-    "region": "목포",
+    "region": "전남",
     "url": "https://mlive3.febc.net/live5/mplive/playlist.m3u8",
     "streamType": "direct"
   },
@@ -423,7 +423,7 @@
     "name": "극동방송 (포항)",
     "broadcaster": "FEBC 극동방송",
     "country": "KR",
-    "region": "포항",
+    "region": "경북",
     "url": "https://mlive3.febc.net/live5/phlive/playlist.m3u8",
     "streamType": "direct"
   },
@@ -463,7 +463,7 @@
     "name": "극동방송 (전남동부)",
     "broadcaster": "FEBC 극동방송",
     "country": "KR",
-    "region": "전남동부",
+    "region": "전남",
     "url": "https://mlive3.febc.net/live/jndblive/playlist.m3u8",
     "streamType": "direct"
   },
@@ -485,19 +485,19 @@
   },
 
   {
-    "name": "마포FM",
+    "name": "마포FM 서울",
     "broadcaster": "mapo FM",
     "country": "KR",
-    "region": "서울 마포구",
+    "region": "서울",
     "url": "https://stream.cradio.kr/mapofm",
     "streamType": "direct"
   },
 
   {
     "name": "성남FM",
-    "broadcaster": "성남 FM",
+    "broadcaster": "성남FM",
     "country": "KR",
-    "region": "경기도 성남시",
+    "region": "경기",
     "url": "http://115.85.182.39/seongnamfm",
     "streamType": "direct"
   },
@@ -506,8 +506,161 @@
     "name": "세종FM",
     "broadcaster": "세종FM",
     "country": "KR",
-    "region": "세종특별자치시",
+    "region": "세종",
     "url": "http://icecast.radios.kr:8000/sejongfm",
+    "streamType": "direct"
+  },
+
+  {
+    "name": "상주FM",
+    "broadcaster": "상주FM",
+    "country": "KR",
+    "region": "경북",
+    "url": "http://115.68.193.176:8000/sangjufm",
+    "streamType": "direct"
+  },
+
+  {
+    "name": "연제FM",
+    "broadcaster": "연제공동체라디오",
+    "country": "KR",
+    "region": "부산",
+    "url": "https://stream.cradio.kr/yeonjefm",
+    "streamType": "direct"
+  },
+
+  {
+    "name": "전주FM",
+    "broadcaster": "전주공동체라디오",
+    "country": "KR",
+    "region": "전북",
+    "url": "https://radiostream.communityradio.kr/jcfm1",
+    "streamType": "direct"
+  },
+
+  {
+    "name": "GBS고려방송",
+    "broadcaster": "GBS고려방송",
+    "country": "KR",
+    "region": "광주",
+    "url": "http://115.68.193.176:8000/crfm",
+    "streamType": "direct"
+  },
+
+  {
+    "name": "광주FM",
+    "broadcaster": "광주시민방송",
+    "country": "KR",
+    "region": "광주",
+    "url": "https://radiostream.communityradio.kr/live",
+    "streamType": "direct"
+  },
+
+  {
+    "name": "영주FM",
+    "broadcaster": "영주에프엠방송",
+    "country": "KR",
+    "region": "경북",
+    "url": "http://icecast.radios.kr:8000/yeongjufm",
+    "streamType": "direct"
+  },
+
+  {
+    "name": "SCN 성서공동체FM",
+    "broadcaster": "성서공동체FM",
+    "country": "KR",
+    "region": "대구",
+    "url": "http://115.85.182.39/scnfm",
+    "streamType": "direct"
+  },
+
+  {
+    "name": "금강FM",
+    "broadcaster": "금강FM방송",
+    "country": "KR",
+    "region": "세종",
+    "url": "http://121.183.240.143:8000/KKFM1",
+    "streamType": "direct"
+  },
+
+  {
+    "name": "SoneFM (수원)",
+    "broadcaster": "수원마을공동체미디어사회적협동조합",
+    "country": "KR",
+    "region": "경기",
+    "url": "http://115.85.182.39/sonefm",
+    "streamType": "direct"
+  },
+
+  {
+    "name": "서대문FM",
+    "broadcaster": "서대문공동체라디오",
+    "country": "KR",
+    "region": "서울",
+    "url": "http://115.68.193.176:8000/sdmfm",
+    "streamType": "direct"
+  },
+
+  {
+    "name": "서대문FM",
+    "broadcaster": "서대문공동체라디오",
+    "country": "KR",
+    "region": "서울",
+    "url": "http://115.68.193.176:8000/sdmfm",
+    "streamType": "direct"
+  },
+
+  {
+    "name": "관악FM",
+    "broadcaster": "관악공동체라디오",
+    "country": "KR",
+    "region": "서울",
+    "url": "http://115.68.193.176:8000/gwanakfm",
+    "streamType": "direct"
+  },
+
+  {
+    "name": "옥천FM",
+    "broadcaster": "GFM",
+    "country": "KR",
+    "region": "충남",
+    "url": "http://icecast.radios.kr:8000/obn",
+    "streamType": "direct"
+  },
+
+  {
+    "name": "한밭FM",
+    "broadcaster": "한밭생활문화방송",
+    "country": "KR",
+    "region": "대전",
+    "url": "http://115.68.194.186:8000/hanbatfm",
+    "streamType": "direct"
+  },
+
+  {
+    "name": "태백FM",
+    "broadcaster": "태백에프엠 공동체라디오",
+    "country": "KR",
+    "region": "강원",
+    "url": "http://icecast.radios.kr:8000/taebaekfm",
+    "streamType": "direct"
+  },
+
+  {
+    "name": "GO구리FM",
+    "broadcaster": "태백에프엠 공동체라디오",
+    "country": "KR",
+    "region": "강원",
+    "url": "http://icecast.radios.kr:8000/gurifm",
+    "streamType": "direct"
+  },
+
+  {
+    "name": "단원FM",
+    "broadcaster": "안산 공동체미디어",
+    "country": "KR",
+    "region": "경기",
+    "url": "https://radiostream.communityradio.kr/dwfm1",
     "streamType": "direct"
   }
 ]
