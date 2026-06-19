@@ -1,13 +1,13 @@
 {
   "country": "EU",
   "countryName": "유럽",
-  "version": 4,
+  "version": 1,
   "stationList": [
     {
       "name": "FIP",
       "broadcaster": "FIP",
       "frequency": "105.1MHz FM",
-      "logo": "fip",
+      "logo": "france.fip",
       "region": "프랑스",
       "url": "https://stream.radiofrance.fr/fip/fip.m3u8",
       "streamType": "direct"
@@ -16,7 +16,7 @@
       "name": "France Musique",
       "broadcaster": "France Musique",
       "frequency": "91.7MHz FM",
-      "logo": "franceMusique",
+      "logo": "france.musique",
       "region": "프랑스",
       "url": "https://stream.radiofrance.fr/francemusique/francemusique.m3u8",
       "streamType": "direct"
@@ -25,10 +25,10 @@
       "name": "SWR3",
       "broadcaster": "SWR3",
       "frequency": "92.2MHz FM",
-      "logo": "swr3",
+      "logo": "deutschen.swr3",
       "region": "독일",
-      "url": "https://swr-swr3-live.cast.addradio.de/swr/swr3/live/mp3/128/stream.mp3",
-      "streamType": "direct"
+      "url": "https://liveradio.swr.de/sw282p3/swr3/play.mp3",
+      "streamType": "redirect"
     },
 
     {
@@ -38,7 +38,7 @@
       "logo": "italiana.rai_radio1",
       "region": "이탈리아",
       "url": "https://icestreaming.rai.it/1.mp3",
-      "streamType": "direct"
+      "streamType": "redirect"
     },
     {
       "name": "Rai Radio 2",
@@ -47,7 +47,7 @@
       "logo": "italiana.rai_radio2",
       "region": "이탈리아",
       "url": "https://icestreaming.rai.it/2.mp3",
-      "streamType": "direct"
+      "streamType": "redirect"
     },
     {
       "name": "Rai Radio 3",
@@ -56,7 +56,7 @@
       "logo": "italiana.rai_radio3",
       "region": "이탈리아",
       "url": "https://icestreaming.rai.it/3.mp3",
-      "streamType": "direct"
+      "streamType": "redirect"
     },
     {
       "name": "Rai Radio Classic",
@@ -65,7 +65,7 @@
       "logo": "italiana.rai_classica",
       "region": "이탈리아",
       "url": "http://icestreaming.rai.it/5.mp3",
-      "streamType": "direct"
+      "streamType": "redirect"
     },
     {
       "name": "Rai GR Parlamento",
@@ -74,7 +74,7 @@
       "logo": "italiana.rai_palamento",
       "region": "이탈리아",
       "url": "http://icestreaming.rai.it/7.mp3",
-      "streamType": "direct"
+      "streamType": "redirect"
     },
     {
       "name": "Rai Radio 1 Sport",
@@ -83,7 +83,7 @@
       "logo": "italiana.rai_sports",
       "region": "이탈리아",
       "url": "http://icestreaming.rai.it/8.mp3",
-      "streamType": "direct"
+      "streamType": "redirect"
     },
 
     {
@@ -92,7 +92,7 @@
       "frequency": "92.0MHz FM",
       "logo": "austria.o1",
       "region": "오스트리아",
-      "url": "https://loopstream01.wdr.de/wdr/wdr3/live/mp3/128/stream.mp3",
+      "url": "https://orf-live.ors-shoutcast.at/oe1-q2a",
       "streamType": "direct"
     },
     {
