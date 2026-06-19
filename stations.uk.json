@@ -7,33 +7,58 @@
       "name": "BBC Radio 1",
       "broadcaster": "BBC",
       "frequency": "97.7MHz FM",
-      "logo": "bbc",
-      "url": "https://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_radio_one/bbc_radio_one.isml/bbc_radio_one-audio%3d96000.m3u8",
-      "streamType": "direct"
+      "logo": "uk.bbc_radio1",
+      "url": "http://as-hls-ww-live.akamaized.net/pool_01505109/live/ww/bbc_radio_one/bbc_radio_one.isml/bbc_radio_one-audio%3d96000.norewind.m3u8",
+      "streamType": "redirect"
     },
     {
       "name": "BBC Radio 2",
       "broadcaster": "BBC",
       "frequency": "88.0MHz FM",
-      "logo": "bbc",
-      "url": "https://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_radio_two/bbc_radio_two.isml/bbc_radio_two-audio%3d96000.m3u8",
-      "streamType": "direct"
+      "logo": "uk.bbc_radio2",
+      "url": "http://as-hls-ww-live.akamaized.net/pool_74208725/live/ww/bbc_radio_two/bbc_radio_two.isml/bbc_radio_two-audio%3d96000.norewind.m3u8",
+      "streamType": "redirect"
     },
+    {
+      "name": "BBC Radio 3",
+      "broadcaster": "BBC",
+      "frequency": "",
+      "logo": "uk.bbc_radio3",
+      "url": "http://as-hls-ww-live.akamaized.net/pool_23461179/live/ww/bbc_radio_three/bbc_radio_three.isml/bbc_radio_three-audio%3d96000.norewind.m3u8",
+      "streamType": "redirect"
+    },
+    {
+      "name": "BBC Radio 4",
+      "broadcaster": "BBC",
+      "frequency": "",
+      "logo": "uk.bbc_radio4",
+      "url": "http://as-hls-ww-live.akamaized.net/pool_55057080/live/ww/bbc_radio_fourfm/bbc_radio_fourfm.isml/bbc_radio_fourfm-audio%3d96000.norewind.m3u8",
+      "streamType": "redirect"
+    },
+    {
+      "name": "BBC Radio 5",
+      "broadcaster": "BBC",
+      "frequency": "",
+      "logo": "uk.bbc_radio5",
+      "url": "http://as-hls-ww-live.akamaized.net/pool_89021708/live/ww/bbc_radio_five_live/bbc_radio_five_live.isml/bbc_radio_five_live-audio%3d96000.norewind.m3u8",
+      "streamType": "redirect"
+    },
+
     {
       "name": "BBC Radio 6 Music",
       "broadcaster": "BBC",
       "frequency": "",
-      "logo": "bbc",
-      "url": "https://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_6music/bbc_6music.isml/bbc_6music-audio%3d96000.m3u8",
-      "streamType": "direct"
+      "logo": "uk.bbc_radio6",
+      "url": "http://as-hls-ww-live.akamaized.net/pool_81827798/live/ww/bbc_6music/bbc_6music.isml/bbc_6music-audio%3d96000.norewind.m3u8",
+      "streamType": "redirect"
     },
     {
       "name": "BBC World Service",
       "broadcaster": "BBC",
       "frequency": "648kHz AM",
-      "logo": "bbc",
-      "url": "https://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_world_service/bbc_world_service.isml/bbc_world_service-audio%3d96000.m3u8",
-      "streamType": "direct"
+      "logo": "uk.bbc_world",
+      "url": "http://as-hls-ww-live.akamaized.net/pool_87948813/live/ww/bbc_world_service/bbc_world_service.isml/bbc_world_service-audio%3d96000.norewind.m3u8",
+      "streamType": "redirect"
     }
   ]
 }
