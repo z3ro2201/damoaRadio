@@ -1,7 +1,7 @@
 {
   "country": "EU",
   "countryName": "유럽",
-  "version": 1,
+  "version": 2,
   "stationList": [
     {
       "name": "FIP",
@@ -35,18 +35,54 @@
       "name": "Rai Radio 1",
       "broadcaster": "Rai",
       "frequency": "89.3MHz FM",
-      "logo": "rai",
+      "logo": "italiana.rai_radio1",
       "region": "이탈리아",
       "url": "https://icestreaming.rai.it/1.mp3",
+      "streamType": "direct"
+    },
+    {
+      "name": "Rai Radio 2",
+      "broadcaster": "Rai",
+      "frequency": "89.3MHz FM",
+      "logo": "italiana.rai_radio2",
+      "region": "이탈리아",
+      "url": "https://icestreaming.rai.it/2.mp3",
       "streamType": "direct"
     },
     {
       "name": "Rai Radio 3",
       "broadcaster": "Rai",
       "frequency": "93.7MHz FM",
-      "logo": "rai",
+      "logo": "italiana.rai_radio3",
       "region": "이탈리아",
       "url": "https://icestreaming.rai.it/3.mp3",
+      "streamType": "direct"
+    },
+    {
+      "name": "Rai Radio Classic",
+      "broadcaster": "Rai",
+      "frequency": "",
+      "logo": "italiana.rai_classica",
+      "region": "이탈리아",
+      "url": "http://icestreaming.rai.it/5.mp3",
+      "streamType": "direct"
+    },
+    {
+      "name": "Rai GR Parlamento",
+      "broadcaster": "Rai",
+      "frequency": "",
+      "logo": "italiana.rai_palamento",
+      "region": "이탈리아",
+      "url": "http://icestreaming.rai.it/7.mp3",
+      "streamType": "direct"
+    },
+    {
+      "name": "Rai Radio 1 Sport",
+      "broadcaster": "Rai",
+      "frequency": "",
+      "logo": "italiana.rai_sports",
+      "region": "이탈리아",
+      "url": "http://icestreaming.rai.it/8.mp3",
       "streamType": "direct"
     },
 
@@ -54,7 +90,7 @@
       "name": "Radio Österreich 1",
       "broadcaster": "Ö1",
       "frequency": "92.0MHz FM",
-      "logo": "austriaO1",
+      "logo": "austria.o1",
       "region": "오스트리아",
       "url": "https://loopstream01.wdr.de/wdr/wdr3/live/mp3/128/stream.mp3",
       "streamType": "direct"
@@ -63,7 +99,7 @@
       "name": "FM4",
       "broadcaster": "FM4",
       "frequency": "103.8MHz FM",
-      "logo": "austriaFM4",
+      "logo": "austria.fm4",
       "region": "오스트리아",
       "url": "https://orf-live.ors-shoutcast.at/fm4-q2a",
       "streamType": "direct"
@@ -73,7 +109,7 @@
       "name": "NPO 3FM",
       "broadcaster": "npoRadio",
       "frequency": "96.8MHz FM",
-      "logo": "npoRadio",
+      "logo": "nld.npo",
       "region": "네덜란드",
       "url": "http://icecast.omroep.nl/3fm-bb-mp3",
       "streamType": "direct"
@@ -82,7 +118,7 @@
       "name": "NPO Radio 4",
       "broadcaster": "npoRadio",
       "frequency": "94.3MHz FM",
-      "logo": "npoRadio",
+      "logo": "nld.npo",
       "region": "네덜란드",
       "url": "http://icecast.omroep.nl/radio4-bb-mp3",
       "streamType": "direct"
@@ -90,18 +126,18 @@
 
     {
       "name": "RNE Radio 1",
-      "broadcaster": "rneRadio",
+      "broadcaster": "Rne Radio",
       "frequency": "92.2MHz FM",
-      "logo": "rneRadio",
+      "logo": "espana.rne",
       "region": "스페인",
       "url": "https://rtveradiolivemd.akamaized.net/rne_r1_main.m3u8",
       "streamType": "direct"
     },
     {
       "name": "RNE Radio 3",
-      "broadcaster": "rneRadio",
+      "broadcaster": "Rne Radio",
       "frequency": "93.2MHz FM",
-      "logo": "rneRadio",
+      "logo": "espana.rne",
       "region": "스페인",
       "url": "https://rtveradiolivemd.akamaized.net/rne_r3_main.m3u8",
       "streamType": "direct"
@@ -109,18 +145,18 @@
 
     {
       "name": "SRF 3",
-      "broadcaster": "srgSsr",
+      "broadcaster": "SRG SSR",
       "frequency": "92.2MHz FM",
-      "logo": "srgSsr",
+      "logo": "swiss.srg_ssr",
       "region": "스위스",
       "url": "https://stream.srg-ssr.ch/m/srf3/mp3_128",
       "streamType": "direct"
     },
     {
       "name": "Couleur 3",
-      "broadcaster": "srgSsr",
+      "broadcaster": "SRG SSR",
       "frequency": "104.2MHz FM",
-      "logo": "srgSsr",
+      "logo": "swiss.srg_ssr",
       "region": "스위스",
       "url": "https://stream.srg-ssr.ch/m/couleur3/mp3_128",
       "streamType": "direct"
