@@ -144,7 +144,25 @@
     },
 
     {
-      "name": "SRF 3",
+      "name": "SRF 1",
+      "broadcaster": "SRG SSR",
+      "frequency": "94.6MHz FM",
+      "logo": "swiss.srg_ssr_1",
+      "region": "스위스",
+      "url": "https://livestreaming-node-3.srg-ssr.ch/srgssr/srf1/mp3/128",
+      "streamType": "redirect"
+    },
+    {
+      "name": "SRF 2",
+      "broadcaster": "SRG SSR",
+      "frequency": "92.2MHz FM",
+      "logo": "swiss.srg_ssr_2",
+      "region": "스위스",
+      "url": "https://livestreaming-node-3.srg-ssr.ch/srgssr/srf3/mp3/128",
+      "streamType": "redirect"
+    },
+    {
+      "name": "SRF 3 Youth",
       "broadcaster": "SRG SSR",
       "frequency": "92.2MHz FM",
       "logo": "swiss.srg_ssr",
@@ -152,6 +170,34 @@
       "url": "https://livestreaming-node-3.srg-ssr.ch/srgssr/srf3/mp3/128",
       "streamType": "redirect"
     },
+    {
+      "name": "SRF 4 News",
+      "broadcaster": "SRG SSR",
+      "frequency": "92.2MHz FM",
+      "logo": "swiss.srg_ssr4",
+      "region": "스위스",
+      "url": "https://livestreaming-node-3.srg-ssr.ch/srgssr/srf4news/mp3/128",
+      "streamType": "redirect"
+    },
+    {
+      "name": "SRF Musikwelle",
+      "broadcaster": "SRG SSR",
+      "frequency": "92.2MHz FM",
+      "logo": "swiss.srg_ssr_musikwelle",
+      "region": "스위스",
+      "url": "https://livestreaming-node-3.srg-ssr.ch/srgssr/srfmw/mp3/128",
+      "streamType": "redirect"
+    },
+    {
+      "name": "SRF Virus",
+      "broadcaster": "SRG SSR",
+      "frequency": "92.2MHz FM",
+      "logo": "swiss.srg_ssr_virus",
+      "region": "스위스",
+      "url": "https://livestreaming-node-3.srg-ssr.ch/srgssr/srfvirus/mp3/128",
+      "streamType": "redirect"
+    },
+
     {
       "name": "Couleur 3",
       "broadcaster": "SRG SSR",

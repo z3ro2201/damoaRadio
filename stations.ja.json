@@ -4,43 +4,19 @@
   "version": 1,
   "stationList": [
     {
-      "name": "NHK Radio 1",
+      "name": "NHK WORLD JAPAN",
       "broadcaster": "NHK",
-      "frequency": "594kHz AM",
-      "logo": "nhk",
-      "url": "https://nhkradioakr1-i.akamaihd.net/hls/live/511633/1-r1/1-r1-01.m3u8",
-      "streamType": "direct"
-    },
-    {
-      "name": "NHK Radio 2",
-      "broadcaster": "NHK",
-      "frequency": "693kHz AM",
-      "logo": "nhk",
-      "url": "https://nhkradioakr2-i.akamaihd.net/hls/live/511929/1-r2/1-r2-01.m3u8",
-      "streamType": "direct"
-    },
-    {
-      "name": "NHK FM",
-      "broadcaster": "NHK",
-      "frequency": "82.5MHz FM",
-      "logo": "nhk",
-      "url": "https://nhkradioakfm-i.akamaihd.net/hls/live/512290/1-fm/1-fm-01.m3u8",
+      "frequency": "",
+      "logo": "ja.nhk_world",
+      "url": "https://master.nhkworld.jp/nhkworld-radio/playlist/rs1/live.m3u8",
       "streamType": "direct"
     },
     {
       "name": "湘南ビーチFM",
       "broadcaster": "Shonan Beach FM",
       "frequency": "78.9MHz FM",
-      "logo": "nhk",
-      "url": "http://47.89.252.38:8000/by_the_sea",
-      "streamType": "direct"
-    },
-    {
-      "name": "Tokyo FM World",
-      "broadcaster": "Tokyo FM World",
-      "frequency": "80.0MHz FM",
-      "logo": "nhk",
-      "url": "http://tokyofmworld.leanstream.co/JOAUFM-MP3?args=tunein",
+      "logo": "ja.shownan_beach",
+      "url": "https://shonanbeachfm.out.airtime.pro:8000/shonanbeachfm_a",
       "streamType": "direct"
     }
   ]
