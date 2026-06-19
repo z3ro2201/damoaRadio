@@ -15,7 +15,7 @@
       "name": "WQXR",
       "broadcaster": "WQXR",
       "frequency": "105.9MHz FM",
-      "logo": "sqxr",
+      "logo": "us.wqxr",
       "url": "https://stream.wqxr.org/wqxr-web.aac",
       "streamType": "direct"
     },
@@ -23,24 +23,32 @@
       "name": "KEXP",
       "broadcaster": "KEXP",
       "frequency": "90.3MHz FM",
-      "logo": "kexp",
+      "logo": "us.kexp",
       "url": "https://kexp-mp3-128.streamguys1.com/kexp128.mp3",
       "streamType": "direct"
     },
     {
       "name": "WNYC",
-      "broadcaster": "Shonan Beach FM",
+      "broadcaster": "WNYC",
       "frequency": "93.9MHz FM",
-      "logo": "wnyc",
+      "logo": "us.wync",
       "url": "https://stream.wnyc.org/wnyc-fm939-web.aac",
       "streamType": "direct"
     },
     {
       "name": "Jazz24",
-      "broadcaster": "Jazz24",
+      "broadcaster": "KNKX",
       "frequency": "88.5MHz FM",
-      "logo": "jazz24",
-      "url": "https://live.jazz24.org/jazz24-mp3",
+      "logo": "us.knkx",
+      "url": "https://knkx-live-a.edge.audiocdn.com/6285_256k",
+      "streamType": "direct"
+    },
+    {
+      "name": "KNKX",
+      "broadcaster": "KNKX",
+      "frequency": "90.1MHz FM",
+      "logo": "us.knkx",
+      "url": "https://knkx-live-a.edge.audiocdn.com/6284_256k",
       "streamType": "direct"
     }
   ]
