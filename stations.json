@@ -741,9 +741,9 @@
 
   {
     "name": "GO구리FM",
-    "broadcaster": "태백에프엠 공동체라디오",
+    "broadcaster": "GO구리FM",
     "country": "KR",
-    "region": "강원",
+    "region": "경기",
     "url": "http://icecast.radios.kr:8000/gurifm",
     "streamType": "direct"
   },
