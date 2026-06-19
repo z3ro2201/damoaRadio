@@ -30,7 +30,7 @@
     {
       "name": "OBS 경인방송",
       "broadcaster": "OBS 경인방송",
-      "region": "경인",
+      "region": "수도권",
       "frequency": "FM",
       "logo": "kr.obs",
       "url": "https://vod3.obs.co.kr:444/live/obsstream1/radio.stream/playlist.m3u8",
@@ -40,6 +40,7 @@
       "name": "SBS 파워FM",
       "broadcaster": "SBS",
       "frequency": "107.7MHz FM",
+      "region": "수도권",
       "logo": "kr.sbs",
       "url": "https://apis.sbs.co.kr/play-api/1.0/livestream/powerpc/powerfm?protocol=hls&ssl=Y&quality=high",
       "streamType": "fetchText"
@@ -48,6 +49,7 @@
       "name": "SBS 러브FM",
       "broadcaster": "SBS",
       "frequency": "103.5MHz FM",
+      "region": "수도권",
       "logo": "kr.sbs",
       "url": "https://apis.sbs.co.kr/play-api/1.0/livestream/lovepc/lovefm?protocol=hls&ssl=Y&quality=high",
       "streamType": "fetchText"
@@ -64,6 +66,7 @@
       "name": "KBS 1라디오",
       "broadcaster": "KBS",
       "frequency": "711kHz AM",
+      "region": "수도권",
       "logo": "kr.kbs",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/21",
       "streamType": "fetchJson",
@@ -73,6 +76,7 @@
       "name": "KBS 해피FM",
       "broadcaster": "KBS",
       "frequency": "FM",
+      "region": "수도권",
       "logo": "kr.kbs",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/22",
       "streamType": "fetchJson",
@@ -82,6 +86,7 @@
       "name": "KBS 3라디오",
       "broadcaster": "KBS",
       "frequency": "AM",
+      "region": "수도권",
       "logo": "kr.kbs",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/23",
       "streamType": "fetchJson",
@@ -91,6 +96,7 @@
       "name": "KBS 클래식FM",
       "broadcaster": "KBS",
       "frequency": "93.1MHz FM",
+      "region": "수도권",
       "logo": "kr.kbs",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/24",
       "streamType": "fetchJson",
@@ -100,6 +106,7 @@
       "name": "KBS 쿨FM",
       "broadcaster": "KBS",
       "frequency": "89.1MHz FM",
+      "region": "수도권",
       "logo": "kr.kbs",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/25",
       "streamType": "fetchJson",
@@ -252,7 +259,7 @@
     {
       "name": "TBS FM",
       "broadcaster": "TBS 교통방송",
-      "region": "서울",
+      "region": "수도권",
       "frequency": "FM 95.1MHz",
       "logo": "kr.tbs",
       "url": "https://cdnfm.tbs.seoul.kr/tbs/_definst_/tbs_fm_web_360.smil/playlist.m3u8",
@@ -261,7 +268,7 @@
     {
       "name": "TBS eFM",
       "broadcaster": "TBS 교통방송",
-      "region": "서울",
+      "region": "수도권",
       "frequency": "FM 101.3MHz",
       "logo": "kr.tbs",
       "url": "https://cdnefm.tbs.seoul.kr/tbs/_definst_/tbs_efm_web_360.smil/playlist.m3u8",
@@ -306,7 +313,7 @@
     {
       "name": "TBN 교통방송 (경인)",
       "broadcaster": "TBN 교통방송",
-      "region": "경인",
+      "region": "수도권",
       "frequency": "FM",
       "logo": "kr.tbn",
       "url": "https://www.tbn.it.kr/gyeongin/myStream/playlist.m3u8",
@@ -540,7 +547,7 @@
     {
       "name": "극동방송 (서울)",
       "broadcaster": "FEBC 극동방송",
-      "region": "서울",
+      "region": "수도권",
       "frequency": "FM 106.9MHz",
       "logo": "kr.febc",
       "url": "https://mlive3.febc.net/live5/seoulfm/playlist.m3u8",
@@ -688,7 +695,7 @@
     {
       "name": "cpbc 수도권가톨릭방송",
       "broadcaster": "cpbc 가톨릭평화방송",
-      "region": "서울",
+      "region": "수도권",
       "frequency": "105.3MHz FM",
       "logo": "kr.cpbc",
       "url": "http://onair1.cpbc.co.kr:1935/live/_definst_/Instreamer.stream_aac/playlist.m3u8",
@@ -718,7 +725,7 @@
     {
       "name": "마포FM",
       "broadcaster": "mapo FM",
-      "region": "서울",
+      "region": "수도권",
       "subRegion": "마포구",
       "frequency": "FM 100.7MHz",
       "logo": "kr.mapofm",
@@ -728,7 +735,7 @@
     {
       "name": "서대문FM",
       "broadcaster": "서대문공동체라디오",
-      "region": "서울",
+      "region": "수도권",
       "subRegion": "서대문구",
       "frequency": "FM 91.3MHz",
       "logo": "kr.sdmfm",
@@ -738,7 +745,7 @@
     {
       "name": "관악FM",
       "broadcaster": "관악공동체라디오",
-      "region": "서울",
+      "region": "수도권",
       "subRegion": "관악구",
       "frequency": "FM 100.3MHz",
       "logo": "kr.radiogfm",
@@ -749,7 +756,7 @@
     {
       "name": "성남FM",
       "broadcaster": "성남FM",
-      "region": "경기",
+      "region": "수도권",
       "subRegion": "성남",
       "frequency": "90.7MHz FM",
       "logo": "kr.seongnam",
@@ -759,7 +766,7 @@
     {
       "name": "SoneFM",
       "broadcaster": "수원마을공동체미디어",
-      "region": "경기",
+      "region": "수도권",
       "subRegion": "수원",
       "frequency": "96.3MHz FM",
       "logo": "kr.sonefm",
@@ -769,7 +776,7 @@
     {
       "name": "GO구리FM",
       "broadcaster": "GO구리FM",
-      "region": "경기",
+      "region": "수도권",
       "subRegion": "구리",
       "frequency": "105.7MHz FM",
       "logo": "kr.gurifm",
@@ -780,7 +787,7 @@
     {
       "name": "단원FM",
       "broadcaster": "안산공동체미디어",
-      "region": "경기",
+      "region": "수도권",
       "subRegion": "안산",
       "frequency": "88.7MHz FM",
       "logo": "kr.danwonfm",
@@ -1724,7 +1731,7 @@
     {
       "name": "AFN Go Humphreys",
       "broadcaster": "AFN go",
-      "region": "서울",
+      "region": "수도권",
       "frequency": "",
       "logo": "kr.afn",
       "url": "https://14623.live.streamtheworld.com/AFNP_OSNAAC.aac",
