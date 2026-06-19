@@ -1,7 +1,7 @@
 {
   "country": "EU",
   "countryName": "유럽",
-  "version": 3,
+  "version": 4,
   "stationList": [
     {
       "name": "FIP",
@@ -149,8 +149,8 @@
       "frequency": "92.2MHz FM",
       "logo": "swiss.srg_ssr",
       "region": "스위스",
-      "url": "https://stream.srg-ssr.ch/m/srf3/mp3_128",
-      "streamType": "direct"
+      "url": "https://livestreaming-node-3.srg-ssr.ch/srgssr/srf3/mp3/128",
+      "streamType": "redirect"
     },
     {
       "name": "Couleur 3",
@@ -159,7 +159,7 @@
       "logo": "swiss.srg_ssr",
       "region": "스위스",
       "url": "https://stream.srg-ssr.ch/m/couleur3/mp3_128",
-      "streamType": "direct"
+      "streamType": "redirect"
     }
   ]
 }
