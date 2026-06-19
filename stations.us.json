@@ -7,7 +7,7 @@
       "name": "NPR",
       "broadcaster": "NPR",
       "frequency": "88.5MHz FM",
-      "logo": "npr",
+      "logo": "us.npr",
       "url": "https://npr-ice.streamguys1.com/live.mp3",
       "streamType": "direct"
     },
