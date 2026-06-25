@@ -1,0 +1,101 @@
+{
+  "country": "KR",
+  "countryName": "대한민국",
+  "version": 4,
+  "stationList": [
+    {
+      "name": "KBS 대전 1FM",
+      "broadcaster": "KBS",
+      "region": "대전",
+      "frequency": "",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/60_21",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+    {
+      "name": "KBS 대전 해피FM",
+      "broadcaster": "KBS",
+      "region": "대전",
+      "frequency": "",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/60_22",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+    {
+      "name": "KBS 대전 클래식FM",
+      "broadcaster": "KBS",
+      "region": "대전",
+      "frequency": "",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/60_24",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+    {
+      "name": "대전MBC 표준FM",
+      "broadcaster": "대전MBC",
+      "region": "대전",
+      "frequency": "",
+      "logo": "kr.mbc",
+      "url": "https://ns1.tjmbc.co.kr/live_am/live_am.stream/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "대전MBC FM4U",
+      "broadcaster": "대전MBC",
+      "region": "대전",
+      "frequency": "",
+      "logo": "kr.mbc",
+      "url": "https://ns1.tjmbc.co.kr/live_fm/live_fm.stream/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "TJB 파워FM",
+      "broadcaster": "TJB",
+      "region": "대전",
+      "frequency": "FM 95.7MHz",
+      "logo": "kr.tjb",
+      "url": "https://ns1.tjmbc.co.kr/live_fm/live_fm.stream/playlist.m3u8",
+      "streamType": "direct"
+    },
+
+    {
+      "name": "TBN 교통방송 (대전)",
+      "broadcaster": "TBN 교통방송",
+      "region": "대전",
+      "frequency": "FM",
+      "logo": "kr.tbn",
+      "url": "https://www.tbn.it.kr/daejeon/myStream/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "국악방송 (대전)",
+      "broadcaster": "국악방송",
+      "region": "대전",
+      "frequency": "FM 99.3MHz(영동), 90.5MHz(대전/세종), 101.7MHz(충주), 90.1MHz(제천/단양), 107.5MHz(청주),  ",
+      "logo": "kr.igbf",
+      "url": "https://mgugaklive.nowcdn.co.kr/gugakdaejeon/Daejeonradio.stream/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "극동방송 (대전)",
+      "broadcaster": "FEBC 극동방송",
+      "region": "대전",
+      "frequency": "FM 93.3MHz",
+      "logo": "kr.febc",
+      "url": "https://mlive3.febc.net/live5/djlive/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "한밭FM",
+      "broadcaster": "한밭생활문화방송",
+      "region": "대전",
+      "frequency": "FM 93.7MHz",
+      "logo": "kr.hanbat",
+      "url": "http://115.68.194.186:8000/hanbatfm",
+      "streamType": "direct"
+    }
+  ]
+}

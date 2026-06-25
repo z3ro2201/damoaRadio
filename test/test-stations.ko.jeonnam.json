@@ -1,0 +1,101 @@
+{
+  "country": "KR",
+  "countryName": "대한민국",
+  "version": 4,
+  "stationList": [
+    {
+      "name": "KBS 목포 1FM",
+      "broadcaster": "KBS",
+      "region": "전남",
+      "subRegion": "목포",
+      "frequency": "",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/41_21",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+    {
+      "name": "KBS 목포 클래식FM",
+      "broadcaster": "KBS",
+      "region": "전남",
+      "subRegion": "목포",
+      "frequency": "",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/41_24",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+
+    {
+      "name": "KBS 순천 1FM",
+      "broadcaster": "KBS",
+      "region": "전남",
+      "subRegion": "순천",
+      "frequency": "",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/43_21",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+    {
+      "name": "목포MBC 표준FM",
+      "broadcaster": "목포MBC",
+      "region": "전남",
+      "subRegion": "목포",
+      "frequency": "",
+      "logo": "kr.mbc",
+      "url": "https://vod.mpmbc.co.kr/live/encoder-am/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "목포MBC FM4U",
+      "broadcaster": "목포MBC",
+      "region": "전남",
+      "subRegion": "목포",
+      "frequency": "",
+      "logo": "kr.mbc",
+      "url": "https://vod.mpmbc.co.kr/live/encoder-fm/playlist.m3u8",
+      "streamType": "direct"
+    },
+
+    {
+      "name": "여수MBC 표준FM",
+      "broadcaster": "여수MBC",
+      "region": "전남",
+      "subRegion": "여수",
+      "frequency": "",
+      "logo": "kr.mbc",
+      "url": "https://5c3639aa99149.streamlock.net/%ED%91%9C%EC%A4%80FM/%ED%91%9C%EC%A4%80FM/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "여수MBC FM4U",
+      "broadcaster": "여수MBC",
+      "region": "전남",
+      "subRegion": "여수",
+      "frequency": "",
+      "logo": "kr.mbc",
+      "url": "https://5c3639aa99149.streamlock.net/FM4U/FM4U/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "극동방송 (목포)",
+      "broadcaster": "FEBC 극동방송",
+      "region": "전남",
+      "subRegion": "목포",
+      "frequency": "FM 100.5MHz",
+      "logo": "kr.febc",
+      "url": "https://mlive3.febc.net/live5/mplive/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "극동방송 (전남동부)",
+      "broadcaster": "FEBC 극동방송",
+      "region": "전남",
+      "frequency": "FM 97.5MHz",
+      "logo": "kr.febc",
+      "url": "https://mlive3.febc.net/live/jndblive/playlist.m3u8",
+      "streamType": "direct"
+    }
+  ]
+}

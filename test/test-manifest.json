@@ -1,0 +1,30 @@
+{
+  "stations_version": {
+    "ko": {
+      "version": 3,
+      "files": [
+        "ko",
+        "ko.seoul",
+        "ko.busan",
+        "ko.daegu",
+        "ko.gwangju",
+        "ko.daejeon",
+        "ko.chungbuk",
+        "ko.chungnam",
+        "ko.jeonnam",
+        "ko.jeonbuk",
+        "ko.gyeongbuk",
+        "ko.gyeongnam",
+        "ko.ulsan",
+        "ko.gangwon",
+        "ko.sejong",
+        "ko.jeju"
+      ]
+    },
+    "ja": { "version": 1, "files": ["ja"] },
+    "us": { "version": 1, "files": ["us"] },
+    "eu": { "version": 1, "files": ["eu"] },
+    "uk": { "version": 1, "files": ["uk"] }
+  },
+  "logos_version": 1
+}
