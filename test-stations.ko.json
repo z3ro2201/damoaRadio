@@ -6,25 +6,58 @@
     {
       "name": "EBS FM",
       "broadcaster": "EBS",
-      "frequency": "104.5MHz FM",
+      "frequency": [
+        { "frequency": "FM 104.5㎒", "area": "수도권", "lat": 0, "lng": 0 },
+        { "frequency": "FM 106.5㎒", "area": "춘천", "lat": 0, "lng": 0 },
+        { "frequency": "FM 104.9㎒", "area": "원주", "lat": 0, "lng": 0 },
+        { "frequency": "FM 104.9㎒", "area": "강원영동", "lat": 0, "lng": 0 },
+        { "frequency": "FM 107.5㎒", "area": "횡성", "lat": 0, "lng": 0 },
+        ,
+        { "frequency": "FM 107.5㎒", "area": "평창", "lat": 0, "lng": 0 },
+        {
+          "frequency": "FM 107.1㎒",
+          "area": "강원·태백 남부 산간",
+          "lat": 0,
+          "lng": 0
+        },
+        {
+          "frequency": "FM 105.7㎒",
+          "area": "대전·세종·공주",
+          "lat": 0,
+          "lng": 0
+        },
+        { "frequency": "FM 102.3㎒", "area": "서산", "lat": 0, "lng": 0 },
+        {
+          "frequency": "FM 107.9㎒",
+          "area": "대전·청주·충북 남부3군",
+          "lat": 0,
+          "lng": 0
+        },
+        { "frequency": "FM 105.1㎒", "area": "청주시내", "lat": 0, "lng": 0 },
+        { "frequency": "FM 104.1㎒", "area": "충주", "lat": 0, "lng": 0 },
+        { "frequency": "FM 107.7㎒", "area": "부산", "lat": 0, "lng": 0 },
+        { "frequency": "FM 105.9㎒", "area": "울산", "lat": 0, "lng": 0 },
+        { "frequency": "FM 104.3㎒", "area": "창원", "lat": 0, "lng": 0 },
+        { "frequency": "FM 101.5㎒", "area": "진주", "lat": 0, "lng": 0 },
+        { "frequency": "FM 104.7㎒", "area": "거창", "lat": 0, "lng": 0 },
+        { "frequency": "FM 105.1㎒", "area": "대구", "lat": 0, "lng": 0 },
+        { "frequency": "FM 104.3㎒", "area": "경주", "lat": 0, "lng": 0 },
+        { "frequency": "FM 107.7㎒", "area": "안동", "lat": 0, "lng": 0 },
+        { "frequency": "FM 106.7㎒", "area": "포항", "lat": 0, "lng": 0 },
+        { "frequency": "FM 107.9㎒", "area": "울릉도", "lat": 0, "lng": 0 },
+        { "frequency": "FM 107.9㎒", "area": "독도", "lat": 0, "lng": 0 },
+        { "frequency": "FM 105.3㎒", "area": "광주", "lat": 0, "lng": 0 }
+      ],
       "logo": "kr.ebs",
       "url": "https://ebsonair.ebs.co.kr/fmradiofamilypc/familypc1m/playlist.m3u8",
       "streamType": "direct"
     },
     {
-      "name": "EBS 1라디오",
+      "name": "EBS 반디 외국어 전문",
       "broadcaster": "EBS",
-      "frequency": "FM",
+      "frequency": "인터넷 전용",
       "logo": "kr.ebs",
-      "url": "https://ebsonair.ebs.co.kr/groundwavefamilypc/familypc1m/playlist.m3u8",
-      "streamType": "direct"
-    },
-    {
-      "name": "EBS 2라디오",
-      "broadcaster": "EBS",
-      "frequency": "FM",
-      "logo": "kr.ebs",
-      "url": "https://ebsonair.ebs.co.kr/ebs2familypc/familypc1m/playlist.m3u8",
+      "url": "https://ebsonair.ebs.co.kr/cloud1/iradio/playlist.m3u8",
       "streamType": "direct"
     },
     {
