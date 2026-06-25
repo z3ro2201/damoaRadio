@@ -17,6 +17,9 @@
       ],
       "region": "수도권",
       "logo": "kr.kbs",
+      "homepage": "https://radio.kbs.co.kr/",
+      "schedule": "https://schedule.kbs.co.kr/m/index.html?sname=schedule&stype=table&type=radioList#radio_url",
+      "app": "https://play.google.com/store/apps/details?id=kr.co.kbs.kong&hl=ko",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/21",
       "streamType": "fetchJson",
       "jsonPath": "channel_item.0.service_url"
@@ -28,6 +31,9 @@
       "frequency": "AM 603㎑, FM 106.1㎒",
       "region": "수도권",
       "logo": "kr.kbs",
+      "homepage": "https://radio.kbs.co.kr/",
+      "schedule": "https://schedule.kbs.co.kr/m/index.html?sname=schedule&stype=table&type=radioList#radio_url",
+      "app": "https://play.google.com/store/apps/details?id=kr.co.kbs.kong&hl=ko",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/22",
       "streamType": "fetchJson",
       "jsonPath": "channel_item.0.service_url"
@@ -39,6 +45,9 @@
       "frequency": "93.1MHz FM",
       "region": "수도권",
       "logo": "kr.kbs",
+      "homepage": "https://radio.kbs.co.kr/",
+      "schedule": "https://schedule.kbs.co.kr/m/index.html?sname=schedule&stype=table&type=radioList#radio_url",
+      "app": "https://play.google.com/store/apps/details?id=kr.co.kbs.kong&hl=ko",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/24",
       "streamType": "fetchJson",
       "jsonPath": "channel_item.0.service_url"
@@ -49,6 +58,9 @@
       "frequency": "89.1MHz FM",
       "region": "수도권",
       "logo": "kr.kbs",
+      "homepage": "https://radio.kbs.co.kr/",
+      "schedule": "https://schedule.kbs.co.kr/m/index.html?sname=schedule&stype=table&type=radioList#radio_url",
+      "app": "https://play.google.com/store/apps/details?id=kr.co.kbs.kong&hl=ko",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/25",
       "streamType": "fetchJson",
       "jsonPath": "channel_item.0.service_url"
@@ -64,6 +76,9 @@
       "end_lng": 127.9,
       "frequency": "99.9㎒",
       "logo": "kr.obs",
+      "homepage": "https://www.obsnews.co.kr/news/articleList.html?sc_sub_section_code=S2N73&view_type=sm",
+      "schedule": "https://www.obs.co.kr/schedule/?type=radio",
+      "app": "https://play.google.com/store/apps/details?id=kr.co.obs.obsradio",
       "url": "https://vod3.obs.co.kr:444/live/obsstream1/radio.stream/playlist.m3u8",
       "streamType": "direct"
     },
@@ -77,6 +92,9 @@
       "end_lat": 38.3,
       "end_lng": 127.9,
       "logo": "kr.sbs",
+      "homepage": "https://www.sbs.co.kr/m/radio?div=gnb_m",
+      "schedule": "https://www.sbs.co.kr/m/schedule/index.html?type=ra&channel=Power&pmDate=",
+      "app": "https://play.google.com/store/apps/details?id=com.appgate.gorealra",
       "url": "https://apis.sbs.co.kr/play-api/1.0/livestream/powerpc/powerfm?protocol=hls&ssl=Y&quality=high",
       "streamType": "fetchText"
     },
@@ -90,6 +108,9 @@
       "end_lat": 38.3,
       "end_lng": 127.9,
       "logo": "kr.sbs",
+      "homepage": "https://www.sbs.co.kr/m/radio?div=gnb_m",
+      "schedule": "https://www.sbs.co.kr/m/schedule/index.html?type=ra&channel=Love&pmDate=",
+      "app": "https://play.google.com/store/apps/details?id=com.appgate.gorealra",
       "url": "https://apis.sbs.co.kr/play-api/1.0/livestream/lovepc/lovefm?protocol=hls&ssl=Y&quality=high",
       "streamType": "fetchText"
     },
