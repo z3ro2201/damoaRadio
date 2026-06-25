@@ -1,0 +1,89 @@
+{
+  "country": "US",
+  "countryName": "미국",
+  "version": 1,
+  "stationList": [
+    {
+      "name": "NPR",
+      "broadcaster": "NPR",
+      "frequency": "88.5MHz FM",
+      "logo": "us.npr",
+      "url": "https://npr-ice.streamguys1.com/live.mp3",
+      "streamType": "direct"
+    },
+    {
+      "name": "WQXR",
+      "broadcaster": "WQXR",
+      "frequency": "105.9MHz FM",
+      "logo": "us.wqxr",
+      "url": "https://stream.wqxr.org/wqxr.aac",
+      "streamType": "direct"
+    },
+    {
+      "name": "KEXP",
+      "broadcaster": "KEXP",
+      "frequency": "90.3MHz FM",
+      "logo": "us.kexp",
+      "url": "https://kexp-mp3-128.streamguys1.com/kexp128.mp3",
+      "streamType": "direct"
+    },
+
+    {
+      "name": "WNYC 93.9",
+      "broadcaster": "WNYC",
+      "frequency": "93.9MHz FM",
+      "logo": "us.wync",
+      "url": "https://fm939.wnyc.org/wnycfm",
+      "streamType": "direct"
+    },
+    {
+      "name": "WNYC 820",
+      "broadcaster": "WNYC",
+      "frequency": "820MHz AM",
+      "logo": "us.wync",
+      "url": "https://am820.wnyc.org/wnycam",
+      "streamType": "direct"
+    },
+    {
+      "name": "WYNC New Sounds",
+      "broadcaster": "WNYC",
+      "frequency": "",
+      "logo": "us.wync",
+      "url": "https://q2stream.wqxr.org/q2",
+      "streamType": "direct"
+    },
+    {
+      "name": "WYNC Operavore",
+      "broadcaster": "WNYC",
+      "frequency": "",
+      "logo": "us.wync",
+      "url": "https://opera-stream.wqxr.org/operavore",
+      "streamType": "direct"
+    },
+    {
+      "name": "WYNC New Standards",
+      "broadcaster": "WNYC",
+      "frequency": "",
+      "logo": "us.wync",
+      "url": "https://tjc.wnyc.org/js-stream",
+      "streamType": "direct"
+    },
+
+    {
+      "name": "Jazz24",
+      "broadcaster": "KNKX",
+      "frequency": "88.5MHz FM",
+      "logo": "us.knkx",
+      "url": "https://knkx-live-a.edge.audiocdn.com/6285_256k",
+      "streamType": "direct"
+    },
+    {
+      "name": "KNKX",
+      "broadcaster": "KNKX",
+      "frequency": "90.1MHz FM",
+      "logo": "us.knkx",
+      "url": "https://knkx-live-a.edge.audiocdn.com/6284_256k",
+      "streamType": "direct"
+    }
+  ]
+}
