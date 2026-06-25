@@ -1,0 +1,1781 @@
+{
+  "country": "KR",
+  "countryName": "한국",
+  "version": 2,
+  "stationList": [
+    {
+      "name": "EBS FM",
+      "broadcaster": "EBS",
+      "frequency": "104.5MHz FM",
+      "logo": "kr.ebs",
+      "url": "https://ebsonair.ebs.co.kr/fmradiofamilypc/familypc1m/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "EBS 1라디오",
+      "broadcaster": "EBS",
+      "frequency": "FM",
+      "logo": "kr.ebs",
+      "url": "https://ebsonair.ebs.co.kr/groundwavefamilypc/familypc1m/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "EBS 2라디오",
+      "broadcaster": "EBS",
+      "frequency": "FM",
+      "logo": "kr.ebs",
+      "url": "https://ebsonair.ebs.co.kr/ebs2familypc/familypc1m/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "KFN 국방방송",
+      "broadcaster": "국방홍보원",
+      "frequency": [
+        {
+          "area": "서울",
+          "lat": 37.4563,
+          "lng": 126.7052,
+          "frequency": "96.7㎒ FM"
+        },
+        {
+          "area": "춘천",
+          "lat": 37.4563,
+          "lng": 126.7052,
+          "frequency": "96.7㎒ FM"
+        },
+        { "area": "양평", "lat": 0, "lng": 0, "frequency": "101.1㎒" },
+        { "area": "원주", "lat": 0, "lng": 0, "frequency": "101.1㎒" },
+        { "area": "파주", "lat": 0, "lng": 0, "frequency": "96.3㎒" },
+        { "area": "서해5도", "lat": 0, "lng": 0, "frequency": "89.5㎒" },
+        { "area": "강릉", "lat": 0, "lng": 0, "frequency": "92.5㎒" },
+        { "area": "속초", "lat": 0, "lng": 0, "frequency": "92.5㎒" },
+        { "area": "고성", "lat": 0, "lng": 0, "frequency": "92.5㎒" },
+        { "area": "인제", "lat": 0, "lng": 0, "frequency": "101.5㎒" },
+        { "area": "인제(상남)", "lat": 0, "lng": 0, "frequency": "93.3㎒" },
+        { "area": "대전", "lat": 0, "lng": 0, "frequency": "100.1㎒" },
+        { "area": "논산", "lat": 0, "lng": 0, "frequency": "100.1㎒" },
+        { "area": "계룡", "lat": 0, "lng": 0, "frequency": "100.1㎒" },
+        { "area": "광주", "lat": 0, "lng": 0, "frequency": "96.5㎒" },
+        { "area": "포항", "lat": 0, "lng": 0, "frequency": "92.7㎒" },
+        { "area": "서귀포", "lat": 0, "lng": 0, "frequency": "94.1㎒" }
+      ],
+      "logo": "kr.kfn",
+      "url": "https://media.dema.mil.kr/live_radio/audio.sdp/playlist.m3u8",
+      "streamType": "direct"
+    },
+
+    {
+      "name": "OBS 경인방송",
+      "broadcaster": "OBS 경인방송",
+      "region": "수도권",
+      "start_lat": 36.9,
+      "start_lng": 126.3,
+      "end_lat": 38.3,
+      "end_lng": 127.9,
+      "frequency": "99.9㎒",
+      "logo": "kr.obs",
+      "url": "https://vod3.obs.co.kr:444/live/obsstream1/radio.stream/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "SBS 파워FM",
+      "broadcaster": "SBS",
+      "frequency": "107.7MHz FM",
+      "region": "수도권",
+      "start_lat": 36.9,
+      "start_lng": 126.3,
+      "end_lat": 38.3,
+      "end_lng": 127.9,
+      "logo": "kr.sbs",
+      "url": "https://apis.sbs.co.kr/play-api/1.0/livestream/powerpc/powerfm?protocol=hls&ssl=Y&quality=high",
+      "streamType": "fetchText"
+    },
+    {
+      "name": "SBS 러브FM",
+      "broadcaster": "SBS",
+      "frequency": "103.5MHz FM",
+      "region": "수도권",
+      "start_lat": 36.9,
+      "start_lng": 126.3,
+      "end_lat": 38.3,
+      "end_lng": 127.9,
+      "logo": "kr.sbs",
+      "url": "https://apis.sbs.co.kr/play-api/1.0/livestream/lovepc/lovefm?protocol=hls&ssl=Y&quality=high",
+      "streamType": "fetchText"
+    },
+    {
+      "name": "SBS 고릴라M",
+      "broadcaster": "SBS",
+      "frequency": "DMB",
+      "logo": "kr.sbs",
+      "url": "https://apis.sbs.co.kr/play-api/1.0/livestream/sbsdmbpc/sbsdmb?protocol=hls&ssl=Y&quality=high",
+      "streamType": "fetchText"
+    },
+    {
+      "name": "KBS 1라디오",
+      "broadcaster": "KBS",
+      "frequency": "711kHz AM",
+      "region": "수도권",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/21",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+    {
+      "name": "KBS 해피FM",
+      "broadcaster": "KBS",
+      "frequency": "FM",
+      "region": "수도권",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/22",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+    {
+      "name": "KBS 3라디오",
+      "broadcaster": "KBS",
+      "frequency": "AM",
+      "region": "수도권",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/23",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+    {
+      "name": "KBS 클래식FM",
+      "broadcaster": "KBS",
+      "frequency": "93.1MHz FM",
+      "region": "수도권",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/24",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+    {
+      "name": "KBS 쿨FM",
+      "broadcaster": "KBS",
+      "frequency": "89.1MHz FM",
+      "region": "수도권",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/25",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+    {
+      "name": "KBS 한민족방송",
+      "broadcaster": "KBS",
+      "frequency": "AM",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/26",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+    {
+      "name": "KBS World Multilingual",
+      "broadcaster": "KBS",
+      "frequency": "인터넷",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/wink11",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+    {
+      "name": "KBS World English",
+      "broadcaster": "KBS",
+      "frequency": "인터넷",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/I92",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+
+    {
+      "name": "MBC 표준FM",
+      "broadcaster": "MBC",
+      "frequency": "95.9MHz FM",
+      "logo": "kr.mbc",
+      "url": "https://sminiplay.imbc.com/aacplay.ashx?agent=webapp&channel=sfm",
+      "streamType": "fetchText"
+    },
+    {
+      "name": "MBC FM4U",
+      "broadcaster": "MBC",
+      "frequency": "91.9MHz FM",
+      "logo": "kr.mbc",
+      "url": "https://sminiplay.imbc.com/aacplay.ashx?agent=webapp&channel=mfm",
+      "streamType": "fetchText"
+    },
+    {
+      "name": "MBC 올댓뮤직",
+      "broadcaster": "MBC",
+      "frequency": "인터넷",
+      "logo": "kr.mbc",
+      "url": "https://sminiplay.imbc.com/aacplay.ashx?agent=webapp&channel=chm",
+      "streamType": "fetchText"
+    },
+    {
+      "name": "CBS 표준FM 98.1",
+      "broadcaster": "CBS",
+      "frequency": "98.1MHz FM",
+      "logo": "kr.cbs",
+      "url": "https://m-aac.cbs.co.kr/mweb_cbs981/_definst_/cbs981.stream/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "CBS 음악FM 93.9",
+      "broadcaster": "CBS",
+      "frequency": "93.9MHz FM",
+      "logo": "kr.cbs",
+      "url": "https://m-aac.cbs.co.kr/mweb_cbs939/_definst_/cbs939.stream/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "CBS JOY4U",
+      "broadcaster": "CBS",
+      "frequency": "인터넷",
+      "logo": "kr.cbs",
+      "url": "https://m-aac.cbs.co.kr/mweb_cbscmc/_definst_/cbscmc.stream/playlist.m3u8",
+      "streamType": "direct"
+    },
+
+    {
+      "name": "CBS 표준FM (울산)",
+      "broadcaster": "CBS 울산",
+      "region": "울산",
+      "frequency": "FM",
+      "logo": "kr.cbs",
+      "url": "https://m-aac.cbs.co.kr/ulsan/_definst_/ulsan.stream/playlist.m3u8",
+      "streamType": "direct"
+    },
+
+    {
+      "name": "CBS 표준FM (부산)",
+      "broadcaster": "CBS 부산",
+      "region": "부산",
+      "frequency": "FM",
+      "logo": "kr.cbs",
+      "url": "https://m-aac.cbs.co.kr/busan939/_definst_/busan939.stream/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "CBS 음악FM (부산)",
+      "broadcaster": "CBS 부산",
+      "region": "부산",
+      "frequency": "FM",
+      "logo": "kr.cbs",
+      "url": "https://m-aac.cbs.co.kr/busan981/_definst_/busan981.stream/playlist.m3u8",
+      "streamType": "direct"
+    },
+
+    {
+      "name": "CBS 표준FM (경남)",
+      "broadcaster": "CBS 경남",
+      "region": "경남",
+      "frequency": "FM",
+      "logo": "kr.cbs",
+      "url": "https://m-aac.cbs.co.kr/gyeongnam/_definst_/gyeongnam.stream/playlist.m3u8",
+      "streamType": "direct"
+    },
+
+    {
+      "name": "CBS 표준FM (충북)",
+      "broadcaster": "CBS 충북",
+      "region": "충북",
+      "frequency": "FM",
+      "logo": "kr.cbs",
+      "url": "https://m-aac.cbs.co.kr/cheongju/_definst_/cheongju.stream/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "CBS 음악FM (충북)",
+      "broadcaster": "CBS 충북",
+      "region": "충북",
+      "frequency": "FM",
+      "logo": "kr.cbs",
+      "url": "https://m-aac.cbs.co.kr/cbs939/_definst_/cbs939.stream/playlist.m3u8",
+      "streamType": "direct"
+    },
+
+    {
+      "name": "YTN 라디오",
+      "broadcaster": "YTN",
+      "frequency": "FM 94.5MHz(수도권한정)",
+      "logo": "kr.ytn",
+      "url": "https://radiolive.ytn.co.kr/radio/_definst_/20211118_fmlive/playlist.m3u8",
+      "streamType": "direct"
+    },
+
+    {
+      "name": "TBS FM",
+      "broadcaster": "TBS 교통방송",
+      "region": "수도권",
+      "frequency": "FM 95.1MHz",
+      "logo": "kr.tbs",
+      "url": "https://cdnfm.tbs.seoul.kr/tbs/_definst_/tbs_fm_web_360.smil/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "TBS eFM",
+      "broadcaster": "TBS 교통방송",
+      "region": "수도권",
+      "frequency": "FM 101.3MHz",
+      "logo": "kr.tbs",
+      "url": "https://cdnefm.tbs.seoul.kr/tbs/_definst_/tbs_efm_web_360.smil/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "TBN 교통방송 (광주)",
+      "broadcaster": "TBN 교통방송",
+      "region": "광주",
+      "frequency": "FM",
+      "logo": "kr.tbn",
+      "url": "https://www.tbn.it.kr/gwangju/myStream/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "TBN 교통방송 (부산)",
+      "broadcaster": "TBN 교통방송",
+      "region": "부산",
+      "frequency": "FM",
+      "logo": "kr.tbn",
+      "url": "https://www.tbn.it.kr/busan/myStream/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "TBN 교통방송 (대구)",
+      "broadcaster": "TBN 교통방송",
+      "region": "대구",
+      "frequency": "FM",
+      "logo": "kr.tbn",
+      "url": "https://www.tbn.it.kr/daegu/myStream/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "TBN 교통방송 (대전)",
+      "broadcaster": "TBN 교통방송",
+      "region": "대전",
+      "frequency": "FM",
+      "logo": "kr.tbn",
+      "url": "https://www.tbn.it.kr/daejeon/myStream/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "TBN 교통방송 (경인)",
+      "broadcaster": "TBN 교통방송",
+      "region": "수도권",
+      "frequency": "FM",
+      "logo": "kr.tbn",
+      "url": "https://www.tbn.it.kr/gyeongin/myStream/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "TBN 교통방송 (강원)",
+      "broadcaster": "TBN 교통방송",
+      "region": "강원",
+      "frequency": "FM",
+      "logo": "kr.tbn",
+      "url": "https://www.tbn.it.kr/gangwon/myStream/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "TBN 교통방송 (전북)",
+      "broadcaster": "TBN 교통방송",
+      "region": "전북",
+      "frequency": "FM",
+      "logo": "kr.tbn",
+      "url": "https://www.tbn.it.kr/jeonbuk/myStream/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "TBN 교통방송 (울산)",
+      "broadcaster": "TBN 교통방송",
+      "region": "울산",
+      "frequency": "FM",
+      "logo": "kr.tbn",
+      "url": "https://www.tbn.it.kr/ulsan/myStream/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "TBN 교통방송 (경남)",
+      "broadcaster": "TBN 교통방송",
+      "region": "경남",
+      "frequency": "FM",
+      "logo": "kr.tbn",
+      "url": "https://www.tbn.it.kr/gyeongnam/myStream/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "TBN 교통방송 (경북)",
+      "broadcaster": "TBN 교통방송",
+      "region": "경북",
+      "frequency": "FM",
+      "logo": "kr.tbn",
+      "url": "https://www.tbn.it.kr/kyungbuk/myStream/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "TBN 교통방송 (제주)",
+      "broadcaster": "TBN 교통방송",
+      "region": "제주",
+      "frequency": "FM",
+      "logo": "kr.tbn",
+      "url": "https://www.tbn.it.kr/jeju/myStream/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "TBN 교통방송 (충북)",
+      "broadcaster": "TBN 교통방송",
+      "region": "충북",
+      "frequency": "FM",
+      "logo": "kr.tbn",
+      "url": "https://www.tbn.it.kr/chungbuk/myStream/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "TBN 교통방송 (충남)",
+      "broadcaster": "TBN 교통방송",
+      "region": "충남",
+      "frequency": "FM",
+      "logo": "kr.tbn",
+      "url": "https://www.tbn.it.kr/chungnam/myStream/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "BBS 불교방송",
+      "broadcaster": "BBS",
+      "frequency": "101.9MHz FM",
+      "logo": "kr.bbs",
+      "url": "https://bbslive.clouducs.com/bbsradio-mlive/radio.stream/chunklist_w738448087.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "BBS 불교방송 (부산)",
+      "broadcaster": "BBS",
+      "region": "부산",
+      "frequency": "FM",
+      "logo": "kr.bbs",
+      "url": "http://live.cdn.smilecdn.com:1935/bbsfm_live/live.sdp/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "BBS 불교방송 (제주)",
+      "broadcaster": "BBS",
+      "region": "제주",
+      "frequency": "FM",
+      "logo": "kr.bbs",
+      "url": "http://kdbmobile.clouducs.com:1935/jeju/jeju.stream_aac/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "BBS 불교방송 (광주)",
+      "broadcaster": "BBS",
+      "region": "광주",
+      "frequency": "FM",
+      "logo": "kr.bbs",
+      "url": "http://live.cdn.smilecdn.com:1935/kjbbs1_live/live/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "BTN 울림채널",
+      "broadcaster": "BTN",
+      "frequency": "인터넷",
+      "logo": "btn",
+      "url": "https://btn.nowcdn.co.kr/btn_ch4st/live.stream/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "BTN 불교채널",
+      "broadcaster": "BTN",
+      "frequency": "인터넷",
+      "logo": "btn",
+      "url": "https://btn.nowcdn.co.kr/btn_ch1st/live.stream/playlist.m3u8",
+      "streamType": "direct"
+    },
+
+    {
+      "name": "WBS 원음방송",
+      "broadcaster": "WBS",
+      "frequency": "FM",
+      "logo": "kr.wbs",
+      "url": "https://wbsradio.kr/wbs-seoul",
+      "streamType": "direct"
+    },
+    {
+      "name": "WBS 원음방송 (부산)",
+      "broadcaster": "WBS",
+      "region": "부산",
+      "frequency": "FM",
+      "logo": "kr.wbs",
+      "url": "https://wbsradio2.kr/wbs-b",
+      "streamType": "direct"
+    },
+    {
+      "name": "WBS 원음방송 (광주)",
+      "broadcaster": "WBS",
+      "region": "광주",
+      "frequency": "FM",
+      "logo": "kr.wbs",
+      "url": "https://wbsradio2.kr/wbs-g",
+      "streamType": "direct"
+    },
+    {
+      "name": "WBS 원음방송 (전북)",
+      "broadcaster": "WBS",
+      "region": "전북",
+      "frequency": "FM",
+      "logo": "kr.wbs",
+      "url": "https://wbsradio2.kr/wbs-j",
+      "streamType": "direct"
+    },
+
+    {
+      "name": "국악방송",
+      "broadcaster": "국악방송",
+      "frequency": "FM 99.1MHz(수도권), 98.5MHz(부산), 107.5MHz(대구), 107.9MHz(경주/포항), 103.3MHz(강원 동해안),  91.3MHz(제주), 106.9MHz(서귀포)",
+      "logo": "kr.igbf",
+      "url": "https://mgugaklive.nowcdn.co.kr/gugakradio/gugakradio.stream/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "국악방송 (대전)",
+      "broadcaster": "국악방송",
+      "region": "대전",
+      "frequency": "FM 99.3MHz(영동), 90.5MHz(대전/세종), 101.7MHz(충주), 90.1MHz(제천/단양), 107.5MHz(청주),  ",
+      "logo": "kr.igbf",
+      "url": "https://mgugaklive.nowcdn.co.kr/gugakdaejeon/Daejeonradio.stream/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "국악방송 (광주)",
+      "broadcaster": "국악방송",
+      "region": "광주",
+      "frequency": "FM 99.3MHz(광주/전남), 94.7MHz(전남 서남부), 95.3MHz(전북 북부), 95.9MHz(전북 동남부)",
+      "logo": "kr.igbf",
+      "url": "https://mgugaklive.nowcdn.co.kr/gugakgwangju/Glive.stream/playlist.m3u8",
+      "streamType": "direct"
+    },
+
+    {
+      "name": "JTV 매직FM",
+      "broadcaster": "JTV",
+      "region": "전북",
+      "frequency": "FM 90.1MHz",
+      "logo": "kr.jtv",
+      "url": "https://jtvonair.sbsoft.net/jtv_radio/myStream/playlist.m3u8",
+      "streamType": "direct"
+    },
+
+    {
+      "name": "SCN 성서공동체FM",
+      "broadcaster": "성서공동체FM",
+      "region": "대구",
+      "frequency": "FM 89.1MHz",
+      "logo": "kr.scn",
+      "url": "http://115.85.182.39/scnfm",
+      "streamType": "direct"
+    },
+    {
+      "name": "TBC 라디오",
+      "broadcaster": "TBC",
+      "region": "대구",
+      "frequency": "FM 99.3MHz(대구), 106.5MHz(대구성서), 106.5MHz(안동), 99.7MHz(포항)",
+      "logo": "kr.tbc",
+      "url": "http://203.251.91.122:1935/on-air-Backup/fm/playlist.m3u8",
+      "streamType": "direct"
+    },
+
+    {
+      "name": "극동방송 (서울)",
+      "broadcaster": "FEBC 극동방송",
+      "region": "수도권",
+      "frequency": "FM 106.9MHz",
+      "logo": "kr.febc",
+      "url": "https://mlive3.febc.net/live5/seoulfm/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "극동방송 (제주)",
+      "broadcaster": "FEBC 극동방송",
+      "region": "제주",
+      "frequency": "FM 104.7MHz",
+      "logo": "kr.febc",
+      "url": "https://mlive3.febc.net/live5/jejufm/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "극동방송 (대전)",
+      "broadcaster": "FEBC 극동방송",
+      "region": "대전",
+      "frequency": "FM 93.3MHz",
+      "logo": "kr.febc",
+      "url": "https://mlive3.febc.net/live5/djlive/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "극동방송 (창원)",
+      "broadcaster": "FEBC 극동방송",
+      "region": "경남",
+      "subRegion": "창원",
+      "frequency": "FM 98.1MHz",
+      "logo": "kr.febc",
+      "url": "https://mlive3.febc.net/live5/cwlive/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "극동방송 (목포)",
+      "broadcaster": "FEBC 극동방송",
+      "region": "전남",
+      "subRegion": "목포",
+      "frequency": "FM 100.5MHz",
+      "logo": "kr.febc",
+      "url": "https://mlive3.febc.net/live5/mplive/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "극동방송 (강원)",
+      "broadcaster": "FEBC 극동방송",
+      "region": "강원",
+      "frequency": "FM 90.1MHz",
+      "logo": "kr.febc",
+      "url": "https://mlive3.febc.net/live5/ydlive/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "극동방송 (포항)",
+      "broadcaster": "FEBC 극동방송",
+      "region": "경북",
+      "subRegion": "포항",
+      "frequency": "FM 90.3MHz",
+      "logo": "kr.febc",
+      "url": "https://mlive3.febc.net/live5/phlive/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "극동방송 (울산)",
+      "broadcaster": "FEBC 극동방송",
+      "region": "울산",
+      "frequency": "FM 107.3MHz",
+      "logo": "kr.febc",
+      "url": "https://mlive3.febc.net/live5/uslive/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "극동방송 (부산)",
+      "broadcaster": "FEBC 극동방송",
+      "region": "부산",
+      "frequency": "FM 93.3MHz",
+      "logo": "kr.febc",
+      "url": "https://mlive3.febc.net/live5/bsfebc/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "극동방송 (대구)",
+      "broadcaster": "FEBC 극동방송",
+      "region": "대구",
+      "frequency": "FM 91.9MHz",
+      "logo": "kr.febc",
+      "url": "https://mlive3.febc.net/live5/daegulive/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "극동방송 (광주)",
+      "broadcaster": "FEBC 극동방송",
+      "region": "광주",
+      "frequency": "FM 93.1MHz",
+      "logo": "kr.febc",
+      "url": "https://mlive3.febc.net/live5/gjlive/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "극동방송 (전남동부)",
+      "broadcaster": "FEBC 극동방송",
+      "region": "전남",
+      "frequency": "FM 97.5MHz",
+      "logo": "kr.febc",
+      "url": "https://mlive3.febc.net/live/jndblive/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "극동방송 (전북)",
+      "broadcaster": "FEBC 극동방송",
+      "region": "전북",
+      "frequency": "FM 91.1MHz",
+      "logo": "kr.febc",
+      "url": "https://mlive3.febc.net/live5/jblive/playlist.m3u8",
+      "streamType": "direct"
+    },
+
+    {
+      "name": "C 채널",
+      "broadcaster": "C채널",
+      "frequency": "인터넷",
+      "logo": "cchannel",
+      "url": "https://6835fd66c946c.streamlock.net/radiolive/myStream/playlist.m3u8",
+      "streamType": "direct"
+    },
+
+    {
+      "name": "cpbc 광주가톨릭방송",
+      "broadcaster": "cpbc 가톨릭평화방송",
+      "region": "광주",
+      "frequency": "FM 99.9MHz(광주), 99.5MHz(여수/순천)",
+      "logo": "kr.cpbc",
+      "url": "http://pbcradio.dynamicsmart.com:1935/radio/kjpbc2/index.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "cpbc 대구가톨릭방송",
+      "broadcaster": "cpbc 가톨릭평화방송",
+      "region": "대구",
+      "frequency": "FM 93.1MHz (대구), 96.9MHz(포항), 100.7MHz(안동), 100.5MHz(김천/구미)",
+      "logo": "kr.cpbc",
+      "url": "http://live.dgcpbc.co.kr/dgcpbclive/livestream/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "cpbc 수도권가톨릭방송",
+      "broadcaster": "cpbc 가톨릭평화방송",
+      "region": "수도권",
+      "frequency": "105.3MHz FM",
+      "logo": "kr.cpbc",
+      "url": "http://onair1.cpbc.co.kr:1935/live/_definst_/Instreamer.stream_aac/playlist.m3u8",
+      "streamType": "direct"
+    },
+
+    {
+      "name": "대구동구FM",
+      "broadcaster": "대구동구 공동체",
+      "region": "대구",
+      "subRegion": "동구",
+      "frequency": "FM 104.5MHz",
+      "logo": "kr.daegufm",
+      "url": "https://stream.cradio.kr/daegufm",
+      "streamType": "direct"
+    },
+    {
+      "name": "옥천FM",
+      "broadcaster": "옥천FM공동체",
+      "region": "충북",
+      "subRegion": "옥천",
+      "frequency": "FM 104.5MHz",
+      "logo": "kr.obn",
+      "url": "http://icecast.radios.kr:8000/obn",
+      "streamType": "direct"
+    },
+    {
+      "name": "마포FM",
+      "broadcaster": "mapo FM",
+      "region": "수도권",
+      "subRegion": "마포구",
+      "frequency": "FM 100.7MHz",
+      "logo": "kr.mapofm",
+      "url": "https://stream.cradio.kr/mapofm",
+      "streamType": "direct"
+    },
+    {
+      "name": "서대문FM",
+      "broadcaster": "서대문공동체라디오",
+      "region": "수도권",
+      "subRegion": "서대문구",
+      "frequency": "FM 91.3MHz",
+      "logo": "kr.sdmfm",
+      "url": "http://115.68.193.176:8000/sdmfm",
+      "streamType": "direct"
+    },
+    {
+      "name": "관악FM",
+      "broadcaster": "관악공동체라디오",
+      "region": "수도권",
+      "subRegion": "관악구",
+      "frequency": "FM 100.3MHz",
+      "logo": "kr.radiogfm",
+      "url": "http://115.68.193.176:8000/gwanakfm",
+      "streamType": "direct"
+    },
+
+    {
+      "name": "성남FM",
+      "broadcaster": "성남FM",
+      "region": "수도권",
+      "subRegion": "성남시",
+      "frequency": "90.7MHz FM",
+      "logo": "kr.seongnam",
+      "url": "http://115.85.182.39/seongnamfm",
+      "streamType": "direct"
+    },
+    {
+      "name": "SoneFM",
+      "broadcaster": "수원마을공동체미디어",
+      "region": "수도권",
+      "subRegion": "수원시",
+      "frequency": "96.3MHz FM",
+      "logo": "kr.sonefm",
+      "url": "http://115.85.182.39/sonefm",
+      "streamType": "direct"
+    },
+    {
+      "name": "GO구리FM",
+      "broadcaster": "GO구리FM",
+      "region": "수도권",
+      "subRegion": "구리시",
+      "frequency": "105.7MHz FM",
+      "logo": "kr.gurifm",
+      "url": "http://icecast.radios.kr:8000/gurifm",
+      "streamType": "direct"
+    },
+
+    {
+      "name": "단원FM",
+      "broadcaster": "안산공동체미디어",
+      "region": "수도권",
+      "subRegion": "안산시",
+      "frequency": "88.7MHz FM",
+      "logo": "kr.danwonfm",
+      "url": "https://radiostream.communityradio.kr/dwfm1",
+      "streamType": "direct"
+    },
+
+    {
+      "name": "세종FM",
+      "broadcaster": "세종FM",
+      "region": "세종",
+      "frequency": "98.9MHz FM",
+      "logo": "kr.sejongfm",
+      "url": "http://icecast.radios.kr:8000/sejongfm",
+      "streamType": "direct"
+    },
+    {
+      "name": "금강FM",
+      "broadcaster": "금강FM방송",
+      "region": "세종",
+      "frequency": "104.9MHz FM",
+      "logo": "kr.kumkang",
+      "url": "http://121.183.240.143:8000/KKFM1",
+      "streamType": "direct"
+    },
+
+    {
+      "name": "상주FM",
+      "broadcaster": "상주FM",
+      "region": "경북",
+      "subRegion": "상주",
+      "frequency": "93.9MHz FM",
+      "logo": "kr.sangjufm",
+      "url": "http://115.68.193.176:8000/sangjufm",
+      "streamType": "direct"
+    },
+    {
+      "name": "영주FM",
+      "broadcaster": "영주에프엠방송",
+      "region": "경북",
+      "subRegion": "영주",
+      "frequency": "89.1MHz FM",
+      "logo": "kr.yeongjufm",
+      "url": "http://icecast.radios.kr:8000/yeongjufm",
+      "streamType": "direct"
+    },
+
+    {
+      "name": "연제FM",
+      "broadcaster": "연제공동체라디오",
+      "region": "부산",
+      "subRegion": "연제구",
+      "frequency": "106.3MHz FM",
+      "logo": "kr.yeonjaefm",
+      "url": "https://stream.cradio.kr/yeonjefm",
+      "streamType": "direct"
+    },
+    {
+      "name": "부산영어방송 Busan e-FM",
+      "broadcaster": "부산영어방송",
+      "region": "부산",
+      "frequency": "90.5MHz FM (부산), 103.3MHz FM(서부산, 기장, 정관)",
+      "logo": "kr.befm",
+      "url": "https://live.cdn.smilecdn.com/befm905_live/live/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "전주FM",
+      "broadcaster": "전주공동체라디오",
+      "region": "전북",
+      "subRegion": "전주",
+      "frequency": "FM 93.5MHz",
+      "logo": "kr.jeonjufmm",
+      "url": "https://radiostream.communityradio.kr/jcfm1",
+      "streamType": "direct"
+    },
+    {
+      "name": "GBS 고려방송",
+      "broadcaster": "GBS고려방송",
+      "region": "광주",
+      "frequency": "FM 93.5MHz",
+      "logo": "kr.gbs",
+      "url": "http://115.68.193.176:8000/crfm",
+      "streamType": "direct"
+    },
+    {
+      "name": "광주FM",
+      "broadcaster": "광주시민방송",
+      "region": "광주",
+      "frequency": "FM 88.9MHz",
+      "logo": "kr.gwangjufm",
+      "url": "https://radiostream.communityradio.kr/live",
+      "streamType": "direct"
+    },
+    {
+      "name": "한밭FM",
+      "broadcaster": "한밭생활문화방송",
+      "region": "대전",
+      "frequency": "FM 93.7MHz",
+      "logo": "kr.hanbat",
+      "url": "http://115.68.194.186:8000/hanbatfm",
+      "streamType": "direct"
+    },
+    {
+      "name": "태백FM",
+      "broadcaster": "태백에프엠 공동체라디오",
+      "region": "강원",
+      "subRegion": "태백",
+      "frequency": "FM 100.5MHz",
+      "logo": "kr.taebaek",
+      "url": "http://icecast.radios.kr:8000/taebaekfm",
+      "streamType": "direct"
+    },
+    {
+      "name": "남해FM",
+      "broadcaster": "남해FM공동체라디오",
+      "region": "경남",
+      "subRegion": "남해",
+      "frequency": "FM 91.9MHz",
+      "logo": "kr.namhae",
+      "url": "http://icecast.radios.kr:8000/namhaefm",
+      "streamType": "direct"
+    },
+
+    {
+      "name": "KBS 부산 1 라디오",
+      "broadcaster": "KBS",
+      "region": "부산",
+      "frequency": "711kHz AM",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/10_21",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+
+    {
+      "name": "KBS 부산 해피FM",
+      "broadcaster": "KBS",
+      "region": "부산",
+      "frequency": "FM",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/10_22",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+    {
+      "name": "KBS 부산 Classic FM",
+      "broadcaster": "KBS",
+      "frequency": "711kHz AM",
+      "region": "부산",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/10_24",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+
+    {
+      "name": "KBS 울산 1 라디오",
+      "broadcaster": "KBS",
+      "region": "울산",
+      "frequency": "711kHz AM",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/11_21",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+
+    {
+      "name": "KBS 창원 1FM",
+      "broadcaster": "KBS",
+      "region": "경남",
+      "subRegion": "창원",
+      "frequency": "",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/20_21",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+    {
+      "name": "KBS 창원 해피FM",
+      "broadcaster": "KBS",
+      "region": "경남",
+      "subRegion": "창원",
+      "frequency": "",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/20_22",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+    {
+      "name": "KBS 창원 클래식FM",
+      "broadcaster": "KBS",
+      "region": "경남",
+      "subRegion": "창원",
+      "frequency": "",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/20_24",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+
+    {
+      "name": "KBS 진주 1FM",
+      "broadcaster": "KBS",
+      "region": "경남",
+      "subRegion": "진주",
+      "frequency": "",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/21_21",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+
+    {
+      "name": "KBS 대구 1FM",
+      "broadcaster": "KBS",
+      "region": "대구",
+      "frequency": "",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/30_21",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+    {
+      "name": "KBS 대구 해피FM",
+      "broadcaster": "KBS",
+      "region": "대구",
+      "frequency": "",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/30_22",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+    {
+      "name": "KBS 대구 클래식FM",
+      "broadcaster": "KBS",
+      "region": "대구",
+      "frequency": "",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/30_24",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+
+    {
+      "name": "KBS 안동 1FM",
+      "broadcaster": "KBS",
+      "region": "경북",
+      "subRegion": "안동",
+      "frequency": "",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/31_21",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+    {
+      "name": "KBS 포항 1FM",
+      "broadcaster": "KBS",
+      "region": "경북",
+      "subRegion": "포항",
+      "frequency": "",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/32_21",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+
+    {
+      "name": "KBS 광주 1FM",
+      "broadcaster": "KBS",
+      "region": "광주",
+      "frequency": "",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/40_21",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+    {
+      "name": "KBS 광주 해피FM",
+      "broadcaster": "KBS",
+      "region": "광주",
+      "frequency": "",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/40_22",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+    {
+      "name": "KBS 광주 클래식FM",
+      "broadcaster": "KBS",
+      "region": "광주",
+      "frequency": "",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/40_24",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+
+    {
+      "name": "KBS 목포 1FM",
+      "broadcaster": "KBS",
+      "region": "전남",
+      "subRegion": "목포",
+      "frequency": "",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/41_21",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+    {
+      "name": "KBS 목포 클래식FM",
+      "broadcaster": "KBS",
+      "region": "전남",
+      "subRegion": "목포",
+      "frequency": "",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/41_24",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+
+    {
+      "name": "KBS 순천 1FM",
+      "broadcaster": "KBS",
+      "region": "전남",
+      "subRegion": "순천",
+      "frequency": "",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/43_21",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+
+    {
+      "name": "KBS 전주 1FM",
+      "broadcaster": "KBS",
+      "region": "전북",
+      "subRegion": "전주",
+      "frequency": "",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/50_21",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+    {
+      "name": "KBS 전주 해피FM",
+      "broadcaster": "KBS",
+      "region": "전북",
+      "subRegion": "전주",
+      "frequency": "",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/50_22",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+    {
+      "name": "KBS 전주 클래식FM",
+      "broadcaster": "KBS",
+      "region": "전북",
+      "subRegion": "전주",
+      "frequency": "",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/50_24",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+
+    {
+      "name": "KBS 대전 1FM",
+      "broadcaster": "KBS",
+      "region": "대전",
+      "frequency": "",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/60_21",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+    {
+      "name": "KBS 대전 해피FM",
+      "broadcaster": "KBS",
+      "region": "대전",
+      "frequency": "",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/60_22",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+    {
+      "name": "KBS 대전 클래식FM",
+      "broadcaster": "KBS",
+      "region": "대전",
+      "frequency": "",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/60_24",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+
+    {
+      "name": "KBS 청주 1FM",
+      "broadcaster": "KBS",
+      "region": "충북",
+      "subRegion": "청주",
+      "frequency": "",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/70_21",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+    {
+      "name": "KBS 청주 해피FM",
+      "broadcaster": "KBS",
+      "region": "충북",
+      "subRegion": "청주",
+      "frequency": "",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/70_22",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+    {
+      "name": "KBS 청주 클래식FM",
+      "broadcaster": "KBS",
+      "region": "충북",
+      "subRegion": "청주",
+      "frequency": "",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/70_24",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+
+    {
+      "name": "KBS 충주 1FM",
+      "broadcaster": "KBS",
+      "region": "충북",
+      "subRegion": "충주",
+      "frequency": "",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/71_21",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+    {
+      "name": "KBS 충주 클래식FM",
+      "broadcaster": "KBS",
+      "region": "충북",
+      "subRegion": "충주",
+      "frequency": "",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/71_24",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+
+    {
+      "name": "KBS 춘천 1FM",
+      "broadcaster": "KBS",
+      "region": "강원",
+      "subRegion": "춘천",
+      "frequency": "",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/80_21",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+    {
+      "name": "KBS 춘천 해피FM",
+      "broadcaster": "KBS",
+      "region": "강원",
+      "subRegion": "춘천",
+      "frequency": "",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/80_22",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+    {
+      "name": "KBS 춘천 클래식FM",
+      "broadcaster": "KBS",
+      "region": "강원",
+      "subRegion": "춘천",
+      "frequency": "",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/80_24",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+
+    {
+      "name": "KBS 강릉 1FM",
+      "broadcaster": "KBS",
+      "region": "강원",
+      "subRegion": "강릉",
+      "frequency": "",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/81_21",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+    {
+      "name": "KBS 강릉 클래식FM",
+      "broadcaster": "KBS",
+      "region": "강원",
+      "subRegion": "강릉",
+      "frequency": "",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/81_24",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+
+    {
+      "name": "KBS 원주 1FM",
+      "broadcaster": "KBS",
+      "region": "강원",
+      "subRegion": "원주",
+      "frequency": "",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/82_21",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+    {
+      "name": "KBS 원주 클래식FM",
+      "broadcaster": "KBS",
+      "region": "강원",
+      "subRegion": "원주",
+      "frequency": "",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/82_24",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+
+    {
+      "name": "KBS 제주 1FM",
+      "broadcaster": "KBS",
+      "region": "제주",
+      "frequency": "",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/90_21",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+    {
+      "name": "KBS 제주 해피FM",
+      "broadcaster": "KBS",
+      "region": "제주",
+      "frequency": "",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/90_22",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+    {
+      "name": "KBS 제주 클래식FM",
+      "broadcaster": "KBS",
+      "region": "제주",
+      "frequency": "",
+      "logo": "kr.kbs",
+      "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/90_24",
+      "streamType": "fetchJson",
+      "jsonPath": "channel_item.0.service_url"
+    },
+
+    {
+      "name": "KNN 파워FM",
+      "broadcaster": "KNN",
+      "region": "부산",
+      "frequency": "",
+      "logo": "kr.knn",
+      "url": "https://stream1.knn.co.kr/hls/lb9ezl87d37uu0vy65bb_pfm/index.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "KNN 러브FM",
+      "broadcaster": "KNN",
+      "region": "부산",
+      "frequency": "",
+      "logo": "kr.knn",
+      "url": "https://stream1.knn.co.kr/hls/b3y26uu6471k8tes9w7h_lfm/index.m3u8",
+      "streamType": "direct"
+    },
+
+    {
+      "name": "UBC 그린FM",
+      "broadcaster": "UBC",
+      "region": "울산",
+      "frequency": "FM 92.3MHz",
+      "logo": "kr.ubc",
+      "url": "https://stream.ubc.co.kr/hls/ubcfmstream/index.m3u8",
+      "streamType": "direct"
+    },
+
+    {
+      "name": "부산MBC 표준FM",
+      "broadcaster": "부산MBC",
+      "region": "부산",
+      "frequency": "",
+      "logo": "kr.mbc",
+      "url": "https://brook.bsmbc.com/live/BusanMBC_AM_onairstream.sjqjsq/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "부산MBC FM4U",
+      "broadcaster": "부산MBC",
+      "region": "부산",
+      "frequency": "",
+      "logo": "kr.mbc",
+      "url": "https://brook.bsmbc.com/live/BusanMBC_FM_onairstream.sjqjsq/playlist.m3u8",
+      "streamType": "direct"
+    },
+
+    {
+      "name": "울산MBC 표준FM",
+      "broadcaster": "울산MBC",
+      "region": "울산",
+      "frequency": "",
+      "logo": "kr.mbc",
+      "url": "https://5ddfd163bd00d.streamlock.net/STDFM/STDFM/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "울산MBC FM4U",
+      "broadcaster": "울산MBC",
+      "region": "울산",
+      "frequency": "",
+      "logo": "kr.mbc",
+      "url": "https://5ddfd163bd00d.streamlock.net/FM4U/FM4U/playlist.m3u8",
+      "streamType": "direct"
+    },
+
+    {
+      "name": "대구MBC 표준FM",
+      "broadcaster": "대구MBC",
+      "region": "대구",
+      "frequency": "",
+      "logo": "kr.mbc",
+      "url": "https://5ee1ec6f32118.streamlock.net/amradio/am/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "대구MBC FM4U",
+      "broadcaster": "대구MBC",
+      "region": "대구",
+      "frequency": "",
+      "logo": "kr.mbc",
+      "url": "https://5ee1ec6f32118.streamlock.net/fmradio/fm/playlist.m3u8",
+      "streamType": "direct"
+    },
+
+    {
+      "name": "안동MBC 표준FM",
+      "broadcaster": "안동MBC",
+      "region": "경북",
+      "subRegion": "안동",
+      "frequency": "",
+      "logo": "kr.mbc",
+      "url": "https://live.andongmbc.co.kr/live/amlive/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "안동MBC FM4U",
+      "broadcaster": "안동MBC",
+      "region": "경북",
+      "subRegion": "안동",
+      "frequency": "",
+      "logo": "kr.mbc",
+      "url": "https://live.andongmbc.co.kr/live/fmlive/playlist.m3u8",
+      "streamType": "direct"
+    },
+
+    {
+      "name": "포항MBC 표준FM",
+      "broadcaster": "포항MBC",
+      "region": "경북",
+      "subRegion": "포항",
+      "frequency": "",
+      "logo": "kr.mbc",
+      "url": "http://stream.yubinet.com:1935/live/_definst_/Radio_Am/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "포항MBC FM4U",
+      "broadcaster": "포항MBC",
+      "region": "경북",
+      "subRegion": "포항",
+      "frequency": "",
+      "logo": "kr.mbc",
+      "url": "http://stream.yubinet.com:1935/live/_definst_/Radio_Fm/playlist.m3u8",
+      "streamType": "direct"
+    },
+
+    {
+      "name": "광주MBC 표준FM",
+      "broadcaster": "광주MBC",
+      "region": "광주",
+      "frequency": "",
+      "logo": "kr.mbc",
+      "url": "https://media.kjmbc.co.kr/hls/amlive/GWANGJU-MBC-AM/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "광주MBC FM4U",
+      "broadcaster": "광주MBC",
+      "region": "광주",
+      "frequency": "",
+      "logo": "kr.mbc",
+      "url": "https://media.kjmbc.co.kr/hls/fmlive/GWANGJU-MBC-FM/playlist.m3u8",
+      "streamType": "direct"
+    },
+
+    {
+      "name": "목포MBC 표준FM",
+      "broadcaster": "목포MBC",
+      "region": "전남",
+      "subRegion": "목포",
+      "frequency": "",
+      "logo": "kr.mbc",
+      "url": "https://vod.mpmbc.co.kr/live/encoder-am/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "목포MBC FM4U",
+      "broadcaster": "목포MBC",
+      "region": "전남",
+      "subRegion": "목포",
+      "frequency": "",
+      "logo": "kr.mbc",
+      "url": "https://vod.mpmbc.co.kr/live/encoder-fm/playlist.m3u8",
+      "streamType": "direct"
+    },
+
+    {
+      "name": "여수MBC 표준FM",
+      "broadcaster": "여수MBC",
+      "region": "전남",
+      "subRegion": "여수",
+      "frequency": "",
+      "logo": "kr.mbc",
+      "url": "https://5c3639aa99149.streamlock.net/%ED%91%9C%EC%A4%80FM/%ED%91%9C%EC%A4%80FM/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "여수MBC FM4U",
+      "broadcaster": "여수MBC",
+      "region": "전남",
+      "subRegion": "여수",
+      "frequency": "",
+      "logo": "kr.mbc",
+      "url": "https://5c3639aa99149.streamlock.net/FM4U/FM4U/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "KBC 마이FM",
+      "broadcaster": "KBC",
+      "region": "광주",
+      "frequency": "",
+      "logo": "kr.kbc",
+      "url": "https://vod.ikbc.co.kr/KBCFM/kbcra_aac/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "GGN 글로벌 광주방송",
+      "broadcaster": "GGN",
+      "region": "광주",
+      "frequency": "",
+      "logo": "kr.ggn",
+      "url": "http://media.ggn.or.kr:8080/live",
+      "streamType": "direct"
+    },
+
+    {
+      "name": "전주MBC 표준FM",
+      "broadcaster": "전주MBC",
+      "region": "전북",
+      "subRegion": "전주",
+      "frequency": "",
+      "logo": "kr.mbc",
+      "url": "https://5ee9633b25727.streamlock.net/jmbc_sfm/myStream/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "전주MBC FM4U",
+      "broadcaster": "전주MBC",
+      "region": "전북",
+      "subRegion": "전주",
+      "frequency": "",
+      "logo": "kr.mbc",
+      "url": "https://5ee9633b25727.streamlock.net/jmbc_fm4u/myStream/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "AFN Go 군산",
+      "broadcaster": "AFN go",
+      "region": "전북",
+      "subRegion": "군산",
+      "frequency": "",
+      "logo": "kr.afn",
+      "url": "https://22183.live.streamtheworld.com/AFNP_KSNAAC.aac",
+      "streamType": "direct"
+    },
+
+    {
+      "name": "대전MBC 표준FM",
+      "broadcaster": "대전MBC",
+      "region": "대전",
+      "frequency": "",
+      "logo": "kr.mbc",
+      "url": "https://ns1.tjmbc.co.kr/live_am/live_am.stream/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "대전MBC FM4U",
+      "broadcaster": "대전MBC",
+      "region": "대전",
+      "frequency": "",
+      "logo": "kr.mbc",
+      "url": "https://ns1.tjmbc.co.kr/live_fm/live_fm.stream/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "TJB 파워FM",
+      "broadcaster": "TJB",
+      "region": "대전",
+      "frequency": "FM 95.7MHz",
+      "logo": "kr.tjb",
+      "url": "https://ns1.tjmbc.co.kr/live_fm/live_fm.stream/playlist.m3u8",
+      "streamType": "direct"
+    },
+
+    {
+      "name": "충북MBC 표준FM",
+      "broadcaster": "충북MBC",
+      "region": "충북",
+      "frequency": "",
+      "logo": "kr.mbc",
+      "url": "https://mbccbp.coreit.co.kr/radio_stfm/myStream.sdp/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "충북MBC FM4U",
+      "broadcaster": "충북MBC",
+      "region": "충북",
+      "frequency": "",
+      "logo": "kr.mbc",
+      "url": "https://mbccbp.coreit.co.kr/radio_fm/myStream.sdp/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "CJB 조이FM",
+      "broadcaster": "CJB",
+      "region": "충북",
+      "subRegion": "청주",
+      "frequency": "FM 101.5MHz(청주), 97.9MHz(충주), 102.7MHz(제천)",
+      "logo": "kr.cjb",
+      "url": "https://wowza1.cjb.co.kr/live/cjbradio/playlist.m3u8",
+      "streamType": "direct"
+    },
+
+    {
+      "name": "춘천MBC 표준FM",
+      "broadcaster": "춘천MBC",
+      "region": "강원",
+      "subRegion": "춘천",
+      "frequency": "",
+      "logo": "kr.mbc",
+      "url": "https://stream.chmbc.co.kr/radio1/fm1_aac/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "춘천MBC FM4U",
+      "broadcaster": "춘천MBC",
+      "region": "강원",
+      "subRegion": "춘천",
+      "frequency": "",
+      "logo": "kr.mbc",
+      "url": "https://stream.chmbc.co.kr/live_radio2/fm1/playlist.m3u8",
+      "streamType": "direct"
+    },
+
+    {
+      "name": "강원영동MBC 표준FM",
+      "broadcaster": "강원영동MBC",
+      "region": "강원",
+      "subRegion": "영동",
+      "frequency": "",
+      "logo": "kr.mbc",
+      "url": "http://123.254.72.24:1935/amlive/livestream/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "강원영동MBC FM4U",
+      "broadcaster": "강원영동MBC",
+      "region": "강원",
+      "subRegion": "영동",
+      "frequency": "",
+      "logo": "kr.mbc",
+      "url": "http://123.254.72.24:1935/fmlive/livestream/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "G1 프레쉬FM",
+      "broadcaster": "G1",
+      "region": "강원",
+      "frequency": "FM 103.1MHz(원주), 105.1MHz(춘천), 106.1MHz(강릉), 99.3MHz(태백), 88.3MHz(평창), 101.3MHz(속초), 90.5MHz(평창읍)",
+      "logo": "kr.g1",
+      "url": "http://61.82.49.4:1935/fm/_definst_/myStream/playlist.m3u8",
+      "streamType": "direct"
+    },
+
+    {
+      "name": "제주MBC 표준FM",
+      "broadcaster": "제주MBC",
+      "region": "제주",
+      "frequency": "",
+      "logo": "kr.mbc",
+      "url": "https://onairfm.jejumbc.com/hls/onairfmjejumbc/index.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "제주MBC FM4U",
+      "broadcaster": "제주MBC",
+      "region": "제주",
+      "frequency": "",
+      "logo": "kr.mbc",
+      "url": "https://onairsfm.jejumbc.com/hls/onairsfmjejumbc/1_2/index.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "JIBS 뉴파워FM",
+      "broadcaster": "JIBS",
+      "region": "제주",
+      "frequency": "FM 101.5MHz(제주), 97.5MHz(제주한림), 98.5MHz(서귀포)",
+      "logo": "kr.jibs",
+      "url": "http://123.140.197.22/stream/2/play.m3u8",
+      "streamType": "direct"
+    },
+
+    {
+      "name": "AFN Go Humphreys",
+      "broadcaster": "AFN go",
+      "region": "수도권",
+      "frequency": "",
+      "logo": "kr.afn",
+      "url": "https://14623.live.streamtheworld.com/AFNP_OSNAAC.aac",
+      "streamType": "direct"
+    }
+  ]
+}
