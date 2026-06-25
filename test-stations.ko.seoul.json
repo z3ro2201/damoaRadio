@@ -4,19 +4,6 @@
   "version": 4,
   "stationList": [
     {
-      "name": "국악방송",
-      "broadcaster": "국악방송",
-      "region": "제주",
-      "frequency": [
-        { "frequency": "FM 91.3MHz", "area": "제주", "lat": 0, "lng": 0 },
-        { "frequency": "FM 106.9MHz", "area": "서귀포", "lat": 0, "lng": 0 }
-      ],
-      "logo": "kr.igbf",
-      "url": "https://mgugaklive.nowcdn.co.kr/gugakradio/gugakradio.stream/playlist.m3u8",
-      "streamType": "direct"
-    },
-
-    {
       "name": "KBS 1라디오",
       "broadcaster": "KBS",
       "frequency": [
@@ -170,6 +157,15 @@
     },
 
     {
+      "name": "TBN 교통방송 (경인)",
+      "broadcaster": "TBN 교통방송",
+      "region": "수도권",
+      "frequency": "FM",
+      "logo": "kr.tbn",
+      "url": "https://www.tbn.it.kr/gyeongin/myStream/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
       "name": "TBS FM",
       "broadcaster": "TBS 교통방송",
       "region": "수도권",
@@ -214,6 +210,17 @@
       "frequency": "105.3MHz FM",
       "logo": "kr.cpbc",
       "url": "http://onair1.cpbc.co.kr:1935/live/_definst_/Instreamer.stream_aac/playlist.m3u8",
+      "streamType": "direct"
+    },
+    {
+      "name": "국악방송",
+      "broadcaster": "국악방송",
+      "region": "수도권",
+      "frequency": [
+        { "frequency": "FM 99.1MHz", "area": "수도권", "lat": 0, "lng": 0 }
+      ],
+      "logo": "kr.igbf",
+      "url": "https://mgugaklive.nowcdn.co.kr/gugakradio/gugakradio.stream/playlist.m3u8",
       "streamType": "direct"
     },
 

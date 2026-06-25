@@ -9,7 +9,15 @@
         "ko.daegu",
         "ko.gwangju",
         "ko.daejeon",
+        "ko.chungbuk",
+        "ko.chungnam",
+        "ko.jeonnam",
+        "ko.jeonbuk",
+        "ko.gyeongbuk",
+        "ko.gyeongnam",
+        "ko.ulsan",
         "ko.gangwon",
+        "ko.sejong",
         "ko.jeju"
       ]
     },
