@@ -1,6 +1,6 @@
 {
   "country": "KR",
-  "countryName": "대한민국",
+  "countryName": "한국",
   "version": 2,
   "stationList": [
     {
@@ -27,11 +27,25 @@
       "url": "https://ebsonair.ebs.co.kr/ebs2familypc/familypc1m/playlist.m3u8",
       "streamType": "direct"
     },
+
+    {
+      "name": "KFN 국방방송",
+      "broadcaster": "국방홍보원",
+      "frequency": "FM 96.7MHz(서울/춘천), 101.1MHz(양평/원주), 96.3MHz(파주), 89.5MHz(서해5도), 92.5MHz(강릉/속초/고성), 101.5MHz(인제/양구), 93.3MHz(인제[상남]), 100.1MHz(대전/논산/계룡), 96.5MHz(광주), 92.7MHz(포항), 94.1MHz(서귀포)",
+      "logo": "kr.kfn",
+      "url": "https://media.dema.mil.kr/live_radio/audio.sdp/playlist.m3u8",
+      "streamType": "direct"
+    },
+
     {
       "name": "OBS 경인방송",
       "broadcaster": "OBS 경인방송",
       "region": "수도권",
-      "frequency": "FM",
+      "start_lat": 36.9,
+      "start_lng": 126.3,
+      "end_lat": 38.3,
+      "end_lng": 127.9,
+      "frequency": "99.9㎒",
       "logo": "kr.obs",
       "url": "https://vod3.obs.co.kr:444/live/obsstream1/radio.stream/playlist.m3u8",
       "streamType": "direct"
@@ -511,15 +525,6 @@
       "frequency": "FM 99.3MHz(광주/전남), 94.7MHz(전남 서남부), 95.3MHz(전북 북부), 95.9MHz(전북 동남부)",
       "logo": "kr.igbf",
       "url": "https://mgugaklive.nowcdn.co.kr/gugakgwangju/Glive.stream/playlist.m3u8",
-      "streamType": "direct"
-    },
-
-    {
-      "name": "KFN 국방방송",
-      "broadcaster": "국방홍보원",
-      "frequency": "FM 96.7MHz(서울/춘천), 101.1MHz(양평/원주), 96.3MHz(파주), 89.5MHz(서해5도), 92.5MHz(강릉/속초/고성), 101.5MHz(인제/양구), 93.3MHz(인제[상남]), 100.1MHz(대전/논산/계룡), 96.5MHz(광주), 92.7MHz(포항), 94.1MHz(서귀포)",
-      "logo": "kr.kfn",
-      "url": "https://media.dema.mil.kr/live_radio/audio.sdp/playlist.m3u8",
       "streamType": "direct"
     },
 
