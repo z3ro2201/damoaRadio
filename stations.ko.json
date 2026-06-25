@@ -1,6 +1,6 @@
 {
   "country": "KR",
-  "countryName": "한국",
+  "countryName": "대한민국",
   "version": 2,
   "stationList": [
     {
@@ -41,6 +41,10 @@
       "broadcaster": "SBS",
       "frequency": "107.7MHz FM",
       "region": "수도권",
+      "start_lat": 36.9,
+      "start_lng": 126.3,
+      "end_lat": 38.3,
+      "end_lng": 127.9,
       "logo": "kr.sbs",
       "url": "https://apis.sbs.co.kr/play-api/1.0/livestream/powerpc/powerfm?protocol=hls&ssl=Y&quality=high",
       "streamType": "fetchText"
@@ -50,6 +54,10 @@
       "broadcaster": "SBS",
       "frequency": "103.5MHz FM",
       "region": "수도권",
+      "start_lat": 36.9,
+      "start_lng": 126.3,
+      "end_lat": 38.3,
+      "end_lng": 127.9,
       "logo": "kr.sbs",
       "url": "https://apis.sbs.co.kr/play-api/1.0/livestream/lovepc/lovefm?protocol=hls&ssl=Y&quality=high",
       "streamType": "fetchText"
