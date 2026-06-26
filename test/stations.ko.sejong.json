@@ -1,12 +1,16 @@
 {
   "country": "KR",
   "countryName": "대한민국",
-  "version": 4,
+  "version": 5,
+  "region": "세종",
+  "start_lat": 36.4,
+  "start_lng": 127.1,
+  "end_lat": 36.7,
+  "end_lng": 127.5,
   "stationList": [
     {
       "name": "세종FM",
       "broadcaster": "세종FM",
-      "region": "세종",
       "frequency": "98.9MHz FM",
       "logo": "kr.sejongfm",
       "url": "http://icecast.radios.kr:8000/sejongfm",
@@ -15,7 +19,6 @@
     {
       "name": "금강FM",
       "broadcaster": "금강FM방송",
-      "region": "세종",
       "frequency": "104.9MHz FM",
       "logo": "kr.kumkang",
       "url": "http://121.183.240.143:8000/KKFM1",

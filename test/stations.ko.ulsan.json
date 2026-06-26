@@ -1,23 +1,24 @@
 {
   "country": "KR",
   "countryName": "대한민국",
-  "version": 4,
+  "version": 5,
+  "region": "울산",
+  "start_lat": 35.3,
+  "start_lng": 129.0,
+  "end_lat": 35.8,
+  "end_lng": 129.5,
   "stationList": [
     {
       "name": "KBS 울산 1 라디오",
       "broadcaster": "KBS",
-      "region": "울산",
       "frequency": "711kHz AM",
-      "logo": "kr.kbs",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/11_21",
       "streamType": "fetchJson",
       "jsonPath": "channel_item.0.service_url"
     },
-
     {
       "name": "울산MBC 표준FM",
       "broadcaster": "울산MBC",
-      "region": "울산",
       "frequency": "",
       "logo": "kr.mbc",
       "url": "https://5ddfd163bd00d.streamlock.net/STDFM/STDFM/playlist.m3u8",
@@ -26,7 +27,6 @@
     {
       "name": "울산MBC FM4U",
       "broadcaster": "울산MBC",
-      "region": "울산",
       "frequency": "",
       "logo": "kr.mbc",
       "url": "https://5ddfd163bd00d.streamlock.net/FM4U/FM4U/playlist.m3u8",
@@ -35,7 +35,6 @@
     {
       "name": "UBC 그린FM",
       "broadcaster": "UBC",
-      "region": "울산",
       "frequency": "FM 92.3MHz",
       "logo": "kr.ubc",
       "url": "https://stream.ubc.co.kr/hls/ubcfmstream/index.m3u8",
@@ -44,25 +43,20 @@
     {
       "name": "TBN 교통방송 (울산)",
       "broadcaster": "TBN 교통방송",
-      "region": "울산",
       "frequency": "FM",
-      "logo": "kr.tbn",
       "url": "https://www.tbn.it.kr/ulsan/myStream/playlist.m3u8",
       "streamType": "direct"
     },
     {
       "name": "극동방송 (울산)",
       "broadcaster": "FEBC 극동방송",
-      "region": "울산",
       "frequency": "FM 107.3MHz",
-      "logo": "kr.febc",
       "url": "https://mlive3.febc.net/live5/uslive/playlist.m3u8",
       "streamType": "direct"
     },
     {
       "name": "CBS 표준FM (울산)",
       "broadcaster": "CBS 울산",
-      "region": "울산",
       "frequency": "FM",
       "logo": "kr.cbs",
       "url": "https://m-aac.cbs.co.kr/ulsan/_definst_/ulsan.stream/playlist.m3u8",

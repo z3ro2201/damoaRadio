@@ -30,7 +30,6 @@
       "url": "https://liveradio.swr.de/sw282p3/swr3/play.mp3",
       "streamType": "redirect"
     },
-
     {
       "name": "Rai Radio 1",
       "broadcaster": "Rai",
@@ -85,7 +84,6 @@
       "url": "http://icestreaming.rai.it/8.mp3",
       "streamType": "redirect"
     },
-
     {
       "name": "Radio Österreich 1",
       "broadcaster": "Ö1",
@@ -104,7 +102,6 @@
       "url": "https://orf-live.ors-shoutcast.at/fm4-q2a",
       "streamType": "direct"
     },
-
     {
       "name": "NPO 3FM",
       "broadcaster": "npoRadio",
@@ -123,7 +120,6 @@
       "url": "http://icecast.omroep.nl/radio4-bb-mp3",
       "streamType": "direct"
     },
-
     {
       "name": "RNE Radio 1",
       "broadcaster": "Rne Radio",
@@ -142,7 +138,6 @@
       "url": "https://rtveradiolivemd.akamaized.net/rne_r3_main.m3u8",
       "streamType": "direct"
     },
-
     {
       "name": "SRF 1",
       "broadcaster": "SRG SSR",
@@ -197,7 +192,6 @@
       "url": "https://livestreaming-node-3.srg-ssr.ch/srgssr/srfvirus/mp3/128",
       "streamType": "redirect"
     },
-
     {
       "name": "Couleur 3",
       "broadcaster": "SRG SSR",

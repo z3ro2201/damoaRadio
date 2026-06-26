@@ -1,15 +1,18 @@
 {
   "country": "KR",
   "countryName": "대한민국",
-  "version": 4,
+  "version": 5,
+  "region": "경북",
+  "start_lat": 35.5,
+  "start_lng": 127.8,
+  "end_lat": 37.2,
+  "end_lng": 130.0,
   "stationList": [
     {
       "name": "KBS 안동 1FM",
       "broadcaster": "KBS",
-      "region": "경북",
       "subRegion": "안동",
       "frequency": "",
-      "logo": "kr.kbs",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/31_21",
       "streamType": "fetchJson",
       "jsonPath": "channel_item.0.service_url"
@@ -17,19 +20,15 @@
     {
       "name": "KBS 포항 1FM",
       "broadcaster": "KBS",
-      "region": "경북",
       "subRegion": "포항",
       "frequency": "",
-      "logo": "kr.kbs",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/32_21",
       "streamType": "fetchJson",
       "jsonPath": "channel_item.0.service_url"
     },
-
     {
       "name": "안동MBC 표준FM",
       "broadcaster": "안동MBC",
-      "region": "경북",
       "subRegion": "안동",
       "frequency": "",
       "logo": "kr.mbc",
@@ -39,18 +38,15 @@
     {
       "name": "안동MBC FM4U",
       "broadcaster": "안동MBC",
-      "region": "경북",
       "subRegion": "안동",
       "frequency": "",
       "logo": "kr.mbc",
       "url": "https://live.andongmbc.co.kr/live/fmlive/playlist.m3u8",
       "streamType": "direct"
     },
-
     {
       "name": "포항MBC 표준FM",
       "broadcaster": "포항MBC",
-      "region": "경북",
       "subRegion": "포항",
       "frequency": "",
       "logo": "kr.mbc",
@@ -60,7 +56,6 @@
     {
       "name": "포항MBC FM4U",
       "broadcaster": "포항MBC",
-      "region": "경북",
       "subRegion": "포항",
       "frequency": "",
       "logo": "kr.mbc",
@@ -70,38 +65,41 @@
     {
       "name": "TBN 교통방송 (경북)",
       "broadcaster": "TBN 교통방송",
-      "region": "경북",
       "frequency": "FM",
-      "logo": "kr.tbn",
       "url": "https://www.tbn.it.kr/kyungbuk/myStream/playlist.m3u8",
       "streamType": "direct"
     },
     {
       "name": "국악방송",
       "broadcaster": "국악방송",
-      "region": "경북",
       "frequency": [
-        { "frequency": "FM 107.9MHz", "area": "경주", "lat": 0, "lng": 0 },
-        { "frequency": "FM 107.9MHz", "area": "포항", "lat": 0, "lng": 0 }
+        {
+          "frequency": "FM 107.9MHz",
+          "area": "경주",
+          "lat": 0,
+          "lng": 0
+        },
+        {
+          "frequency": "FM 107.9MHz",
+          "area": "포항",
+          "lat": 0,
+          "lng": 0
+        }
       ],
-      "logo": "kr.igbf",
       "url": "https://mgugaklive.nowcdn.co.kr/gugakradio/gugakradio.stream/playlist.m3u8",
       "streamType": "direct"
     },
     {
       "name": "극동방송 (포항)",
       "broadcaster": "FEBC 극동방송",
-      "region": "경북",
       "subRegion": "포항",
       "frequency": "FM 90.3MHz",
-      "logo": "kr.febc",
       "url": "https://mlive3.febc.net/live5/phlive/playlist.m3u8",
       "streamType": "direct"
     },
     {
       "name": "상주FM",
       "broadcaster": "상주FM",
-      "region": "경북",
       "subRegion": "상주",
       "frequency": "93.9MHz FM",
       "logo": "kr.sangjufm",
@@ -111,7 +109,6 @@
     {
       "name": "영주FM",
       "broadcaster": "영주에프엠방송",
-      "region": "경북",
       "subRegion": "영주",
       "frequency": "89.1MHz FM",
       "logo": "kr.yeongjufm",

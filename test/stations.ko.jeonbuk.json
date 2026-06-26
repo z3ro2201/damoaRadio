@@ -1,15 +1,18 @@
 {
   "country": "KR",
   "countryName": "대한민국",
-  "version": 4,
+  "version": 5,
+  "region": "전북",
+  "start_lat": 35.2,
+  "start_lng": 126.4,
+  "end_lat": 36.2,
+  "end_lng": 127.9,
   "stationList": [
     {
       "name": "KBS 전주 1FM",
       "broadcaster": "KBS",
-      "region": "전북",
       "subRegion": "전주",
       "frequency": "",
-      "logo": "kr.kbs",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/50_21",
       "streamType": "fetchJson",
       "jsonPath": "channel_item.0.service_url"
@@ -17,10 +20,8 @@
     {
       "name": "KBS 전주 해피FM",
       "broadcaster": "KBS",
-      "region": "전북",
       "subRegion": "전주",
       "frequency": "",
-      "logo": "kr.kbs",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/50_22",
       "streamType": "fetchJson",
       "jsonPath": "channel_item.0.service_url"
@@ -28,19 +29,15 @@
     {
       "name": "KBS 전주 클래식FM",
       "broadcaster": "KBS",
-      "region": "전북",
       "subRegion": "전주",
       "frequency": "",
-      "logo": "kr.kbs",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/50_24",
       "streamType": "fetchJson",
       "jsonPath": "channel_item.0.service_url"
     },
-
     {
       "name": "전주MBC 표준FM",
       "broadcaster": "전주MBC",
-      "region": "전북",
       "subRegion": "전주",
       "frequency": "",
       "logo": "kr.mbc",
@@ -50,7 +47,6 @@
     {
       "name": "전주MBC FM4U",
       "broadcaster": "전주MBC",
-      "region": "전북",
       "subRegion": "전주",
       "frequency": "",
       "logo": "kr.mbc",
@@ -60,26 +56,20 @@
     {
       "name": "TBN 교통방송 (전북)",
       "broadcaster": "TBN 교통방송",
-      "region": "전북",
       "frequency": "FM",
-      "logo": "kr.tbn",
       "url": "https://www.tbn.it.kr/jeonbuk/myStream/playlist.m3u8",
       "streamType": "direct"
     },
     {
       "name": "WBS 원음방송 (전북)",
       "broadcaster": "WBS",
-      "region": "전북",
       "frequency": "FM",
-      "logo": "kr.wbs",
       "url": "https://wbsradio2.kr/wbs-j",
       "streamType": "direct"
     },
-
     {
       "name": "JTV 매직FM",
       "broadcaster": "JTV",
-      "region": "전북",
       "frequency": "FM 90.1MHz",
       "logo": "kr.jtv",
       "url": "https://jtvonair.sbsoft.net/jtv_radio/myStream/playlist.m3u8",
@@ -88,17 +78,13 @@
     {
       "name": "극동방송 (전북)",
       "broadcaster": "FEBC 극동방송",
-      "region": "전북",
       "frequency": "FM 91.1MHz",
-      "logo": "kr.febc",
       "url": "https://mlive3.febc.net/live5/jblive/playlist.m3u8",
       "streamType": "direct"
     },
-
     {
       "name": "전주FM",
       "broadcaster": "전주공동체라디오",
-      "region": "전북",
       "subRegion": "전주",
       "frequency": "FM 93.5MHz",
       "logo": "kr.jeonjufmm",
@@ -108,10 +94,8 @@
     {
       "name": "AFN Go 군산",
       "broadcaster": "AFN go",
-      "region": "전북",
       "subRegion": "군산",
       "frequency": "",
-      "logo": "kr.afn",
       "url": "https://22183.live.streamtheworld.com/AFNP_KSNAAC.aac",
       "streamType": "direct"
     }

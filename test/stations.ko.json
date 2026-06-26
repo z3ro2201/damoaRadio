@@ -1,19 +1,48 @@
 {
   "country": "KR",
   "countryName": "대한민국",
-  "version": 4,
+  "version": 5,
   "stationList": [
     {
       "name": "EBS FM",
       "broadcaster": "EBS",
       "frequency": [
-        { "frequency": "FM 104.5㎒", "area": "수도권", "lat": 0, "lng": 0 },
-        { "frequency": "FM 106.5㎒", "area": "춘천", "lat": 0, "lng": 0 },
-        { "frequency": "FM 104.9㎒", "area": "원주", "lat": 0, "lng": 0 },
-        { "frequency": "FM 104.9㎒", "area": "강원영동", "lat": 0, "lng": 0 },
-        { "frequency": "FM 107.5㎒", "area": "횡성", "lat": 0, "lng": 0 },
-        ,
-        { "frequency": "FM 107.5㎒", "area": "평창", "lat": 0, "lng": 0 },
+        {
+          "frequency": "FM 104.5㎒",
+          "area": "수도권",
+          "lat": 0,
+          "lng": 0
+        },
+        {
+          "frequency": "FM 106.5㎒",
+          "area": "춘천",
+          "lat": 0,
+          "lng": 0
+        },
+        {
+          "frequency": "FM 104.9㎒",
+          "area": "원주",
+          "lat": 0,
+          "lng": 0
+        },
+        {
+          "frequency": "FM 104.9㎒",
+          "area": "강원영동",
+          "lat": 0,
+          "lng": 0
+        },
+        {
+          "frequency": "FM 107.5㎒",
+          "area": "횡성",
+          "lat": 0,
+          "lng": 0
+        },
+        {
+          "frequency": "FM 107.5㎒",
+          "area": "평창",
+          "lat": 0,
+          "lng": 0
+        },
         {
           "frequency": "FM 107.1㎒",
           "area": "강원·태백 남부 산간",
@@ -26,27 +55,102 @@
           "lat": 0,
           "lng": 0
         },
-        { "frequency": "FM 102.3㎒", "area": "서산", "lat": 0, "lng": 0 },
+        {
+          "frequency": "FM 102.3㎒",
+          "area": "서산",
+          "lat": 0,
+          "lng": 0
+        },
         {
           "frequency": "FM 107.9㎒",
           "area": "대전·청주·충북 남부3군",
           "lat": 0,
           "lng": 0
         },
-        { "frequency": "FM 105.1㎒", "area": "청주시내", "lat": 0, "lng": 0 },
-        { "frequency": "FM 104.1㎒", "area": "충주", "lat": 0, "lng": 0 },
-        { "frequency": "FM 107.7㎒", "area": "부산", "lat": 0, "lng": 0 },
-        { "frequency": "FM 105.9㎒", "area": "울산", "lat": 0, "lng": 0 },
-        { "frequency": "FM 104.3㎒", "area": "창원", "lat": 0, "lng": 0 },
-        { "frequency": "FM 101.5㎒", "area": "진주", "lat": 0, "lng": 0 },
-        { "frequency": "FM 104.7㎒", "area": "거창", "lat": 0, "lng": 0 },
-        { "frequency": "FM 105.1㎒", "area": "대구", "lat": 0, "lng": 0 },
-        { "frequency": "FM 104.3㎒", "area": "경주", "lat": 0, "lng": 0 },
-        { "frequency": "FM 107.7㎒", "area": "안동", "lat": 0, "lng": 0 },
-        { "frequency": "FM 106.7㎒", "area": "포항", "lat": 0, "lng": 0 },
-        { "frequency": "FM 107.9㎒", "area": "울릉도", "lat": 0, "lng": 0 },
-        { "frequency": "FM 107.9㎒", "area": "독도", "lat": 0, "lng": 0 },
-        { "frequency": "FM 105.3㎒", "area": "광주", "lat": 0, "lng": 0 },
+        {
+          "frequency": "FM 105.1㎒",
+          "area": "청주시내",
+          "lat": 0,
+          "lng": 0
+        },
+        {
+          "frequency": "FM 104.1㎒",
+          "area": "충주",
+          "lat": 0,
+          "lng": 0
+        },
+        {
+          "frequency": "FM 107.7㎒",
+          "area": "부산",
+          "lat": 0,
+          "lng": 0
+        },
+        {
+          "frequency": "FM 105.9㎒",
+          "area": "울산",
+          "lat": 0,
+          "lng": 0
+        },
+        {
+          "frequency": "FM 104.3㎒",
+          "area": "창원",
+          "lat": 0,
+          "lng": 0
+        },
+        {
+          "frequency": "FM 101.5㎒",
+          "area": "진주",
+          "lat": 0,
+          "lng": 0
+        },
+        {
+          "frequency": "FM 104.7㎒",
+          "area": "거창",
+          "lat": 0,
+          "lng": 0
+        },
+        {
+          "frequency": "FM 105.1㎒",
+          "area": "대구",
+          "lat": 0,
+          "lng": 0
+        },
+        {
+          "frequency": "FM 104.3㎒",
+          "area": "경주",
+          "lat": 0,
+          "lng": 0
+        },
+        {
+          "frequency": "FM 107.7㎒",
+          "area": "안동",
+          "lat": 0,
+          "lng": 0
+        },
+        {
+          "frequency": "FM 106.7㎒",
+          "area": "포항",
+          "lat": 0,
+          "lng": 0
+        },
+        {
+          "frequency": "FM 107.9㎒",
+          "area": "울릉도",
+          "lat": 0,
+          "lng": 0
+        },
+        {
+          "frequency": "FM 107.9㎒",
+          "area": "독도",
+          "lat": 0,
+          "lng": 0
+        },
+        {
+          "frequency": "FM 105.3㎒",
+          "area": "광주",
+          "lat": 0,
+          "lng": 0
+        },
         {
           "frequency": "FM 104.1㎒, 106.7㎒",
           "area": "목포",
@@ -59,12 +163,31 @@
           "lat": 0,
           "lng": 0
         },
-        { "frequency": "106.9㎒", "area": "전주", "lat": 0, "lng": 0 },
-        { "frequency": "107.5㎒", "area": "남원", "lat": 0, "lng": 0 },
-        { "frequency": "107.3㎒", "area": "제주", "lat": 0, "lng": 0 },
-        { "frequency": "104.9㎒", "area": "서귀포", "lat": 0, "lng": 0 }
+        {
+          "frequency": "106.9㎒",
+          "area": "전주",
+          "lat": 0,
+          "lng": 0
+        },
+        {
+          "frequency": "107.5㎒",
+          "area": "남원",
+          "lat": 0,
+          "lng": 0
+        },
+        {
+          "frequency": "107.3㎒",
+          "area": "제주",
+          "lat": 0,
+          "lng": 0
+        },
+        {
+          "frequency": "104.9㎒",
+          "area": "서귀포",
+          "lat": 0,
+          "lng": 0
+        }
       ],
-      "logo": "kr.ebs",
       "url": "https://ebsonair.ebs.co.kr/fmradiofamilypc/familypc1m/playlist.m3u8",
       "streamType": "direct"
     },
@@ -72,7 +195,6 @@
       "name": "EBS 반디 외국어 전문",
       "broadcaster": "EBS",
       "frequency": "인터넷 전용",
-      "logo": "kr.ebs",
       "url": "https://ebsonair.ebs.co.kr/cloud1/iradio/playlist.m3u8",
       "streamType": "direct"
     },
@@ -92,41 +214,112 @@
           "lng": 126.7052,
           "frequency": "96.7㎒ FM"
         },
-        { "area": "양평", "lat": 0, "lng": 0, "frequency": "101.1㎒" },
-        { "area": "원주", "lat": 0, "lng": 0, "frequency": "101.1㎒" },
-        { "area": "파주", "lat": 0, "lng": 0, "frequency": "96.3㎒" },
-        { "area": "서해5도", "lat": 0, "lng": 0, "frequency": "89.5㎒" },
-        { "area": "강릉", "lat": 0, "lng": 0, "frequency": "92.5㎒" },
-        { "area": "속초", "lat": 0, "lng": 0, "frequency": "92.5㎒" },
-        { "area": "고성", "lat": 0, "lng": 0, "frequency": "92.5㎒" },
-        { "area": "인제", "lat": 0, "lng": 0, "frequency": "101.5㎒" },
-        { "area": "인제(상남)", "lat": 0, "lng": 0, "frequency": "93.3㎒" },
-        { "area": "대전", "lat": 0, "lng": 0, "frequency": "100.1㎒" },
-        { "area": "논산", "lat": 0, "lng": 0, "frequency": "100.1㎒" },
-        { "area": "계룡", "lat": 0, "lng": 0, "frequency": "100.1㎒" },
-        { "area": "광주", "lat": 0, "lng": 0, "frequency": "96.5㎒" },
-        { "area": "포항", "lat": 0, "lng": 0, "frequency": "92.7㎒" },
-        { "area": "서귀포", "lat": 0, "lng": 0, "frequency": "94.1㎒" }
+        {
+          "area": "양평",
+          "lat": 0,
+          "lng": 0,
+          "frequency": "101.1㎒"
+        },
+        {
+          "area": "원주",
+          "lat": 0,
+          "lng": 0,
+          "frequency": "101.1㎒"
+        },
+        {
+          "area": "파주",
+          "lat": 0,
+          "lng": 0,
+          "frequency": "96.3㎒"
+        },
+        {
+          "area": "서해5도",
+          "lat": 0,
+          "lng": 0,
+          "frequency": "89.5㎒"
+        },
+        {
+          "area": "강릉",
+          "lat": 0,
+          "lng": 0,
+          "frequency": "92.5㎒"
+        },
+        {
+          "area": "속초",
+          "lat": 0,
+          "lng": 0,
+          "frequency": "92.5㎒"
+        },
+        {
+          "area": "고성",
+          "lat": 0,
+          "lng": 0,
+          "frequency": "92.5㎒"
+        },
+        {
+          "area": "인제",
+          "lat": 0,
+          "lng": 0,
+          "frequency": "101.5㎒"
+        },
+        {
+          "area": "인제(상남)",
+          "lat": 0,
+          "lng": 0,
+          "frequency": "93.3㎒"
+        },
+        {
+          "area": "대전",
+          "lat": 0,
+          "lng": 0,
+          "frequency": "100.1㎒"
+        },
+        {
+          "area": "논산",
+          "lat": 0,
+          "lng": 0,
+          "frequency": "100.1㎒"
+        },
+        {
+          "area": "계룡",
+          "lat": 0,
+          "lng": 0,
+          "frequency": "100.1㎒"
+        },
+        {
+          "area": "광주",
+          "lat": 0,
+          "lng": 0,
+          "frequency": "96.5㎒"
+        },
+        {
+          "area": "포항",
+          "lat": 0,
+          "lng": 0,
+          "frequency": "92.7㎒"
+        },
+        {
+          "area": "서귀포",
+          "lat": 0,
+          "lng": 0,
+          "frequency": "94.1㎒"
+        }
       ],
       "logo": "kr.kfn",
       "url": "https://media.dema.mil.kr/live_radio/audio.sdp/playlist.m3u8",
       "streamType": "direct"
     },
-
     {
       "name": "SBS 고릴라M",
       "broadcaster": "SBS",
       "frequency": "DMB",
-      "logo": "kr.sbs",
       "url": "https://apis.sbs.co.kr/play-api/1.0/livestream/sbsdmbpc/sbsdmb?protocol=hls&ssl=Y&quality=high",
       "streamType": "fetchText"
     },
-
     {
       "name": "MBC 올댓뮤직",
       "broadcaster": "MBC",
       "frequency": "인터넷",
-      "logo": "kr.mbc",
       "url": "https://sminiplay.imbc.com/aacplay.ashx?agent=webapp&channel=chm",
       "streamType": "fetchText"
     },
@@ -134,13 +327,37 @@
       "name": "KBS 3라디오",
       "broadcaster": "KBS",
       "frequency": [
-        { "frequency": "AM 1134㎑", "area": "수도권", "lat": 0, "lng": 0 },
-        { "frequency": "AM 675㎑", "area": "전주", "lat": 0, "lng": 0 },
-        { "frequency": "AM 936㎑", "area": "창원", "lat": 0, "lng": 0 },
-        { "frequency": "AM 576㎑", "area": "순천", "lat": 0, "lng": 0 },
-        { "frequency": "FM 104.9㎒", "area": "수도권", "lat": 0, "lng": 0 }
+        {
+          "frequency": "AM 1134㎑",
+          "area": "수도권",
+          "lat": 0,
+          "lng": 0
+        },
+        {
+          "frequency": "AM 675㎑",
+          "area": "전주",
+          "lat": 0,
+          "lng": 0
+        },
+        {
+          "frequency": "AM 936㎑",
+          "area": "창원",
+          "lat": 0,
+          "lng": 0
+        },
+        {
+          "frequency": "AM 576㎑",
+          "area": "순천",
+          "lat": 0,
+          "lng": 0
+        },
+        {
+          "frequency": "FM 104.9㎒",
+          "area": "수도권",
+          "lat": 0,
+          "lng": 0
+        }
       ],
-      "logo": "kr.kbs",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/23",
       "streamType": "fetchJson",
       "jsonPath": "channel_item.0.service_url"
@@ -149,7 +366,6 @@
       "name": "KBS 한민족방송",
       "broadcaster": "KBS",
       "frequency": "AM 972㎑, 1170㎑, 6015㎑",
-      "logo": "kr.kbs",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/26",
       "streamType": "fetchJson",
       "jsonPath": "channel_item.0.service_url"
@@ -158,7 +374,6 @@
       "name": "KBS World English",
       "broadcaster": "KBS",
       "frequency": "인터넷",
-      "logo": "kr.kbs",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/I92",
       "streamType": "fetchJson",
       "jsonPath": "channel_item.0.service_url"
@@ -167,26 +382,21 @@
       "name": "KBS World Multilingual",
       "broadcaster": "KBS",
       "frequency": "인터넷",
-      "logo": "kr.kbs",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/wink11",
       "streamType": "fetchJson",
       "jsonPath": "channel_item.0.service_url"
     },
-
     {
       "name": "CBS JOY4U",
       "broadcaster": "CBS",
       "frequency": "인터넷",
-      "logo": "kr.cbs",
       "url": "https://m-aac.cbs.co.kr/mweb_cbscmc/_definst_/cbscmc.stream/playlist.m3u8",
       "streamType": "direct"
     },
-
     {
       "name": "BBS 불교방송",
       "broadcaster": "BBS",
       "frequency": "101.9MHz FM",
-      "logo": "kr.bbs",
       "url": "https://bbslive.clouducs.com/bbsradio-mlive/radio.stream/chunklist_w738448087.m3u8",
       "streamType": "direct"
     },
@@ -206,7 +416,6 @@
       "url": "https://btn.nowcdn.co.kr/btn_ch1st/live.stream/playlist.m3u8",
       "streamType": "direct"
     },
-
     {
       "name": "C 채널",
       "broadcaster": "C채널",

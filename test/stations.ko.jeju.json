@@ -1,14 +1,17 @@
 {
   "country": "KR",
   "countryName": "대한민국",
-  "version": 4,
+  "version": 5,
+  "region": "제주",
+  "start_lat": 33.1,
+  "start_lng": 126.0,
+  "end_lat": 33.6,
+  "end_lng": 126.9,
   "stationList": [
     {
       "name": "KBS 제주 1FM",
       "broadcaster": "KBS",
-      "region": "제주",
       "frequency": "",
-      "logo": "kr.kbs",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/90_21",
       "streamType": "fetchJson",
       "jsonPath": "channel_item.0.service_url"
@@ -16,9 +19,7 @@
     {
       "name": "KBS 제주 해피FM",
       "broadcaster": "KBS",
-      "region": "제주",
       "frequency": "",
-      "logo": "kr.kbs",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/90_22",
       "streamType": "fetchJson",
       "jsonPath": "channel_item.0.service_url"
@@ -26,18 +27,14 @@
     {
       "name": "KBS 제주 클래식FM",
       "broadcaster": "KBS",
-      "region": "제주",
       "frequency": "",
-      "logo": "kr.kbs",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/90_24",
       "streamType": "fetchJson",
       "jsonPath": "channel_item.0.service_url"
     },
-
     {
       "name": "제주MBC 표준FM",
       "broadcaster": "제주MBC",
-      "region": "제주",
       "frequency": "",
       "logo": "kr.mbc",
       "url": "https://onairfm.jejumbc.com/hls/onairfmjejumbc/index.m3u8",
@@ -46,7 +43,6 @@
     {
       "name": "제주MBC FM4U",
       "broadcaster": "제주MBC",
-      "region": "제주",
       "frequency": "",
       "logo": "kr.mbc",
       "url": "https://onairsfm.jejumbc.com/hls/onairsfmjejumbc/1_2/index.m3u8",
@@ -55,7 +51,6 @@
     {
       "name": "JIBS 뉴파워FM",
       "broadcaster": "JIBS",
-      "region": "제주",
       "frequency": "FM 101.5MHz(제주), 97.5MHz(제주한림), 98.5MHz(서귀포)",
       "logo": "kr.jibs",
       "url": "http://123.140.197.22/stream/2/play.m3u8",
@@ -64,39 +59,41 @@
     {
       "name": "국악방송",
       "broadcaster": "국악방송",
-      "region": "제주",
       "frequency": [
-        { "frequency": "FM 91.3MHz", "area": "제주", "lat": 0, "lng": 0 },
-        { "frequency": "FM 106.9MHz", "area": "서귀포", "lat": 0, "lng": 0 }
+        {
+          "frequency": "FM 91.3MHz",
+          "area": "제주",
+          "lat": 0,
+          "lng": 0
+        },
+        {
+          "frequency": "FM 106.9MHz",
+          "area": "서귀포",
+          "lat": 0,
+          "lng": 0
+        }
       ],
-      "logo": "kr.igbf",
       "url": "https://mgugaklive.nowcdn.co.kr/gugakradio/gugakradio.stream/playlist.m3u8",
       "streamType": "direct"
     },
     {
       "name": "TBN 교통방송 (제주)",
       "broadcaster": "TBN 교통방송",
-      "region": "제주",
       "frequency": "FM",
-      "logo": "kr.tbn",
       "url": "https://www.tbn.it.kr/jeju/myStream/playlist.m3u8",
       "streamType": "direct"
     },
     {
       "name": "BBS 불교방송 (제주)",
       "broadcaster": "BBS",
-      "region": "제주",
       "frequency": "FM",
-      "logo": "kr.bbs",
       "url": "http://kdbmobile.clouducs.com:1935/jeju/jeju.stream_aac/playlist.m3u8",
       "streamType": "direct"
     },
     {
       "name": "극동방송 (제주)",
       "broadcaster": "FEBC 극동방송",
-      "region": "제주",
       "frequency": "FM 104.7MHz",
-      "logo": "kr.febc",
       "url": "https://mlive3.febc.net/live5/jejufm/playlist.m3u8",
       "streamType": "direct"
     }
