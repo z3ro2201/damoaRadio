@@ -15,7 +15,9 @@
       "frequency": "",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/80_21",
       "streamType": "fetchJson",
-      "jsonPath": "channel_item.0.service_url"
+      "jsonPath": "channel_item.0.service_url",
+      "metaUrl": "https://static.api.kbs.co.kr/mediafactory/v1/schedule/onair_now?local_station_code=80&channel_code=21",
+      "metaType": "kbs"
     },
     {
       "name": "KBS 춘천 해피FM",
@@ -24,7 +26,9 @@
       "frequency": "",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/80_22",
       "streamType": "fetchJson",
-      "jsonPath": "channel_item.0.service_url"
+      "jsonPath": "channel_item.0.service_url",
+      "metaUrl": "https://static.api.kbs.co.kr/mediafactory/v1/schedule/onair_now?local_station_code=80&channel_code=22",
+      "metaType": "kbs"
     },
     {
       "name": "KBS 춘천 클래식FM",
@@ -33,7 +37,9 @@
       "frequency": "",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/80_24",
       "streamType": "fetchJson",
-      "jsonPath": "channel_item.0.service_url"
+      "jsonPath": "channel_item.0.service_url",
+      "metaUrl": "https://static.api.kbs.co.kr/mediafactory/v1/schedule/onair_now?local_station_code=80&channel_code=24",
+      "metaType": "kbs"
     },
     {
       "name": "KBS 강릉 1FM",
@@ -42,7 +48,9 @@
       "frequency": "",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/81_21",
       "streamType": "fetchJson",
-      "jsonPath": "channel_item.0.service_url"
+      "jsonPath": "channel_item.0.service_url",
+      "metaUrl": "https://static.api.kbs.co.kr/mediafactory/v1/schedule/onair_now?local_station_code=81&channel_code=21",
+      "metaType": "kbs"
     },
     {
       "name": "KBS 강릉 클래식FM",
@@ -51,7 +59,9 @@
       "frequency": "",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/81_24",
       "streamType": "fetchJson",
-      "jsonPath": "channel_item.0.service_url"
+      "jsonPath": "channel_item.0.service_url",
+      "metaUrl": "https://static.api.kbs.co.kr/mediafactory/v1/schedule/onair_now?local_station_code=81&channel_code=22",
+      "metaType": "kbs"
     },
     {
       "name": "KBS 원주 1FM",
@@ -60,7 +70,9 @@
       "frequency": "",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/82_21",
       "streamType": "fetchJson",
-      "jsonPath": "channel_item.0.service_url"
+      "jsonPath": "channel_item.0.service_url",
+      "metaUrl": "https://static.api.kbs.co.kr/mediafactory/v1/schedule/onair_now?local_station_code=82&channel_code=21",
+      "metaType": "kbs"
     },
     {
       "name": "KBS 원주 클래식FM",
@@ -69,7 +81,9 @@
       "frequency": "",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/82_24",
       "streamType": "fetchJson",
-      "jsonPath": "channel_item.0.service_url"
+      "jsonPath": "channel_item.0.service_url",
+      "metaUrl": "https://static.api.kbs.co.kr/mediafactory/v1/schedule/onair_now?local_station_code=82&channel_code=24",
+      "metaType": "kbs"
     },
     {
       "name": "춘천MBC 표준FM",

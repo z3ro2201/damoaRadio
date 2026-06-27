@@ -15,7 +15,9 @@
       "frequency": "",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/70_21",
       "streamType": "fetchJson",
-      "jsonPath": "channel_item.0.service_url"
+      "jsonPath": "channel_item.0.service_url",
+      "metaUrl": "https://static.api.kbs.co.kr/mediafactory/v1/schedule/onair_now?local_station_code=70&channel_code=21",
+      "metaType": "kbs"
     },
     {
       "name": "KBS 청주 해피FM",
@@ -24,7 +26,9 @@
       "frequency": "",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/70_22",
       "streamType": "fetchJson",
-      "jsonPath": "channel_item.0.service_url"
+      "jsonPath": "channel_item.0.service_url",
+      "metaUrl": "https://static.api.kbs.co.kr/mediafactory/v1/schedule/onair_now?local_station_code=70&channel_code=22",
+      "metaType": "kbs"
     },
     {
       "name": "KBS 청주 클래식FM",
@@ -33,7 +37,9 @@
       "frequency": "",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/70_24",
       "streamType": "fetchJson",
-      "jsonPath": "channel_item.0.service_url"
+      "jsonPath": "channel_item.0.service_url",
+      "metaUrl": "https://static.api.kbs.co.kr/mediafactory/v1/schedule/onair_now?local_station_code=70&channel_code=24",
+      "metaType": "kbs"
     },
     {
       "name": "KBS 충주 1FM",
@@ -42,7 +48,9 @@
       "frequency": "",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/71_21",
       "streamType": "fetchJson",
-      "jsonPath": "channel_item.0.service_url"
+      "jsonPath": "channel_item.0.service_url",
+      "metaUrl": "https://static.api.kbs.co.kr/mediafactory/v1/schedule/onair_now?local_station_code=71&channel_code=21",
+      "metaType": "kbs"
     },
     {
       "name": "KBS 충주 클래식FM",
@@ -51,7 +59,9 @@
       "frequency": "",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/71_24",
       "streamType": "fetchJson",
-      "jsonPath": "channel_item.0.service_url"
+      "jsonPath": "channel_item.0.service_url",
+      "metaUrl": "https://static.api.kbs.co.kr/mediafactory/v1/schedule/onair_now?local_station_code=82&channel_code=24",
+      "metaType": "kbs"
     },
     {
       "name": "충북MBC 표준FM",
@@ -91,7 +101,9 @@
       "frequency": "FM",
       "logo": "kr.cbs",
       "url": "https://m-aac.cbs.co.kr/cheongju/_definst_/cheongju.stream/playlist.m3u8",
-      "streamType": "direct"
+      "streamType": "direct",
+      "metaUrl": "https://appradio.cbs.co.kr/51/GetInfo_progNow.asp?station=5&ch=1",
+      "metaType": "cbsApp"
     },
     {
       "name": "CBS 음악FM (충북)",
@@ -99,7 +111,9 @@
       "frequency": "FM",
       "logo": "kr.cbs",
       "url": "https://m-aac.cbs.co.kr/cbs939/_definst_/cbs939.stream/playlist.m3u8",
-      "streamType": "direct"
+      "streamType": "direct",
+      "metaUrl": "https://appradio.cbs.co.kr/51/GetInfo_progNow.asp?station=5&ch=2",
+      "metaType": "cbsApp"
     },
     {
       "name": "옥천FM",

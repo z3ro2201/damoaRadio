@@ -15,7 +15,9 @@
       "frequency": "",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/31_21",
       "streamType": "fetchJson",
-      "jsonPath": "channel_item.0.service_url"
+      "jsonPath": "channel_item.0.service_url",
+      "metaUrl": "https://static.api.kbs.co.kr/mediafactory/v1/schedule/onair_now?local_station_code=31&channel_code=21",
+      "metaType": "kbs"
     },
     {
       "name": "KBS 포항 1FM",
@@ -24,7 +26,9 @@
       "frequency": "",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/32_21",
       "streamType": "fetchJson",
-      "jsonPath": "channel_item.0.service_url"
+      "jsonPath": "channel_item.0.service_url",
+      "metaUrl": "https://static.api.kbs.co.kr/mediafactory/v1/schedule/onair_now?local_station_code=32&channel_code=21",
+      "metaType": "kbs"
     },
     {
       "name": "안동MBC 표준FM",

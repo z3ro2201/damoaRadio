@@ -15,7 +15,9 @@
       "frequency": "",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/20_21",
       "streamType": "fetchJson",
-      "jsonPath": "channel_item.0.service_url"
+      "jsonPath": "channel_item.0.service_url",
+      "metaUrl": "https://static.api.kbs.co.kr/mediafactory/v1/schedule/onair_now?local_station_code=20&channel_code=21",
+      "metaType": "kbs"
     },
     {
       "name": "KBS 창원 해피FM",
@@ -24,7 +26,9 @@
       "frequency": "",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/20_22",
       "streamType": "fetchJson",
-      "jsonPath": "channel_item.0.service_url"
+      "jsonPath": "channel_item.0.service_url",
+      "metaUrl": "https://static.api.kbs.co.kr/mediafactory/v1/schedule/onair_now?local_station_code=20&channel_code=22",
+      "metaType": "kbs"
     },
     {
       "name": "KBS 창원 클래식FM",
@@ -33,7 +37,9 @@
       "frequency": "",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/20_24",
       "streamType": "fetchJson",
-      "jsonPath": "channel_item.0.service_url"
+      "jsonPath": "channel_item.0.service_url",
+      "metaUrl": "https://static.api.kbs.co.kr/mediafactory/v1/schedule/onair_now?local_station_code=20&channel_code=24",
+      "metaType": "kbs"
     },
     {
       "name": "KBS 진주 1FM",
@@ -42,7 +48,9 @@
       "frequency": "",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/21_21",
       "streamType": "fetchJson",
-      "jsonPath": "channel_item.0.service_url"
+      "jsonPath": "channel_item.0.service_url",
+      "metaUrl": "https://static.api.kbs.co.kr/mediafactory/v1/schedule/onair_now?local_station_code=21&channel_code=21",
+      "metaType": "kbs"
     },
     {
       "name": "TBN 교통방송 (경남)",
@@ -67,7 +75,9 @@
       "frequency": "FM",
       "logo": "kr.cbs",
       "url": "https://m-aac.cbs.co.kr/gyeongnam/_definst_/gyeongnam.stream/playlist.m3u8",
-      "streamType": "direct"
+      "streamType": "direct",
+      "metaUrl": "https://appradio.cbs.co.kr/51/GetInfo_progNow.asp?station=9&ch=1",
+      "metaType": "cbsApp"
     },
     {
       "name": "남해FM",
