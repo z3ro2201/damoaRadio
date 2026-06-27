@@ -1,52 +1,54 @@
 {
   "country": "KR",
   "countryName": "대한민국",
-  "version": 4,
+  "version": 5,
+  "region": "부산",
+  "start_lat": 34.8,
+  "start_lng": 128.0,
+  "end_lat": 35.8,
+  "end_lng": 129.5,
+  "type": "radio",
   "stationList": [
     {
       "name": "KBS 부산 1 라디오",
       "broadcaster": "KBS",
-      "region": "부산",
       "frequency": "711kHz AM",
-      "logo": "kr.kbs",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/10_21",
       "streamType": "fetchJson",
-      "jsonPath": "channel_item.0.service_url"
+      "jsonPath": "channel_item.0.service_url",
+      "metaUrl": "https://static.api.kbs.co.kr/mediafactory/v1/schedule/onair_now?local_station_code=82&channel_code=21",
+      "metaType": "kbs"
     },
-
     {
       "name": "KBS 부산 해피FM",
       "broadcaster": "KBS",
-      "region": "부산",
       "frequency": "FM",
-      "logo": "kr.kbs",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/10_22",
       "streamType": "fetchJson",
-      "jsonPath": "channel_item.0.service_url"
+      "jsonPath": "channel_item.0.service_url",
+      "metaUrl": "https://static.api.kbs.co.kr/mediafactory/v1/schedule/onair_now?local_station_code=10&channel_code=22",
+      "metaType": "kbs"
     },
     {
       "name": "KBS 부산 Classic FM",
       "broadcaster": "KBS",
       "frequency": "711kHz AM",
-      "region": "부산",
-      "logo": "kr.kbs",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/10_24",
       "streamType": "fetchJson",
-      "jsonPath": "channel_item.0.service_url"
+      "jsonPath": "channel_item.0.service_url",
+      "metaUrl": "https://static.api.kbs.co.kr/mediafactory/v1/schedule/onair_now?local_station_code=10&channel_code=24",
+      "metaType": "kbs"
     },
     {
       "name": "BBS 불교방송 (부산)",
       "broadcaster": "BBS",
-      "region": "부산",
       "frequency": "FM",
-      "logo": "kr.bbs",
       "url": "http://live.cdn.smilecdn.com:1935/bbsfm_live/live.sdp/playlist.m3u8",
       "streamType": "direct"
     },
     {
       "name": "KNN 파워FM",
       "broadcaster": "KNN",
-      "region": "부산",
       "frequency": "",
       "logo": "kr.knn",
       "url": "https://stream1.knn.co.kr/hls/lb9ezl87d37uu0vy65bb_pfm/index.m3u8",
@@ -55,17 +57,14 @@
     {
       "name": "KNN 러브FM",
       "broadcaster": "KNN",
-      "region": "부산",
       "frequency": "",
       "logo": "kr.knn",
       "url": "https://stream1.knn.co.kr/hls/b3y26uu6471k8tes9w7h_lfm/index.m3u8",
       "streamType": "direct"
     },
-
     {
       "name": "부산MBC 표준FM",
       "broadcaster": "부산MBC",
-      "region": "부산",
       "frequency": "",
       "logo": "kr.mbc",
       "url": "https://brook.bsmbc.com/live/BusanMBC_AM_onairstream.sjqjsq/playlist.m3u8",
@@ -74,7 +73,6 @@
     {
       "name": "부산MBC FM4U",
       "broadcaster": "부산MBC",
-      "region": "부산",
       "frequency": "",
       "logo": "kr.mbc",
       "url": "https://brook.bsmbc.com/live/BusanMBC_FM_onairstream.sjqjsq/playlist.m3u8",
@@ -83,53 +81,51 @@
     {
       "name": "TBN 교통방송 (부산)",
       "broadcaster": "TBN 교통방송",
-      "region": "부산",
       "frequency": "FM",
-      "logo": "kr.tbn",
       "url": "https://www.tbn.it.kr/busan/myStream/playlist.m3u8",
       "streamType": "direct"
     },
     {
       "name": "WBS 원음방송 (부산)",
       "broadcaster": "WBS",
-      "region": "부산",
       "frequency": "FM",
-      "logo": "kr.wbs",
       "url": "https://wbsradio2.kr/wbs-b",
-      "streamType": "direct"
+      "streamType": "direct",
+      "metaUrl": "https://wbsi.kr/ajax_getNowProg.php?r=광주",
+      "metaType": "wbs"
     },
     {
       "name": "극동방송 (부산)",
       "broadcaster": "FEBC 극동방송",
-      "region": "부산",
       "frequency": "FM 93.3MHz",
-      "logo": "kr.febc",
       "url": "https://mlive3.febc.net/live5/bsfebc/playlist.m3u8",
-      "streamType": "direct"
+      "streamType": "direct",
+      "metaUrl": "https://busan.febc.net/api/stream/current?channelId=1219",
+      "metaType": "febc"
     },
-
     {
       "name": "CBS 표준FM (부산)",
       "broadcaster": "CBS 부산",
-      "region": "부산",
       "frequency": "FM",
       "logo": "kr.cbs",
       "url": "https://m-aac.cbs.co.kr/busan939/_definst_/busan939.stream/playlist.m3u8",
-      "streamType": "direct"
+      "streamType": "direct",
+      "metaUrl": "https://appradio.cbs.co.kr/51/GetInfo_progNow.asp?station=13&ch=1",
+      "metaType": "cbsApp"
     },
     {
       "name": "CBS 음악FM (부산)",
       "broadcaster": "CBS 부산",
-      "region": "부산",
       "frequency": "FM",
       "logo": "kr.cbs",
       "url": "https://m-aac.cbs.co.kr/busan981/_definst_/busan981.stream/playlist.m3u8",
-      "streamType": "direct"
+      "streamType": "direct",
+      "metaUrl": "https://appradio.cbs.co.kr/51/GetInfo_progNow.asp?station=13&ch=2",
+      "metaType": "cbsApp"
     },
     {
       "name": "부산영어방송 Busan e-FM",
       "broadcaster": "부산영어방송",
-      "region": "부산",
       "frequency": "90.5MHz FM (부산), 103.3MHz FM(서부산, 기장, 정관)",
       "logo": "kr.befm",
       "url": "https://live.cdn.smilecdn.com/befm905_live/live/playlist.m3u8",
@@ -138,16 +134,15 @@
     {
       "name": "국악방송",
       "broadcaster": "국악방송",
-      "region": "부산",
       "frequency": "FM 98.5MHz",
-      "logo": "kr.igbf",
       "url": "https://mgugaklive.nowcdn.co.kr/gugakradio/gugakradio.stream/playlist.m3u8",
-      "streamType": "direct"
+      "streamType": "direct",
+      "metaUrl": "https://new.igbf.kr/api/v1/radio/summary",
+      "metaType": "igbf"
     },
     {
       "name": "연제FM",
       "broadcaster": "연제공동체라디오",
-      "region": "부산",
       "subRegion": "연제구",
       "frequency": "106.3MHz FM",
       "logo": "kr.yeonjaefm",

@@ -2,6 +2,7 @@
   "country": "UK",
   "countryName": "영국",
   "version": 1,
+  "type": "radio",
   "stationList": [
     {
       "name": "BBC Radio 1",
@@ -43,7 +44,6 @@
       "url": "http://as-hls-ww-live.akamaized.net/pool_89021708/live/ww/bbc_radio_five_live/bbc_radio_five_live.isml/bbc_radio_five_live-audio%3d96000.norewind.m3u8",
       "streamType": "redirect"
     },
-
     {
       "name": "BBC Radio 6 Music",
       "broadcaster": "BBC",

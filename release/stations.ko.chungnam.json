@@ -1,14 +1,18 @@
 {
   "country": "KR",
   "countryName": "대한민국",
-  "version": 4,
+  "version": 5,
+  "region": "충남",
+  "start_lat": 35.9,
+  "start_lng": 126.1,
+  "end_lat": 37.0,
+  "end_lng": 127.5,
+  "type": "radio",
   "stationList": [
     {
       "name": "TBN 교통방송 (충남)",
       "broadcaster": "TBN 교통방송",
-      "region": "충남",
       "frequency": "FM",
-      "logo": "kr.tbn",
       "url": "https://www.tbn.it.kr/chungnam/myStream/playlist.m3u8",
       "streamType": "direct"
     }

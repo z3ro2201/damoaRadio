@@ -1,42 +1,47 @@
 {
   "country": "KR",
   "countryName": "대한민국",
-  "version": 4,
+  "version": 5,
+  "region": "대구",
+  "start_lat": 35.5,
+  "start_lng": 128.2,
+  "end_lat": 36.2,
+  "end_lng": 129.0,
+  "type": "radio",
   "stationList": [
     {
       "name": "KBS 대구 1FM",
       "broadcaster": "KBS",
-      "region": "대구",
       "frequency": "",
-      "logo": "kr.kbs",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/30_21",
       "streamType": "fetchJson",
-      "jsonPath": "channel_item.0.service_url"
+      "jsonPath": "channel_item.0.service_url",
+      "metaUrl": "https://static.api.kbs.co.kr/mediafactory/v1/schedule/onair_now?local_station_code=30&channel_code=21",
+      "metaType": "kbs"
     },
     {
       "name": "KBS 대구 해피FM",
       "broadcaster": "KBS",
-      "region": "대구",
       "frequency": "",
-      "logo": "kr.kbs",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/30_22",
       "streamType": "fetchJson",
-      "jsonPath": "channel_item.0.service_url"
+      "jsonPath": "channel_item.0.service_url",
+      "metaUrl": "https://static.api.kbs.co.kr/mediafactory/v1/schedule/onair_now?local_station_code=30&channel_code=22",
+      "metaType": "kbs"
     },
     {
       "name": "KBS 대구 클래식FM",
       "broadcaster": "KBS",
-      "region": "대구",
       "frequency": "",
-      "logo": "kr.kbs",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/30_24",
       "streamType": "fetchJson",
-      "jsonPath": "channel_item.0.service_url"
+      "jsonPath": "channel_item.0.service_url",
+      "metaUrl": "https://static.api.kbs.co.kr/mediafactory/v1/schedule/onair_now?local_station_code=30&channel_code=24",
+      "metaType": "kbs"
     },
     {
       "name": "대구MBC 표준FM",
       "broadcaster": "대구MBC",
-      "region": "대구",
       "frequency": "",
       "logo": "kr.mbc",
       "url": "https://5ee1ec6f32118.streamlock.net/amradio/am/playlist.m3u8",
@@ -45,7 +50,6 @@
     {
       "name": "대구MBC FM4U",
       "broadcaster": "대구MBC",
-      "region": "대구",
       "frequency": "",
       "logo": "kr.mbc",
       "url": "https://5ee1ec6f32118.streamlock.net/fmradio/fm/playlist.m3u8",
@@ -54,7 +58,6 @@
     {
       "name": "TBC 라디오",
       "broadcaster": "TBC",
-      "region": "대구",
       "frequency": "FM 99.3MHz(대구), 106.5MHz(대구성서), 106.5MHz(안동), 99.7MHz(포항)",
       "logo": "kr.tbc",
       "url": "http://203.251.91.122:1935/on-air-Backup/fm/playlist.m3u8",
@@ -63,44 +66,38 @@
     {
       "name": "국악방송",
       "broadcaster": "국악방송",
-      "region": "대구",
       "frequency": "FM 107.5MHz",
-      "logo": "kr.igbf",
       "url": "https://mgugaklive.nowcdn.co.kr/gugakradio/gugakradio.stream/playlist.m3u8",
-      "streamType": "direct"
+      "streamType": "direct",
+      "metaUrl": "https://new.igbf.kr/api/v1/radio/summary",
+      "metaType": "igbf"
     },
     {
       "name": "TBN 교통방송 (대구)",
       "broadcaster": "TBN 교통방송",
-      "region": "대구",
       "frequency": "FM",
-      "logo": "kr.tbn",
       "url": "https://www.tbn.it.kr/daegu/myStream/playlist.m3u8",
       "streamType": "direct"
     },
-
     {
       "name": "극동방송 (대구)",
       "broadcaster": "FEBC 극동방송",
-      "region": "대구",
       "frequency": "FM 91.9MHz",
-      "logo": "kr.febc",
       "url": "https://mlive3.febc.net/live5/daegulive/playlist.m3u8",
-      "streamType": "direct"
+      "streamType": "direct",
+      "metaUrl": "https://daegu.febc.net/api/stream/current?channelId=1251",
+      "metaType": "febc"
     },
     {
       "name": "cpbc 대구가톨릭방송",
       "broadcaster": "cpbc 가톨릭평화방송",
-      "region": "대구",
       "frequency": "FM 93.1MHz (대구), 96.9MHz(포항), 100.7MHz(안동), 100.5MHz(김천/구미)",
-      "logo": "kr.cpbc",
       "url": "http://live.dgcpbc.co.kr/dgcpbclive/livestream/playlist.m3u8",
       "streamType": "direct"
     },
     {
       "name": "대구동구FM",
       "broadcaster": "대구동구 공동체",
-      "region": "대구",
       "subRegion": "동구",
       "frequency": "FM 104.5MHz",
       "logo": "kr.daegufm",
@@ -110,11 +107,18 @@
     {
       "name": "SCN 성서공동체FM",
       "broadcaster": "성서공동체FM",
-      "region": "대구",
       "frequency": "FM 89.1MHz",
       "logo": "kr.scn",
       "url": "http://115.85.182.39/scnfm",
       "streamType": "direct"
+    },
+    {
+      "name": "대구 WBS 원음방송",
+      "broadcaster": "WBS",
+      "url": "https://wbsradio2.kr/wbs-d",
+      "streamType": "direct",
+      "metaUrl": "https://wbsi.kr/ajax_getNowProg.php?r=광주",
+      "metaType": "wbs"
     }
   ]
 }

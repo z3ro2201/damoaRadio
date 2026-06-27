@@ -1,0 +1,85 @@
+{
+  "version": 2,
+  "broadcasters": {
+    "KBS": {
+      "logo": "kr.kbs",
+      "homepage": "https://radio.kbs.co.kr/",
+      "schedule": "https://schedule.kbs.co.kr/m/index.html?sname=schedule&stype=table&type=radioList",
+      "app": "https://play.google.com/store/apps/details?id=kr.co.kbs.kong"
+    },
+    "MBC": {
+      "logo": "kr.mbc",
+      "homepage": "https://www.imbc.com/broad/radio/",
+      "schedule": "https://www.imbc.com/broad/radio/schedule/",
+      "app": "https://play.google.com/store/apps/details?id=kr.co.mbc.myMBC"
+    },
+    "SBS": {
+      "logo": "kr.sbs",
+      "homepage": "https://www.sbs.co.kr/m/radio",
+      "schedule": "https://www.sbs.co.kr/m/schedule/index.html?type=ra",
+      "app": "https://play.google.com/store/apps/details?id=com.appgate.gorealra"
+    },
+    "EBS": {
+      "logo": "kr.ebs",
+      "homepage": "https://www.ebs.co.kr/radio",
+      "schedule": "https://www.ebs.co.kr/radio/schedule",
+      "app": "https://play.google.com/store/apps/details?id=kr.co.ebs.radio"
+    },
+    "CBS": {
+      "logo": "kr.cbs",
+      "homepage": "https://www.cbs.co.kr/radio/",
+      "app": "https://play.google.com/store/apps/details?id=kr.co.cbs.cbs"
+    },
+    "TBS 교통방송": {
+      "logo": "kr.tbs",
+      "homepage": "https://m.tbs.seoul.kr/",
+      "app": "https://play.google.com/store/apps/details?id=com.antidotmedia"
+    },
+    "TBN 교통방송": {
+      "logo": "kr.tbn",
+      "homepage": "https://www.tbn.or.kr/"
+    },
+    "국악방송": {
+      "logo": "kr.igbf",
+      "homepage": "https://new.igbf.kr/",
+      "schedule": "https://www.igbf.kr/gugak_web/?sub_num=786",
+      "app": "https://play.google.com/store/apps/details?id=org.gugakfm.app"
+    },
+    "FEBC 극동방송": {
+      "logo": "kr.febc",
+      "homepage": "https://www.febc.net/",
+      "app": "https://play.google.com/store/apps/details?id=net.febc.radio"
+    },
+    "WBS": {
+      "logo": "kr.wbs",
+      "homepage": "https://wbsi.kr/",
+      "app": "https://play.google.com/store/apps/details?id=wbsi.com.wbsi2"
+    },
+    "BBS": {
+      "logo": "kr.bbs",
+      "homepage": "https://www.bbsi.co.kr/"
+    },
+    "cpbc 가톨릭평화방송": {
+      "logo": "kr.cpbc",
+      "homepage": "https://m.cpbc.co.kr/",
+      "schedule": "https://m.cpbc.co.kr/schedule.html?channel=radio"
+    },
+    "YTN": {
+      "logo": "kr.ytn",
+      "homepage": "https://radio.ytn.co.kr/"
+    },
+    "AFN go": {
+      "logo": "kr.afn",
+      "homepage": "https://afngo.net/",
+      "app": "https://play.google.com/store/apps/details?id=com.afn360"
+    },
+    "BBC": {
+      "logo": "uk.bbc",
+      "homepage": "https://www.bbc.co.uk/radio"
+    },
+    "NPR": {
+      "logo": "us.npr",
+      "homepage": "https://www.npr.org/"
+    }
+  }
+}

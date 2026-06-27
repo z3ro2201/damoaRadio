@@ -1,91 +1,96 @@
 {
   "country": "KR",
   "countryName": "대한민국",
-  "version": 4,
+  "version": 5,
+  "region": "강원",
+  "start_lat": 37.0,
+  "start_lng": 127.0,
+  "end_lat": 38.6,
+  "end_lng": 129.5,
+  "type": "radio",
   "stationList": [
     {
       "name": "KBS 춘천 1FM",
       "broadcaster": "KBS",
-      "region": "강원",
       "subRegion": "춘천",
       "frequency": "",
-      "logo": "kr.kbs",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/80_21",
       "streamType": "fetchJson",
-      "jsonPath": "channel_item.0.service_url"
+      "jsonPath": "channel_item.0.service_url",
+      "metaUrl": "https://static.api.kbs.co.kr/mediafactory/v1/schedule/onair_now?local_station_code=80&channel_code=21",
+      "metaType": "kbs"
     },
     {
       "name": "KBS 춘천 해피FM",
       "broadcaster": "KBS",
-      "region": "강원",
       "subRegion": "춘천",
       "frequency": "",
-      "logo": "kr.kbs",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/80_22",
       "streamType": "fetchJson",
-      "jsonPath": "channel_item.0.service_url"
+      "jsonPath": "channel_item.0.service_url",
+      "metaUrl": "https://static.api.kbs.co.kr/mediafactory/v1/schedule/onair_now?local_station_code=80&channel_code=22",
+      "metaType": "kbs"
     },
     {
       "name": "KBS 춘천 클래식FM",
       "broadcaster": "KBS",
-      "region": "강원",
       "subRegion": "춘천",
       "frequency": "",
-      "logo": "kr.kbs",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/80_24",
       "streamType": "fetchJson",
-      "jsonPath": "channel_item.0.service_url"
+      "jsonPath": "channel_item.0.service_url",
+      "metaUrl": "https://static.api.kbs.co.kr/mediafactory/v1/schedule/onair_now?local_station_code=80&channel_code=24",
+      "metaType": "kbs"
     },
-
     {
       "name": "KBS 강릉 1FM",
       "broadcaster": "KBS",
-      "region": "강원",
       "subRegion": "강릉",
       "frequency": "",
-      "logo": "kr.kbs",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/81_21",
       "streamType": "fetchJson",
-      "jsonPath": "channel_item.0.service_url"
+      "jsonPath": "channel_item.0.service_url",
+      "metaUrl": "https://static.api.kbs.co.kr/mediafactory/v1/schedule/onair_now?local_station_code=81&channel_code=21",
+      "metaType": "kbs"
     },
     {
       "name": "KBS 강릉 클래식FM",
       "broadcaster": "KBS",
-      "region": "강원",
       "subRegion": "강릉",
       "frequency": "",
-      "logo": "kr.kbs",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/81_24",
       "streamType": "fetchJson",
-      "jsonPath": "channel_item.0.service_url"
+      "jsonPath": "channel_item.0.service_url",
+      "metaUrl": "https://static.api.kbs.co.kr/mediafactory/v1/schedule/onair_now?local_station_code=81&channel_code=22",
+      "metaType": "kbs"
     },
-
     {
       "name": "KBS 원주 1FM",
       "broadcaster": "KBS",
-      "region": "강원",
       "subRegion": "원주",
       "frequency": "",
-      "logo": "kr.kbs",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/82_21",
       "streamType": "fetchJson",
-      "jsonPath": "channel_item.0.service_url"
+      "jsonPath": "channel_item.0.service_url",
+      "metaUrl": "https://static.api.kbs.co.kr/mediafactory/v1/schedule/onair_now?local_station_code=82&channel_code=21",
+      "metaType": "kbs",
+      "type": "radio"
     },
     {
       "name": "KBS 원주 클래식FM",
       "broadcaster": "KBS",
-      "region": "강원",
       "subRegion": "원주",
       "frequency": "",
-      "logo": "kr.kbs",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/82_24",
       "streamType": "fetchJson",
-      "jsonPath": "channel_item.0.service_url"
+      "jsonPath": "channel_item.0.service_url",
+      "metaUrl": "https://static.api.kbs.co.kr/mediafactory/v1/schedule/onair_now?local_station_code=82&channel_code=24",
+      "metaType": "kbs",
+      "type": "radio"
     },
     {
       "name": "춘천MBC 표준FM",
       "broadcaster": "춘천MBC",
-      "region": "강원",
       "subRegion": "춘천",
       "frequency": "",
       "logo": "kr.mbc",
@@ -95,74 +100,71 @@
     {
       "name": "춘천MBC FM4U",
       "broadcaster": "춘천MBC",
-      "region": "강원",
       "subRegion": "춘천",
       "frequency": "",
       "logo": "kr.mbc",
       "url": "https://stream.chmbc.co.kr/live_radio2/fm1/playlist.m3u8",
       "streamType": "direct"
     },
-
     {
       "name": "강원영동MBC 표준FM",
       "broadcaster": "강원영동MBC",
-      "region": "강원",
       "subRegion": "영동",
       "frequency": "",
       "logo": "kr.mbc",
       "url": "http://123.254.72.24:1935/amlive/livestream/playlist.m3u8",
+      "homepage": "https://www.mbceg.co.kr/",
       "streamType": "direct"
     },
     {
       "name": "강원영동MBC FM4U",
       "broadcaster": "강원영동MBC",
-      "region": "강원",
       "subRegion": "영동",
       "frequency": "",
       "logo": "kr.mbc",
       "url": "http://123.254.72.24:1935/fmlive/livestream/playlist.m3u8",
+      "homepage": "https://www.mbceg.co.kr/",
       "streamType": "direct"
     },
     {
       "name": "G1 프레쉬FM",
       "broadcaster": "G1",
-      "region": "강원",
       "frequency": "FM 103.1MHz(원주), 105.1MHz(춘천), 106.1MHz(강릉), 99.3MHz(태백), 88.3MHz(평창), 101.3MHz(속초), 90.5MHz(평창읍)",
       "logo": "kr.g1",
       "url": "http://61.82.49.4:1935/fm/_definst_/myStream/playlist.m3u8",
+      "schedule": "https://www.g1tv.co.kr/schedule/?mid=165_167",
+      "homepage": "https://www.g1tv.co.kr/radio/?mid=16",
       "streamType": "direct"
     },
     {
       "name": "국악방송",
       "broadcaster": "국악방송",
-      "region": "강원",
       "frequency": "FM 103.3MHz",
-      "logo": "kr.igbf",
+      "schedule": "https://www.igbf.kr/gugak_web/?sub_num=786",
       "url": "https://mgugaklive.nowcdn.co.kr/gugakradio/gugakradio.stream/playlist.m3u8",
-      "streamType": "direct"
+      "streamType": "direct",
+      "metaUrl": "https://new.igbf.kr/api/v1/radio/summary",
+      "metaType": "igbf"
     },
     {
       "name": "TBN 교통방송 (강원)",
       "broadcaster": "TBN 교통방송",
-      "region": "강원",
       "frequency": "FM",
-      "logo": "kr.tbn",
       "url": "https://www.tbn.it.kr/gangwon/myStream/playlist.m3u8",
       "streamType": "direct"
     },
     {
       "name": "극동방송 (강원)",
       "broadcaster": "FEBC 극동방송",
-      "region": "강원",
       "frequency": "FM 90.1MHz",
-      "logo": "kr.febc",
       "url": "https://mlive3.febc.net/live5/ydlive/playlist.m3u8",
-      "streamType": "direct"
+      "streamType": "direct",
+      "metaUrl": "https://gangwon.febc.net/api/stream/current?channelId=1223",
+      "metaType": "febc"
     },
     {
       "name": "태백FM",
       "broadcaster": "태백에프엠 공동체라디오",
-      "region": "강원",
       "subRegion": "태백",
       "frequency": "FM 100.5MHz",
       "logo": "kr.taebaek",

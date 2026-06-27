@@ -1,43 +1,47 @@
 {
   "country": "KR",
   "countryName": "대한민국",
-  "version": 4,
+  "version": 5,
+  "region": "광주",
+  "start_lat": 34.8,
+  "start_lng": 126.5,
+  "end_lat": 35.4,
+  "end_lng": 127.2,
+  "type": "radio",
   "stationList": [
     {
       "name": "KBS 광주 1FM",
       "broadcaster": "KBS",
-      "region": "광주",
       "frequency": "",
-      "logo": "kr.kbs",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/40_21",
       "streamType": "fetchJson",
-      "jsonPath": "channel_item.0.service_url"
+      "jsonPath": "channel_item.0.service_url",
+      "metaUrl": "https://static.api.kbs.co.kr/mediafactory/v1/schedule/onair_now?local_station_code=40&channel_code=21",
+      "metaType": "kbs"
     },
     {
       "name": "KBS 광주 해피FM",
       "broadcaster": "KBS",
-      "region": "광주",
       "frequency": "",
-      "logo": "kr.kbs",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/40_22",
       "streamType": "fetchJson",
-      "jsonPath": "channel_item.0.service_url"
+      "jsonPath": "channel_item.0.service_url",
+      "metaUrl": "https://static.api.kbs.co.kr/mediafactory/v1/schedule/onair_now?local_station_code=40&channel_code=22",
+      "metaType": "kbs"
     },
     {
       "name": "KBS 광주 클래식FM",
       "broadcaster": "KBS",
-      "region": "광주",
       "frequency": "",
-      "logo": "kr.kbs",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/40_24",
       "streamType": "fetchJson",
-      "jsonPath": "channel_item.0.service_url"
+      "jsonPath": "channel_item.0.service_url",
+      "metaUrl": "https://static.api.kbs.co.kr/mediafactory/v1/schedule/onair_now?local_station_code=40&channel_code=24",
+      "metaType": "kbs"
     },
-
     {
       "name": "광주MBC 표준FM",
       "broadcaster": "광주MBC",
-      "region": "광주",
       "frequency": "",
       "logo": "kr.mbc",
       "url": "https://media.kjmbc.co.kr/hls/amlive/GWANGJU-MBC-AM/playlist.m3u8",
@@ -46,44 +50,39 @@
     {
       "name": "광주MBC FM4U",
       "broadcaster": "광주MBC",
-      "region": "광주",
       "frequency": "",
       "logo": "kr.mbc",
       "url": "https://media.kjmbc.co.kr/hls/fmlive/GWANGJU-MBC-FM/playlist.m3u8",
       "streamType": "direct"
     },
-
     {
       "name": "TBN 교통방송 (광주)",
       "broadcaster": "TBN 교통방송",
-      "region": "광주",
       "frequency": "FM",
-      "logo": "kr.tbn",
       "url": "https://www.tbn.it.kr/gwangju/myStream/playlist.m3u8",
       "streamType": "direct"
     },
     {
       "name": "국악방송 (광주)",
       "broadcaster": "국악방송",
-      "region": "광주",
       "frequency": "FM 99.3MHz(광주/전남), 94.7MHz(전남 서남부), 95.3MHz(전북 북부), 95.9MHz(전북 동남부)",
-      "logo": "kr.igbf",
       "url": "https://mgugaklive.nowcdn.co.kr/gugakgwangju/Glive.stream/playlist.m3u8",
-      "streamType": "direct"
+      "streamType": "direct",
+      "metaUrl": "https://new.igbf.kr/api/v1/radio/summary",
+      "metaType": "igbf"
     },
     {
       "name": "극동방송 (광주)",
       "broadcaster": "FEBC 극동방송",
-      "region": "광주",
       "frequency": "FM 93.1MHz",
-      "logo": "kr.febc",
       "url": "https://mlive3.febc.net/live5/gjlive/playlist.m3u8",
-      "streamType": "direct"
+      "streamType": "direct",
+      "metaUrl": "https://gj.febc.net/api/stream/current?channelId=1254",
+      "metaType": "febc"
     },
     {
       "name": "KBC 마이FM",
       "broadcaster": "KBC",
-      "region": "광주",
       "frequency": "",
       "logo": "kr.kbc",
       "url": "https://vod.ikbc.co.kr/KBCFM/kbcra_aac/playlist.m3u8",
@@ -92,7 +91,6 @@
     {
       "name": "GGN 글로벌 광주방송",
       "broadcaster": "GGN",
-      "region": "광주",
       "frequency": "",
       "logo": "kr.ggn",
       "url": "http://media.ggn.or.kr:8080/live",
@@ -101,34 +99,29 @@
     {
       "name": "cpbc 광주가톨릭방송",
       "broadcaster": "cpbc 가톨릭평화방송",
-      "region": "광주",
       "frequency": "FM 99.9MHz(광주), 99.5MHz(여수/순천)",
-      "logo": "kr.cpbc",
       "url": "http://pbcradio.dynamicsmart.com:1935/radio/kjpbc2/index.m3u8",
       "streamType": "direct"
     },
     {
       "name": "BBS 불교방송 (광주)",
       "broadcaster": "BBS",
-      "region": "광주",
       "frequency": "FM",
-      "logo": "kr.bbs",
       "url": "http://live.cdn.smilecdn.com:1935/kjbbs1_live/live/playlist.m3u8",
       "streamType": "direct"
     },
     {
       "name": "WBS 원음방송 (광주)",
       "broadcaster": "WBS",
-      "region": "광주",
       "frequency": "FM",
-      "logo": "kr.wbs",
       "url": "https://wbsradio2.kr/wbs-g",
-      "streamType": "direct"
+      "streamType": "direct",
+      "metaUrl": "https://wbsi.kr/ajax_getNowProg.php?r=광주",
+      "metaType": "wbs"
     },
     {
       "name": "GBS 고려방송",
       "broadcaster": "GBS고려방송",
-      "region": "광주",
       "frequency": "FM 93.5MHz",
       "logo": "kr.gbs",
       "url": "http://115.68.193.176:8000/crfm",
@@ -137,7 +130,6 @@
     {
       "name": "광주FM",
       "broadcaster": "광주시민방송",
-      "region": "광주",
       "frequency": "FM 88.9MHz",
       "logo": "kr.gwangjufm",
       "url": "https://radiostream.communityradio.kr/live",

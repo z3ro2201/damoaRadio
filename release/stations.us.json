@@ -2,6 +2,7 @@
   "country": "US",
   "countryName": "미국",
   "version": 1,
+  "type": "radio",
   "stationList": [
     {
       "name": "NPR",
@@ -27,7 +28,6 @@
       "url": "https://kexp-mp3-128.streamguys1.com/kexp128.mp3",
       "streamType": "direct"
     },
-
     {
       "name": "WNYC 93.9",
       "broadcaster": "WNYC",
@@ -68,7 +68,6 @@
       "url": "https://tjc.wnyc.org/js-stream",
       "streamType": "direct"
     },
-
     {
       "name": "Jazz24",
       "broadcaster": "KNKX",
