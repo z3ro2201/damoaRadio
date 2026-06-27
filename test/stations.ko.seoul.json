@@ -111,7 +111,7 @@
       "schedule": "https://m.imbc.com/schedule/fm",
       "url": "https://sminiplay.imbc.com/aacplay.ashx?agent=webapp&channel=sfm",
       "streamType": "fetchText",
-      "metaUrl": "https://api.imbc.com/onair/now#FM",
+      "metaUrl": "https://control.imbc.com/Schedule/ONAIRWITHNVOD#FM",
       "metaType": "mbcSeoul"
     },
     {
@@ -122,7 +122,7 @@
       "schedule": "https://m.imbc.com/schedule/fm4u",
       "url": "https://sminiplay.imbc.com/aacplay.ashx?agent=webapp&channel=mfm",
       "streamType": "fetchText",
-      "metaUrl": "https://api.imbc.com/onair/now#FM4U",
+      "metaUrl": "https://control.imbc.com/Schedule/ONAIRWITHNVOD#FM4U",
       "metaType": "mbcSeoul"
     },
     {
