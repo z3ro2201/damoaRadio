@@ -6,7 +6,7 @@
   "stationList": [
     {
       "name": "트로트가족",
-      "broadcaster": "트로트가족",
+      "broadcaster": "SayCast",
       "frequency": "인터넷",
       "logo": "kr.internet.ehdrmfkal87.gif",
       "url": "http://rudska7335.inlive.co.kr/live/listen.pls",
@@ -15,7 +15,7 @@
     },
     {
       "name": "Music Makeup",
-      "broadcaster": "Music Makeup",
+      "broadcaster": "SayCast",
       "frequency": "인터넷",
       "logo": "kr.internet.musicMakeup.gif",
       "url": "http://musicmakeup.inlive.co.kr/live/listen.pls",
@@ -24,7 +24,7 @@
     },
     {
       "name": "로얄ll트로트",
-      "broadcaster": "로얄ll트로트",
+      "broadcaster": "SayCast",
       "frequency": "인터넷",
       "logo": "kr.internet.amabilejy.gif",
       "url": "http://hwaqaz.inlive.co.kr/live/listen.pls",
@@ -33,7 +33,7 @@
     },
     {
       "name": "비전트로트",
-      "broadcaster": "비전트로트",
+      "broadcaster": "SayCast",
       "frequency": "인터넷",
       "logo": "kr.internet.mj3040.gif",
       "url": "http://smrlsepfh.inlive.co.kr/live/listen.pls",
@@ -42,12 +42,189 @@
     },
     {
       "name": "명품 트로트",
-      "broadcaster": "명품 트로트",
+      "broadcaster": "SayCast",
       "frequency": "인터넷",
       "logo": "kr.internet.musicMakeup.gif",
       "url": "http://jun28w.inlive.co.kr/live/listen.pls",
       "streamType": "pls",
       "genre": "트로트"
+    },
+    {
+      "name": "MUSIC시그널",
+      "broadcaster": "SayCast",
+      "logo": "kr.internet.musicsignal.gif",
+      "url": "hhttps://me.sayclub.com/api/saydj/selectBdcstProtocol?domainid=nsc123",
+      "streamType": "fetchJson",
+      "jsonPath": "data.hls_url",
+      "genre": "종합",
+      "metaUrl": "https://me.sayclub.com/api/bdcst/nsc123/info",
+      "metaType": "sayCast"
+    },
+    {
+      "name": "TaTa",
+      "broadcaster": "SayCast",
+      "logo": "kr.internet.tata",
+      "url": "https://me.sayclub.com/api/saydj/selectBdcstProtocol?domainid=es",
+      "streamType": "fetchJson",
+      "jsonPath": "data.hls_url",
+      "genre": "J-POP",
+      "metaUrl": "https://me.sayclub.com/api/bdcst/es/info",
+      "metaType": "sayCast"
+    },
+    {
+      "name": "아이러브CCM찬양방송",
+      "broadcaster": "SayCast",
+      "logo": "kr.internet.iloveccm.jpg",
+      "url": "https://me.sayclub.com/api/saydj/selectBdcstProtocol?domainid=iloveccm",
+      "streamType": "fetchJson",
+      "jsonPath": "data.hls_url",
+      "genre": "기독교",
+      "metaUrl": "https://me.sayclub.com/api/bdcst/iloveccm/info",
+      "metaType": "sayCast"
+    },
+    {
+      "name": "예수찬양방송",
+      "broadcaster": "SayCast",
+      "logo": "kr.internet.yesu.jpg",
+      "url": "https://me.sayclub.com/api/saydj/selectBdcstProtocol?domainid=dudghs64",
+      "streamType": "fetchJson",
+      "jsonPath": "data.hls_url",
+      "genre": "기독교",
+      "metaUrl": "https://me.sayclub.com/api/bdcst/dudghs64/info",
+      "metaType": "sayCast"
+    },
+    {
+      "name": "호산나찬양방송",
+      "broadcaster": "SayCast",
+      "logo": "kr.internet.hosanna.jpg",
+      "url": "https://me.sayclub.com/api/saydj/selectBdcstProtocol?domainid=am0691",
+      "streamType": "fetchJson",
+      "jsonPath": "data.hls_url",
+      "genre": "기독교",
+      "metaUrl": "https://me.sayclub.com/api/bdcst/am0691/info",
+      "metaType": "sayCast"
+    },
+    {
+      "name": "주사랑방송국",
+      "broadcaster": "SayCast",
+      "logo": "kr.internet.jusarang.jpg",
+      "url": "https://me.sayclub.com/api/saydj/selectBdcstProtocol?domainid=skylove1",
+      "streamType": "fetchJson",
+      "jsonPath": "data.hls_url",
+      "genre": "기독교",
+      "metaUrl": "https://me.sayclub.com/api/bdcst/skylove1/info",
+      "metaType": "sayCast"
+    },
+    {
+      "name": "ㅁㅁ찬양의샘ㅁ위로와평안ㅁㅁ",
+      "broadcaster": "SayCast",
+      "logo": "kr.internet.kumsun5.jpg",
+      "url": "https://me.sayclub.com/api/saydj/selectBdcstProtocol?domainid=kumsun5",
+      "streamType": "fetchJson",
+      "jsonPath": "data.hls_url",
+      "genre": "기독교",
+      "metaUrl": "https://me.sayclub.com/api/bdcst/kumsun5/info",
+      "metaType": "sayCast"
+    },
+    {
+      "name": "찬양의오솔길",
+      "broadcaster": "SayCast",
+      "logo": "kr.internet.sarangccm.jpg",
+      "url": "https://me.sayclub.com/api/saydj/selectBdcstProtocol?domainid=sarangccm",
+      "streamType": "fetchJson",
+      "jsonPath": "data.hls_url",
+      "genre": "기독교",
+      "metaUrl": "https://me.sayclub.com/api/bdcst/sarangccm/info",
+      "metaType": "sayCast"
+    },
+    {
+      "name": "라마나욧찬양방송",
+      "broadcaster": "SayCast",
+      "logo": "kr.internet.fkakskdyt",
+      "url": "https://me.sayclub.com/api/saydj/selectBdcstProtocol?domainid=fkakskdyt",
+      "streamType": "fetchJson",
+      "jsonPath": "data.hls_url",
+      "genre": "기독교",
+      "metaUrl": "https://me.sayclub.com/api/bdcst/fkakskdyt/info",
+      "metaType": "sayCast"
+    },
+    {
+      "name": "불자들의토굴방송국",
+      "broadcaster": "SayCast",
+      "logo": "kr.internet.dufwjd316.jpg",
+      "url": "https://me.sayclub.com/api/saydj/selectBdcstProtocol?domainid=dufwjd316",
+      "streamType": "fetchJson",
+      "jsonPath": "data.hls_url",
+      "genre": "불교",
+      "metaUrl": "https://me.sayclub.com/api/bdcst/dufwjd316/info",
+      "metaType": "sayCast"
+    },
+    {
+      "name": "한마음불교방송",
+      "broadcaster": "SayCast",
+      "logo": "kr.internet.df7433.jpg",
+      "url": "https://me.sayclub.com/api/saydj/selectBdcstProtocol?domainid=df7433",
+      "streamType": "fetchJson",
+      "jsonPath": "data.hls_url",
+      "genre": "불교",
+      "metaUrl": "https://me.sayclub.com/api/bdcst/df7433/info",
+      "metaType": "sayCast"
+    },
+    {
+      "name": "정다운성당방",
+      "broadcaster": "SayCast",
+      "logo": "kr.internet.pbs.jpg",
+      "url": "https://me.sayclub.com/api/saydj/selectBdcstProtocol?domainid=museclassic",
+      "streamType": "fetchJson",
+      "jsonPath": "data.hls_url",
+      "genre": "가톨릭",
+      "metaUrl": "https://me.sayclub.com/api/bdcst/pbs/info",
+      "metaType": "sayCast"
+    },
+
+    {
+      "name": "TokyoFM",
+      "broadcaster": "SayCast",
+      "logo": "kr.internet.musicclub597",
+      "url": "https://me.sayclub.com/api/saydj/selectBdcstProtocol?domainid=musicclub597",
+      "streamType": "fetchJson",
+      "jsonPath": "data.hls_url",
+      "genre": "월드뮤직",
+      "metaUrl": "https://me.sayclub.com/api/bdcst/musicclub597/info",
+      "metaType": "sayCast"
+    },
+    {
+      "name": "ClassicOdyssey",
+      "broadcaster": "SayCast",
+      "logo": "kr.internet.museclassic.gif",
+      "url": "https://me.sayclub.com/api/saydj/selectBdcstProtocol?domainid=museclassic",
+      "streamType": "fetchJson",
+      "jsonPath": "data.hls_url",
+      "genre": "클래식",
+      "metaUrl": "https://me.sayclub.com/api/bdcst/museclassic/info",
+      "metaType": "sayCast"
+    },
+    {
+      "name": "PolyMusic",
+      "broadcaster": "SayCast",
+      "logo": "kr.internet.polymusic.jpg",
+      "url": "https://me.sayclub.com/api/saydj/selectBdcstProtocol?domainid=polymusic",
+      "streamType": "fetchJson",
+      "jsonPath": "data.hls_url",
+      "genre": "클래식",
+      "metaUrl": "https://me.sayclub.com/api/bdcst/polymusic/info",
+      "metaType": "sayCast"
+    },
+    {
+      "name": "LoungeArea",
+      "broadcaster": "SayCast",
+      "logo": "kr.internet.rmflqrnsk.jpg",
+      "url": "https://me.sayclub.com/api/saydj/selectBdcstProtocol?domainid=rmflqrnsk",
+      "streamType": "fetchJson",
+      "jsonPath": "data.hls_url",
+      "genre": "클래식",
+      "metaUrl": "https://me.sayclub.com/api/bdcst/rmflqrnsk/info",
+      "metaType": "sayCast"
     }
   ]
 }
