@@ -2,6 +2,7 @@
   "country": "KR",
   "countryName": "대한민국",
   "version": 5,
+  "type": "radio",
   "stationList": [
     {
       "name": "EBS FM",
@@ -191,7 +192,8 @@
       "url": "https://ebsonair.ebs.co.kr/fmradiofamilypc/familypc1m/playlist.m3u8",
       "streamType": "direct",
       "metaUrl": "https://www.ebs.co.kr/onair/cururentOnair.json?channelCd=RADIO&nowDate=",
-      "metaType": "ebs"
+      "metaType": "ebs",
+      "type": "radio"
     },
     {
       "name": "EBS 반디 외국어 전문",
@@ -200,7 +202,8 @@
       "url": "https://ebsonair.ebs.co.kr/cloud1/iradio/playlist.m3u8",
       "streamType": "direct",
       "metaUrl": "https://www.ebs.co.kr/onair/cururentOnair.json?channelCd=RADIO&nowDate=",
-      "metaType": "ebs"
+      "metaType": "ebs",
+      "type": "radio"
     },
     {
       "name": "KFN 국방방송",
@@ -316,7 +319,8 @@
       "schedule": "https://m.dema.mil.kr/web/fm/timetable/list.do",
       "streamType": "direct",
       "metaUrl": "https://www.dema.mil.kr/web/api/v1/radio/onair.do",
-      "metaType": "dema"
+      "metaType": "dema",
+      "type": "radio"
     },
     {
       "name": "SBS 고릴라M",

@@ -7,6 +7,7 @@
   "start_lng": 127.2,
   "end_lat": 37.3,
   "end_lng": 128.5,
+  "type": "radio",
   "stationList": [
     {
       "name": "KBS 청주 1FM",

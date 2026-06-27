@@ -1,7 +1,7 @@
 {
   "stations_version": {
     "ko": {
-      "version": 3,
+      "version": 4,
       "files": [
         "ko",
         "ko.seoul",
@@ -18,35 +18,28 @@
         "ko.ulsan",
         "ko.gangwon",
         "ko.sejong",
-        "ko.jeju"
+        "ko.jeju",
+        "ko.internet"
       ]
     },
     "ja": {
       "version": 1,
-      "files": [
-        "ja"
-      ]
+      "files": ["ja"]
     },
     "us": {
       "version": 1,
-      "files": [
-        "us"
-      ]
+      "files": ["us"]
     },
     "eu": {
       "version": 1,
-      "files": [
-        "eu"
-      ]
+      "files": ["eu"]
     },
     "uk": {
       "version": 1,
-      "files": [
-        "uk"
-      ]
+      "files": ["uk"]
     }
   },
-  "logos_version": 1,
+  "logos_version": 2,
   "broadcasters_version": {
     "ko": 2
   }

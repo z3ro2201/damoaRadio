@@ -7,6 +7,7 @@
   "start_lng": 126.4,
   "end_lat": 36.2,
   "end_lng": 127.9,
+  "type": "radio",
   "stationList": [
     {
       "name": "KBS 전주 1FM",
@@ -27,8 +28,9 @@
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/50_22",
       "streamType": "fetchJson",
       "jsonPath": "channel_item.0.service_url",
-      "metaUrl": "22",
-      "metaType": "kbs"
+      "metaUrl": "https://static.api.kbs.co.kr/mediafactory/v1/schedule/onair_now?local_station_code=50&channel_code=22",
+      "metaType": "kbs",
+      "type": "radio"
     },
     {
       "name": "KBS 전주 클래식FM",
@@ -39,7 +41,8 @@
       "streamType": "fetchJson",
       "jsonPath": "channel_item.0.service_url",
       "metaUrl": "https://static.api.kbs.co.kr/mediafactory/v1/schedule/onair_now?local_station_code=50&channel_code=24",
-      "metaType": "kbs"
+      "metaType": "kbs",
+      "type": "radio"
     },
     {
       "name": "전주MBC 표준FM",

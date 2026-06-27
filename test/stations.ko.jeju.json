@@ -7,6 +7,7 @@
   "start_lng": 126.0,
   "end_lat": 33.6,
   "end_lng": 126.9,
+  "type": "radio",
   "stationList": [
     {
       "name": "KBS 제주 1FM",

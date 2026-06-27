@@ -2,6 +2,7 @@
   "country": "US",
   "countryName": "미국",
   "version": 1,
+  "type": "radio",
   "stationList": [
     {
       "name": "NPR",

@@ -7,6 +7,7 @@
   "start_lng": 127.8,
   "end_lat": 35.6,
   "end_lng": 129.3,
+  "type": "radio",
   "stationList": [
     {
       "name": "KBS 창원 1FM",

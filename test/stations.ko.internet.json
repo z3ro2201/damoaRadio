@@ -1,0 +1,24 @@
+{
+  "country": "KR",
+  "countryName": "대한민국",
+  "version": 5,
+  "type": "internet",
+  "stationList": [
+    {
+      "name": "트로트가족",
+      "broadcaster": "💖다올౿ꕤ",
+      "frequency": "인터넷",
+      "logo": "kr.internet.ehdrmfkal87.gif",
+      "url": "http://rudska7335.inlive.co.kr/live/listen.pls ",
+      "streamType": "direct"
+    },
+    {
+      "name": "Music Makeup",
+      "broadcaster": "ＲªØⁿ𝒜ᵗᵒ",
+      "frequency": "인터넷",
+      "logo": "kr.internet.musicMakeup.gif",
+      "url": "http://musicmakeup.inlive.co.kr/live/listen.pls ",
+      "streamType": "direct"
+    }
+  ]
+}

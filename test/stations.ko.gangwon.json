@@ -7,6 +7,7 @@
   "start_lng": 127.0,
   "end_lat": 38.6,
   "end_lng": 129.5,
+  "type": "radio",
   "stationList": [
     {
       "name": "KBS 춘천 1FM",
@@ -72,7 +73,8 @@
       "streamType": "fetchJson",
       "jsonPath": "channel_item.0.service_url",
       "metaUrl": "https://static.api.kbs.co.kr/mediafactory/v1/schedule/onair_now?local_station_code=82&channel_code=21",
-      "metaType": "kbs"
+      "metaType": "kbs",
+      "type": "radio"
     },
     {
       "name": "KBS 원주 클래식FM",
@@ -83,7 +85,8 @@
       "streamType": "fetchJson",
       "jsonPath": "channel_item.0.service_url",
       "metaUrl": "https://static.api.kbs.co.kr/mediafactory/v1/schedule/onair_now?local_station_code=82&channel_code=24",
-      "metaType": "kbs"
+      "metaType": "kbs",
+      "type": "radio"
     },
     {
       "name": "춘천MBC 표준FM",

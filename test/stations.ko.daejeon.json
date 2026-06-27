@@ -7,6 +7,7 @@
   "start_lng": 127.0,
   "end_lat": 36.7,
   "end_lng": 127.7,
+  "type": "radio",
   "stationList": [
     {
       "name": "KBS 대전 1FM",
@@ -14,9 +15,7 @@
       "frequency": "",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/60_21",
       "streamType": "fetchJson",
-      "jsonPath": "channel_item.0.service_url",
-      "metaUrl": "https://static.api.kbs.co.kr/mediafactory/v1/schedule/onair_now?local_station_code=60&channel_code=21",
-      "metaType": "kbs"
+      "jsonPath": "channel_item.0.service_url"
     },
     {
       "name": "KBS 대전 해피FM",
@@ -24,9 +23,7 @@
       "frequency": "",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/60_22",
       "streamType": "fetchJson",
-      "jsonPath": "channel_item.0.service_url",
-      "metaUrl": "https://static.api.kbs.co.kr/mediafactory/v1/schedule/onair_now?local_station_code=60&channel_code=22",
-      "metaType": "kbs"
+      "jsonPath": "channel_item.0.service_url"
     },
     {
       "name": "KBS 대전 클래식FM",
@@ -34,9 +31,7 @@
       "frequency": "",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/60_24",
       "streamType": "fetchJson",
-      "jsonPath": "channel_item.0.service_url",
-      "metaUrl": "https://static.api.kbs.co.kr/mediafactory/v1/schedule/onair_now?local_station_code=60&channel_code=24",
-      "metaType": "kbs"
+      "jsonPath": "channel_item.0.service_url"
     },
     {
       "name": "대전MBC 표준FM",
@@ -59,7 +54,7 @@
       "broadcaster": "TJB",
       "frequency": "FM 95.7MHz",
       "logo": "kr.tjb",
-      "url": "https://vod.tjb.co.kr/radiolive/_definst_/radio_64k/playlist.m3u8",
+      "url": "https://ns1.tjmbc.co.kr/live_fm/live_fm.stream/playlist.m3u8",
       "streamType": "direct"
     },
     {
@@ -84,7 +79,7 @@
       "frequency": "FM 93.3MHz",
       "url": "https://mlive3.febc.net/live5/djlive/playlist.m3u8",
       "streamType": "direct",
-      "metaUrl": "https://daejeon.febc.net/api/stream/current?channelId=1216",
+      "metaUrl": "https://gangwon.febc.net/api/stream/current?channelId=1223",
       "metaType": "febc"
     },
     {

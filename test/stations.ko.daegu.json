@@ -7,6 +7,7 @@
   "start_lng": 128.2,
   "end_lat": 36.2,
   "end_lng": 129.0,
+  "type": "radio",
   "stationList": [
     {
       "name": "KBS 대구 1FM",

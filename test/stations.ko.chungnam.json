@@ -7,6 +7,7 @@
   "start_lng": 126.1,
   "end_lat": 37.0,
   "end_lng": 127.5,
+  "type": "radio",
   "stationList": [
     {
       "name": "TBN 교통방송 (충남)",

@@ -7,6 +7,7 @@
   "start_lng": 129.0,
   "end_lat": 35.8,
   "end_lng": 129.5,
+  "type": "radio",
   "stationList": [
     {
       "name": "KBS 울산 1 라디오",

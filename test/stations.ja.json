@@ -2,6 +2,7 @@
   "country": "JA",
   "countryName": "일본",
   "version": 1,
+  "type": "radio",
   "stationList": [
     {
       "name": "NHK WORLD JAPAN",

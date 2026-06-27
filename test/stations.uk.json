@@ -2,6 +2,7 @@
   "country": "UK",
   "countryName": "영국",
   "version": 1,
+  "type": "radio",
   "stationList": [
     {
       "name": "BBC Radio 1",

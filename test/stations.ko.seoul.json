@@ -7,6 +7,7 @@
   "start_lng": 126.3,
   "end_lat": 38.3,
   "end_lng": 127.9,
+  "type": "radio",
   "stationList": [
     {
       "name": "KBS 1라디오",

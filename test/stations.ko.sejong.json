@@ -7,6 +7,7 @@
   "start_lng": 127.1,
   "end_lat": 36.7,
   "end_lng": 127.5,
+  "type": "radio",
   "stationList": [
     {
       "name": "세종FM",

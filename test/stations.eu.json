@@ -2,6 +2,7 @@
   "country": "EU",
   "countryName": "유럽",
   "version": 1,
+  "type": "radio",
   "stationList": [
     {
       "name": "FIP",
