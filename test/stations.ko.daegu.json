@@ -111,6 +111,14 @@
       "logo": "kr.scn",
       "url": "http://115.85.182.39/scnfm",
       "streamType": "direct"
+    },
+    {
+      "name": "대구 WBS 원음방송",
+      "broadcaster": "WBS",
+      "url": "https://wbsradio2.kr/wbs-d",
+      "streamType": "direct",
+      "metaUrl": "https://wbsi.kr/ajax_getNowProg.php?r=광주",
+      "metaType": "wbs"
     }
   ]
 }
