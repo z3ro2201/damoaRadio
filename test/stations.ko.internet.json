@@ -448,6 +448,176 @@
       "genre": "재즈",
       "metaUrl": "https://me.sayclub.com/api/bdcst/bird/info",
       "metaType": "sayCast"
+    },
+
+    {
+      "name": "호두트로트",
+      "broadcaster": "SayCast",
+      "logo": "kr.internet.7600",
+      "fetchBody": "{}",
+      "url": "https://me.sayclub.com/api/saydj/selectBdcstProtocol?domainid=7600",
+      "streamType": "fetchJson",
+      "jsonPath": "data.hls_url",
+      "genre": "트로트",
+      "metaUrl": "https://me.sayclub.com/api/bdcst/7600/info",
+      "metaType": "sayCast"
+    },
+    {
+      "name": "황혼의쉼터",
+      "broadcaster": "SayCast",
+      "logo": "kr.internet.chunga.jpg",
+      "fetchBody": "{}",
+      "url": "https://me.sayclub.com/api/saydj/selectBdcstProtocol?domainid=chunga",
+      "streamType": "fetchJson",
+      "jsonPath": "data.hls_url",
+      "genre": "트로트",
+      "metaUrl": "https://me.sayclub.com/api/bdcst/chunga/info",
+      "metaType": "sayCast"
+    },
+    {
+      "name": "포근한쉼터",
+      "broadcaster": "SayCast",
+      "logo": "kr.internet.salleyg1024",
+      "fetchBody": "{}",
+      "url": "https://me.sayclub.com/api/saydj/selectBdcstProtocol?domainid=salleyg1024",
+      "streamType": "fetchJson",
+      "jsonPath": "data.hls_url",
+      "genre": "트로트",
+      "metaUrl": "https://me.sayclub.com/api/bdcst/salleyg1024/info",
+      "metaType": "sayCast"
+    },
+    {
+      "name": "동백트로트",
+      "broadcaster": "SayCast",
+      "logo": "kr.internet.tls4712.gif",
+      "fetchBody": "{}",
+      "url": "https://me.sayclub.com/api/saydj/selectBdcstProtocol?domainid=tls4712",
+      "streamType": "fetchJson",
+      "jsonPath": "data.hls_url",
+      "genre": "트로트",
+      "metaUrl": "https://me.sayclub.com/api/bdcst/tls4712/info",
+      "metaType": "sayCast"
+    },
+    {
+      "name": "타임트로트",
+      "broadcaster": "SayCast",
+      "logo": "kr.internet.2388",
+      "fetchBody": "{}",
+      "url": "https://me.sayclub.com/api/saydj/selectBdcstProtocol?domainid=2388",
+      "streamType": "fetchJson",
+      "jsonPath": "data.hls_url",
+      "genre": "트로트",
+      "metaUrl": "https://me.sayclub.com/api/bdcst/2388/info",
+      "metaType": "sayCast"
+    },
+    {
+      "name": "트로트명가",
+      "broadcaster": "SayCast",
+      "logo": "kr.internet.wjd61.gif",
+      "fetchBody": "{}",
+      "url": "https://me.sayclub.com/api/saydj/selectBdcstProtocol?domainid=wjd61",
+      "streamType": "fetchJson",
+      "jsonPath": "data.hls_url",
+      "genre": "트로트",
+      "metaUrl": "https://me.sayclub.com/api/bdcst/wjd61/info",
+      "metaType": "sayCast"
+    },
+    {
+      "name": "7080마이크영상라이브",
+      "broadcaster": "SayCast",
+      "logo": "kr.internet.7080fkdlqm.gif",
+      "fetchBody": "{}",
+      "url": "https://me.sayclub.com/api/saydj/selectBdcstProtocol?domainid=7080fkdlqm",
+      "streamType": "fetchJson",
+      "jsonPath": "data.hls_url",
+      "genre": "트로트",
+      "metaUrl": "https://me.sayclub.com/api/bdcst/7080fkdlqm/info",
+      "metaType": "sayCast"
+    },
+    {
+      "name": "전국안방트로트",
+      "broadcaster": "SayCast",
+      "logo": "kr.internet.3939.gif",
+      "fetchBody": "{}",
+      "url": "https://me.sayclub.com/api/saydj/selectBdcstProtocol?domainid=3939",
+      "streamType": "fetchJson",
+      "jsonPath": "data.hls_url",
+      "genre": "트로트",
+      "metaUrl": "https://me.sayclub.com/api/bdcst/3939/info",
+      "metaType": "sayCast"
+    },
+    {
+      "name": "함께하는명품트로트",
+      "broadcaster": "SayCast",
+      "logo": "kr.internet.rlarjddnr141",
+      "fetchBody": "{}",
+      "url": "https://me.sayclub.com/api/saydj/selectBdcstProtocol?domainid=rlarjddnr141",
+      "streamType": "fetchJson",
+      "jsonPath": "data.hls_url",
+      "genre": "트로트",
+      "metaUrl": "https://me.sayclub.com/api/bdcst/rlarjddnr141/info",
+      "metaType": "sayCast"
+    },
+    {
+      "name": "트로트커피숍1",
+      "broadcaster": "SayCast",
+      "logo": "kr.internet.6909",
+      "fetchBody": "{}",
+      "url": "https://me.sayclub.com/api/saydj/selectBdcstProtocol?domainid=6909",
+      "streamType": "fetchJson",
+      "jsonPath": "data.hls_url",
+      "genre": "트로트",
+      "metaUrl": "https://me.sayclub.com/api/bdcst/6909/info",
+      "metaType": "sayCast"
+    },
+
+    {
+      "name": "올드팝의추억",
+      "broadcaster": "SayCast",
+      "logo": "kr.internet.maky3010",
+      "fetchBody": "{}",
+      "url": "https://me.sayclub.com/api/saydj/selectBdcstProtocol?domainid=maky3010",
+      "streamType": "fetchJson",
+      "jsonPath": "data.hls_url",
+      "genre": "POP",
+      "metaUrl": "https://me.sayclub.com/api/bdcst/maky3010/info",
+      "metaType": "sayCast"
+    },
+    {
+      "name": "달빛소나타FM",
+      "broadcaster": "SayCast",
+      "logo": "kr.internet.belleanmusic.jpg",
+      "fetchBody": "{}",
+      "url": "https://me.sayclub.com/api/saydj/selectBdcstProtocol?domainid=belleanmusic",
+      "streamType": "fetchJson",
+      "jsonPath": "data.hls_url",
+      "genre": "POP",
+      "metaUrl": "https://me.sayclub.com/api/bdcst/belleanmusic/info",
+      "metaType": "sayCast"
+    },
+    {
+      "name": "음표로전하는편지",
+      "broadcaster": "SayCast",
+      "logo": "kr.internet.summertree.gif",
+      "fetchBody": "{}",
+      "url": "https://me.sayclub.com/api/saydj/selectBdcstProtocol?domainid=summertree",
+      "streamType": "fetchJson",
+      "jsonPath": "data.hls_url",
+      "genre": "POP",
+      "metaUrl": "https://me.sayclub.com/api/bdcst/summertree/info",
+      "metaType": "sayCast"
+    },
+    {
+      "name": "오색한지",
+      "broadcaster": "SayCast",
+      "logo": "kr.internet.tkfkwurksek.jpg",
+      "fetchBody": "{}",
+      "url": "https://me.sayclub.com/api/saydj/selectBdcstProtocol?domainid=tkfkwurksek",
+      "streamType": "fetchJson",
+      "jsonPath": "data.hls_url",
+      "genre": "POP",
+      "metaUrl": "https://me.sayclub.com/api/bdcst/tkfkwurksek/info",
+      "metaType": "sayCast"
     }
   ]
 }
