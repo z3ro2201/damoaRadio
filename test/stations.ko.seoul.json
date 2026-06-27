@@ -204,7 +204,7 @@
       "url": "http://onair1.cpbc.co.kr:1935/live/_definst_/Instreamer.stream_aac/playlist.m3u8",
       "streamType": "direct",
       "metaUrl": "https://apis.cpbc.co.kr/play-api/2.0/onair/channel/radio?jwt-token=&ssl=Y",
-      "metaType": "cpbsSeoul"
+      "metaType": "cpbcSeoul"
     },
     {
       "name": "국악방송",
