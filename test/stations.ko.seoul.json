@@ -79,7 +79,9 @@
       "homepage": "https://www.sbs.co.kr/m/radio?div=gnb_m",
       "schedule": "https://www.sbs.co.kr/m/schedule/index.html?type=ra&channel=Power&pmDate=",
       "url": "https://apis.sbs.co.kr/play-api/1.0/livestream/powerpc/powerfm?protocol=hls&ssl=Y&quality=high",
-      "streamType": "fetchText"
+      "streamType": "fetchText",
+      "metaUrl": "https://apis.sbs.co.kr/play-api/1.0/onair/channel/S07?v_type=2&platform=pcweb&protocol=hls&ssl=Y&jwt-token=&rnd=262",
+      "metaType": "sbs"
     },
     {
       "name": "SBS 러브FM",
@@ -88,12 +90,16 @@
       "homepage": "https://www.sbs.co.kr/m/radio?div=gnb_m",
       "schedule": "https://www.sbs.co.kr/m/schedule/index.html?type=ra&channel=Love&pmDate=",
       "url": "https://apis.sbs.co.kr/play-api/1.0/livestream/lovepc/lovefm?protocol=hls&ssl=Y&quality=high",
-      "streamType": "fetchText"
+      "streamType": "fetchText",
+      "metaUrl": "https://apis.sbs.co.kr/play-api/1.0/onair/channel/S07?v_type=2&platform=pcweb&protocol=hls&ssl=Y&jwt-token=&rnd=262",
+      "metaType": "sbs"
     },
     {
       "name": "MBC 표준FM",
       "broadcaster": "MBC",
       "frequency": "FM 95.9MHz",
+      "homepage": "https://m.imbc.com/radiomain",
+      "schedule": "https://m.imbc.com/schedule/fm",
       "url": "https://sminiplay.imbc.com/aacplay.ashx?agent=webapp&channel=sfm",
       "streamType": "fetchText"
     },
@@ -101,6 +107,8 @@
       "name": "MBC FM4U",
       "broadcaster": "MBC",
       "frequency": "FM 91.9MHz",
+      "homepage": "https://m.imbc.com/radiomain",
+      "schedule": "https://m.imbc.com/schedule/fm4u",
       "url": "https://sminiplay.imbc.com/aacplay.ashx?agent=webapp&channel=mfm",
       "streamType": "fetchText"
     },
@@ -108,6 +116,8 @@
       "name": "CBS 표준FM 98.1",
       "broadcaster": "CBS",
       "frequency": "98.1MHz FM",
+      "homepage": "https://www.cbs.co.kr/radio",
+      "schedule": "https://www.cbs.co.kr/schedule?type=fm",
       "url": "https://m-aac.cbs.co.kr/mweb_cbs981/_definst_/cbs981.stream/playlist.m3u8",
       "streamType": "direct"
     },
@@ -115,6 +125,8 @@
       "name": "CBS 음악FM 93.9",
       "broadcaster": "CBS",
       "frequency": "93.9MHz FM",
+      "homepage": "https://www.cbs.co.kr/radio",
+      "schedule": "https://www.cbs.co.kr/schedule?type=musicFm",
       "url": "https://m-aac.cbs.co.kr/mweb_cbs939/_definst_/cbs939.stream/playlist.m3u8",
       "streamType": "direct"
     },
