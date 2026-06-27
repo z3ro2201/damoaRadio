@@ -307,6 +307,9 @@
       ],
       "logo": "kr.kfn",
       "url": "https://media.dema.mil.kr/live_radio/audio.sdp/playlist.m3u8",
+      "app": "https://play.google.com/store/apps/details?id=kr.co.digiquitous.korea.armyfm",
+      "homepage": "https://m.dema.mil.kr/web/radioMain.do",
+      "schedule": "https://m.dema.mil.kr/web/fm/timetable/list.do",
       "streamType": "direct"
     },
     {

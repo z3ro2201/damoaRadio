@@ -119,6 +119,7 @@
       "homepage": "https://www.cbs.co.kr/radio",
       "schedule": "https://www.cbs.co.kr/schedule?type=fm",
       "url": "https://m-aac.cbs.co.kr/mweb_cbs981/_definst_/cbs981.stream/playlist.m3u8",
+      "app": "https://play.google.com/store/apps/details?id=kr.co.cbs.cbs",
       "streamType": "direct"
     },
     {
@@ -128,6 +129,7 @@
       "homepage": "https://www.cbs.co.kr/radio",
       "schedule": "https://www.cbs.co.kr/schedule?type=musicFm",
       "url": "https://m-aac.cbs.co.kr/mweb_cbs939/_definst_/cbs939.stream/playlist.m3u8",
+      "app": "https://play.google.com/store/apps/details?id=kr.co.cbs.cbs",
       "streamType": "direct"
     },
     {
@@ -200,6 +202,8 @@
         }
       ],
       "url": "https://mgugaklive.nowcdn.co.kr/gugakradio/gugakradio.stream/playlist.m3u8",
+      "homepage": "https://www.igbf.kr/gugak_web/radio/radio_mainN.jsp?sub_num=744",
+      "app": "https://play.google.com/store/apps/details?id=org.gugakfm.app&hl=ko",
       "streamType": "direct"
     },
     {
@@ -283,8 +287,9 @@
     {
       "name": "AFN Go Humphreys",
       "broadcaster": "AFN go",
-      "frequency": "",
+      "frequency": "인터넷",
       "url": "https://14623.live.streamtheworld.com/AFNP_OSNAAC.aac",
+      "app": "https://play.google.com/store/apps/details?id=com.afn360",
       "streamType": "direct"
     }
   ]
