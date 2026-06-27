@@ -110,7 +110,9 @@
       "homepage": "https://m.imbc.com/radiomain",
       "schedule": "https://m.imbc.com/schedule/fm",
       "url": "https://sminiplay.imbc.com/aacplay.ashx?agent=webapp&channel=sfm",
-      "streamType": "fetchText"
+      "streamType": "fetchText",
+      "metaUrl": "https://control.imbc.com/Schedule/ONAIRWITHNVOD#FM",
+      "metaType": "mbcSeoul"
     },
     {
       "name": "MBC FM4U",
@@ -119,7 +121,9 @@
       "homepage": "https://m.imbc.com/radiomain",
       "schedule": "https://m.imbc.com/schedule/fm4u",
       "url": "https://sminiplay.imbc.com/aacplay.ashx?agent=webapp&channel=mfm",
-      "streamType": "fetchText"
+      "streamType": "fetchText",
+      "metaUrl": "https://control.imbc.com/Schedule/ONAIRWITHNVOD#FM4U",
+      "metaType": "mbcSeoul"
     },
     {
       "name": "CBS 표준FM 98.1",
