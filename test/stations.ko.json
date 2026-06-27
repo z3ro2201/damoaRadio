@@ -189,14 +189,18 @@
         }
       ],
       "url": "https://ebsonair.ebs.co.kr/fmradiofamilypc/familypc1m/playlist.m3u8",
-      "streamType": "direct"
+      "streamType": "direct",
+      "metaUrl": "https://www.ebs.co.kr/api/schedule/now?channelCd=RADIO",
+      "metaType": "ebs"
     },
     {
       "name": "EBS 반디 외국어 전문",
       "broadcaster": "EBS",
       "frequency": "인터넷 전용",
       "url": "https://ebsonair.ebs.co.kr/cloud1/iradio/playlist.m3u8",
-      "streamType": "direct"
+      "streamType": "direct",
+      "metaUrl": "https://www.ebs.co.kr/api/schedule/now?channelCd=IRADIO",
+      "metaType": "ebs"
     },
     {
       "name": "KFN 국방방송",
