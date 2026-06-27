@@ -29,7 +29,9 @@
       "app": "https://play.google.com/store/apps/details?id=kr.co.kbs.kong&hl=ko",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/21",
       "streamType": "fetchJson",
-      "jsonPath": "channel_item.0.service_url"
+      "jsonPath": "channel_item.0.service_url",
+      "metaUrl": "https://static.api.kbs.co.kr/mediafactory/v1/schedule/onair_now?local_station_code=00&channel_code=21",
+      "metaType": "kbs"
     },
     {
       "name": "KBS 2라디오 (HappyFM)",
@@ -39,7 +41,9 @@
       "app": "https://play.google.com/store/apps/details?id=kr.co.kbs.kong&hl=ko",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/22",
       "streamType": "fetchJson",
-      "jsonPath": "channel_item.0.service_url"
+      "jsonPath": "channel_item.0.service_url",
+      "metaUrl": "https://static.api.kbs.co.kr/mediafactory/v1/schedule/onair_now?local_station_code=00&channel_code=22",
+      "metaType": "kbs"
     },
     {
       "name": "KBS 클래식FM",
@@ -49,7 +53,9 @@
       "app": "https://play.google.com/store/apps/details?id=kr.co.kbs.kong&hl=ko",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/24",
       "streamType": "fetchJson",
-      "jsonPath": "channel_item.0.service_url"
+      "jsonPath": "channel_item.0.service_url",
+      "metaUrl": "https://static.api.kbs.co.kr/mediafactory/v1/schedule/onair_now?local_station_code=00&channel_code=24",
+      "metaType": "kbs"
     },
     {
       "name": "KBS 쿨FM",
@@ -59,7 +65,9 @@
       "app": "https://play.google.com/store/apps/details?id=kr.co.kbs.kong&hl=ko",
       "url": "https://cfpwwwapi.kbs.co.kr/api/v1/landing/live/channel_code/25",
       "streamType": "fetchJson",
-      "jsonPath": "channel_item.0.service_url"
+      "jsonPath": "channel_item.0.service_url",
+      "metaUrl": "https://static.api.kbs.co.kr/mediafactory/v1/schedule/onair_now?local_station_code=00&channel_code=25",
+      "metaType": "kbs"
     },
     {
       "name": "OBS 경인방송",
