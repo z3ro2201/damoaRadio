@@ -423,7 +423,9 @@
       "broadcaster": "BBS",
       "frequency": "101.9MHz FM",
       "url": "https://bbslive.clouducs.com/bbsradio-mlive/radio.stream/chunklist_w738448087.m3u8",
-      "streamType": "direct"
+      "streamType": "direct",
+      "metaUrl": "https://www.bbs.or.kr/HOME2/controls/",
+      "metaType": "bbs"
     },
     {
       "name": "BTN 울림채널",
