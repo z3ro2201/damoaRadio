@@ -413,6 +413,8 @@
       "frequency": "인터넷",
       "logo": "btn",
       "url": "https://btn.nowcdn.co.kr/btn_ch4st/live.stream/playlist.m3u8",
+      "schedule": "https://m.btn.co.kr/btn/schedule/radio01.html",
+      "app": "https://play.google.com/store/apps/details?id=com.btn.radio&hl=ko",
       "streamType": "direct"
     },
     {
@@ -421,6 +423,8 @@
       "frequency": "인터넷",
       "logo": "btn",
       "url": "https://btn.nowcdn.co.kr/btn_ch1st/live.stream/playlist.m3u8",
+      "schedule": "https://m.btn.co.kr/btn/schedule/radio02.html",
+      "app": "https://play.google.com/store/apps/details?id=com.btn.radio&hl=ko",
       "streamType": "direct"
     },
     {
@@ -429,7 +433,10 @@
       "frequency": "인터넷",
       "logo": "cchannel",
       "url": "https://6835fd66c946c.streamlock.net/radiolive/myStream/playlist.m3u8",
-      "streamType": "direct"
+      "streamType": "direct",
+      "schedule": "https://www.cchannel.com/schedule",
+      "homepage": "https://www.cchannel.com/",
+      "app": "https://play.google.com/store/apps/details?id=com.jsoft.cchannel&hl=ko"
     }
   ]
 }

@@ -68,7 +68,9 @@
       "broadcaster": "국악방송",
       "frequency": "FM 99.3MHz(영동), 90.5MHz(대전/세종), 101.7MHz(충주), 90.1MHz(제천/단양), 107.5MHz(청주),  ",
       "url": "https://mgugaklive.nowcdn.co.kr/gugakdaejeon/Daejeonradio.stream/playlist.m3u8",
-      "streamType": "direct"
+      "streamType": "direct",
+      "metaUrl": "https://new.igbf.kr/api/v1/radio/summary",
+      "metaType": "igbf"
     },
     {
       "name": "극동방송 (대전)",

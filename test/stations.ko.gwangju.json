@@ -67,7 +67,9 @@
       "broadcaster": "FEBC 극동방송",
       "frequency": "FM 93.1MHz",
       "url": "https://mlive3.febc.net/live5/gjlive/playlist.m3u8",
-      "streamType": "direct"
+      "streamType": "direct",
+      "metaUrl": "https://new.igbf.kr/api/v1/radio/summary",
+      "metaType": "igbf"
     },
     {
       "name": "KBC 마이FM",

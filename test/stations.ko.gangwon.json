@@ -96,6 +96,7 @@
       "frequency": "",
       "logo": "kr.mbc",
       "url": "http://123.254.72.24:1935/amlive/livestream/playlist.m3u8",
+      "homepage": "https://www.mbceg.co.kr/",
       "streamType": "direct"
     },
     {
@@ -105,6 +106,7 @@
       "frequency": "",
       "logo": "kr.mbc",
       "url": "http://123.254.72.24:1935/fmlive/livestream/playlist.m3u8",
+      "homepage": "https://www.mbceg.co.kr/",
       "streamType": "direct"
     },
     {
@@ -113,14 +115,19 @@
       "frequency": "FM 103.1MHz(원주), 105.1MHz(춘천), 106.1MHz(강릉), 99.3MHz(태백), 88.3MHz(평창), 101.3MHz(속초), 90.5MHz(평창읍)",
       "logo": "kr.g1",
       "url": "http://61.82.49.4:1935/fm/_definst_/myStream/playlist.m3u8",
+      "schedule": "https://www.g1tv.co.kr/schedule/?mid=165_167",
+      "homepage": "https://www.g1tv.co.kr/radio/?mid=16",
       "streamType": "direct"
     },
     {
       "name": "국악방송",
       "broadcaster": "국악방송",
       "frequency": "FM 103.3MHz",
+      "schedule": "https://www.igbf.kr/gugak_web/?sub_num=786",
       "url": "https://mgugaklive.nowcdn.co.kr/gugakradio/gugakradio.stream/playlist.m3u8",
-      "streamType": "direct"
+      "streamType": "direct",
+      "metaUrl": "https://new.igbf.kr/api/v1/radio/summary",
+      "metaType": "igbf"
     },
     {
       "name": "TBN 교통방송 (강원)",

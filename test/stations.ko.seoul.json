@@ -212,7 +212,9 @@
       "url": "https://mgugaklive.nowcdn.co.kr/gugakradio/gugakradio.stream/playlist.m3u8",
       "homepage": "https://www.igbf.kr/gugak_web/radio/radio_mainN.jsp?sub_num=744",
       "app": "https://play.google.com/store/apps/details?id=org.gugakfm.app&hl=ko",
-      "streamType": "direct"
+      "streamType": "direct",
+      "metaUrl": "https://new.igbf.kr/api/v1/radio/summary",
+      "metaType": "igbf"
     },
     {
       "name": "마포FM",
