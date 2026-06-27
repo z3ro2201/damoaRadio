@@ -57,7 +57,9 @@
       "subRegion": "창원",
       "frequency": "FM 98.1MHz",
       "url": "https://mlive3.febc.net/live5/cwlive/playlist.m3u8",
-      "streamType": "direct"
+      "streamType": "direct",
+      "metaUrl": "https://changwon.febc.net/api/stream/current?channelId=1240",
+      "metaType": "febc"
     },
     {
       "name": "CBS 표준FM (경남)",

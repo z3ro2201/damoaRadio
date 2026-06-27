@@ -97,7 +97,9 @@
       "broadcaster": "FEBC 극동방송",
       "frequency": "FM 104.7MHz",
       "url": "https://mlive3.febc.net/live5/jejufm/playlist.m3u8",
-      "streamType": "direct"
+      "streamType": "direct",
+      "metaUrl": "https://jeju.febc.net/api/stream/current?channelId=1236",
+      "metaType": "febc"
     }
   ]
 }

@@ -77,7 +77,9 @@
       "broadcaster": "FEBC 극동방송",
       "frequency": "FM 91.9MHz",
       "url": "https://mlive3.febc.net/live5/daegulive/playlist.m3u8",
-      "streamType": "direct"
+      "streamType": "direct",
+      "metaUrl": "https://daegu.febc.net/api/stream/current?channelId=1251",
+      "metaType": "febc"
     },
     {
       "name": "cpbc 대구가톨릭방송",

@@ -77,7 +77,9 @@
       "broadcaster": "FEBC 극동방송",
       "frequency": "FM 93.3MHz",
       "url": "https://mlive3.febc.net/live5/djlive/playlist.m3u8",
-      "streamType": "direct"
+      "streamType": "direct",
+      "metaUrl": "https://daejeon.febc.net/api/stream/current?channelId=1216",
+      "metaType": "febc"
     },
     {
       "name": "한밭FM",

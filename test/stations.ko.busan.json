@@ -90,7 +90,9 @@
       "broadcaster": "FEBC 극동방송",
       "frequency": "FM 93.3MHz",
       "url": "https://mlive3.febc.net/live5/bsfebc/playlist.m3u8",
-      "streamType": "direct"
+      "streamType": "direct",
+      "metaUrl": "https://busan.febc.net/api/stream/current?channelId=1219",
+      "metaType": "febc"
     },
     {
       "name": "CBS 표준FM (부산)",

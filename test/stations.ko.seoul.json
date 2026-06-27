@@ -188,7 +188,9 @@
       "homepage": "https://seoul.febc.net/",
       "schedule": "https://seoul.febc.net/radio/schedule",
       "url": "https://mlive3.febc.net/live5/seoulfm/playlist.m3u8",
-      "streamType": "direct"
+      "streamType": "direct",
+      "metaUrl": "https://seoul.febc.net/api/stream/current?channelId=175",
+      "metaType": "febc"
     },
     {
       "name": "cpbc 수도권가톨릭방송",

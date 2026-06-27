@@ -97,7 +97,9 @@
       "subRegion": "포항",
       "frequency": "FM 90.3MHz",
       "url": "https://mlive3.febc.net/live5/phlive/playlist.m3u8",
-      "streamType": "direct"
+      "streamType": "direct",
+      "metaUrl": "https://pohang.febc.net/api/stream/current?channelId=1244",
+      "metaType": "febc"
     },
     {
       "name": "상주FM",
