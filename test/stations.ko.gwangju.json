@@ -115,7 +115,9 @@
       "broadcaster": "WBS",
       "frequency": "FM",
       "url": "https://wbsradio2.kr/wbs-g",
-      "streamType": "direct"
+      "streamType": "direct",
+      "metaUrl": "https://wbsi.kr/ajax_getNowProg.php?r=광주",
+      "metaType": "wbs"
     },
     {
       "name": "GBS 고려방송",

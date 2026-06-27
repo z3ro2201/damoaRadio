@@ -184,7 +184,9 @@
       "homepage": "https://wbsi.kr/prog_intro.php?gr_id=a17&device=mobile",
       "schedule": "https://wbsi.kr/onair_radio.php?region=%EC%84%9C%EC%9A%B8&device=mobile",
       "url": "https://wbsradio.kr/wbs-seoul",
-      "streamType": "direct"
+      "streamType": "direct",
+      "metaUrl": "https://wbsi.kr/ajax_getNowProg.php?r=광주",
+      "metaType": "wbs"
     },
     {
       "name": "극동방송 (서울)",

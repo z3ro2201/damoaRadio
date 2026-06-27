@@ -90,7 +90,9 @@
       "broadcaster": "WBS",
       "frequency": "FM",
       "url": "https://wbsradio2.kr/wbs-b",
-      "streamType": "direct"
+      "streamType": "direct",
+      "metaUrl": "https://wbsi.kr/ajax_getNowProg.php?r=광주",
+      "metaType": "wbs"
     },
     {
       "name": "극동방송 (부산)",

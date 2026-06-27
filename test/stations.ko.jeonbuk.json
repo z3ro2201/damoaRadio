@@ -74,7 +74,9 @@
       "broadcaster": "WBS",
       "frequency": "FM",
       "url": "https://wbsradio2.kr/wbs-j",
-      "streamType": "direct"
+      "streamType": "direct",
+      "metaUrl": "https://wbsi.kr/ajax_getNowProg.php?r=광주",
+      "metaType": "wbs"
     },
     {
       "name": "JTV 매직FM",

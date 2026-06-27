@@ -6,19 +6,48 @@
   "stationList": [
     {
       "name": "트로트가족",
-      "broadcaster": "💖다올౿ꕤ",
+      "broadcaster": "트로트가족",
       "frequency": "인터넷",
       "logo": "kr.internet.ehdrmfkal87.gif",
       "url": "http://rudska7335.inlive.co.kr/live/listen.pls",
-      "streamType": "pls"
+      "streamType": "pls",
+      "genre": "트로트"
     },
     {
       "name": "Music Makeup",
-      "broadcaster": "ＲªØⁿ𝒜ᵗᵒ",
+      "broadcaster": "Music Makeup",
       "frequency": "인터넷",
       "logo": "kr.internet.musicMakeup.gif",
       "url": "http://musicmakeup.inlive.co.kr/live/listen.pls",
-      "streamType": "pls"
+      "streamType": "pls",
+      "genre": "트로트"
+    },
+    {
+      "name": "로얄ll트로트",
+      "broadcaster": "로얄ll트로트",
+      "frequency": "인터넷",
+      "logo": "kr.internet.amabilejy.gif",
+      "url": "http://hwaqaz.inlive.co.kr/live/listen.pls",
+      "streamType": "pls",
+      "genre": "트로트"
+    },
+    {
+      "name": "비전트로트",
+      "broadcaster": "비전트로트",
+      "frequency": "인터넷",
+      "logo": "kr.internet.mj3040.gif",
+      "url": "http://smrlsepfh.inlive.co.kr/live/listen.pls",
+      "streamType": "pls",
+      "genre": "트로트"
+    },
+    {
+      "name": "명품 트로트",
+      "broadcaster": "명품 트로트",
+      "frequency": "인터넷",
+      "logo": "kr.internet.musicMakeup.gif",
+      "url": "http://jun28w.inlive.co.kr/live/listen.pls",
+      "streamType": "pls",
+      "genre": "트로트"
     }
   ]
 }
