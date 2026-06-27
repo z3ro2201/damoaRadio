@@ -241,6 +241,213 @@
       "genre": "클래식",
       "metaUrl": "https://me.sayclub.com/api/bdcst/rmflqrnsk/info",
       "metaType": "sayCast"
+    },
+    {
+      "name": "이한장의명반",
+      "broadcaster": "SayCast",
+      "logo": "kr.internet.lovegalaxies.jpg",
+      "fetchBody": "{}",
+      "url": "https://me.sayclub.com/api/saydj/selectBdcstProtocol?domainid=lovegalaxies",
+      "streamType": "fetchJson",
+      "jsonPath": "data.hls_url",
+      "genre": "클래식",
+      "metaUrl": "https://me.sayclub.com/api/bdcst/lovegalaxies/info",
+      "metaType": "sayCast"
+    },
+
+    {
+      "name": "하늘호수24",
+      "broadcaster": "SayCast",
+      "logo": "kr.internet.24sky.jpg",
+      "fetchBody": "{}",
+      "url": "https://me.sayclub.com/api/saydj/selectBdcstProtocol?domainid=loveg24skyalaxies",
+      "streamType": "fetchJson",
+      "jsonPath": "data.hls_url",
+      "genre": "가요",
+      "metaUrl": "https://me.sayclub.com/api/bdcst/24sky/info",
+      "metaType": "sayCast"
+    },
+    {
+      "name": "투게더뮤직",
+      "broadcaster": "SayCast",
+      "logo": "kr.internet.www7766.gif",
+      "fetchBody": "{}",
+      "url": "https://me.sayclub.com/api/saydj/selectBdcstProtocol?domainid=www7766",
+      "streamType": "fetchJson",
+      "jsonPath": "data.hls_url",
+      "genre": "가요",
+      "metaUrl": "https://me.sayclub.com/api/bdcst/www7766/info",
+      "metaType": "sayCast"
+    },
+    {
+      "name": "연우뮤직",
+      "broadcaster": "SayCast",
+      "logo": "kr.internet.ssong1124.jpg",
+      "fetchBody": "{}",
+      "url": "https://me.sayclub.com/api/saydj/selectBdcstProtocol?domainid=ssong1124",
+      "streamType": "fetchJson",
+      "jsonPath": "data.hls_url",
+      "genre": "가요",
+      "metaUrl": "https://me.sayclub.com/api/bdcst/ssong1124/info",
+      "metaType": "sayCast"
+    },
+    {
+      "name": "뮤직앤러브24",
+      "broadcaster": "SayCast",
+      "logo": "kr.internet.musictour1.jpg",
+      "fetchBody": "{}",
+      "url": "https://me.sayclub.com/api/saydj/selectBdcstProtocol?domainid=musictour1",
+      "streamType": "fetchJson",
+      "jsonPath": "data.hls_url",
+      "genre": "가요",
+      "metaUrl": "https://me.sayclub.com/api/bdcst/musictour1/info",
+      "metaType": "sayCast"
+    },
+
+    {
+      "name": "감성발라드24",
+      "broadcaster": "SayCast",
+      "logo": "kr.internet.gam24.jpg",
+      "fetchBody": "{}",
+      "url": "https://me.sayclub.com/api/saydj/selectBdcstProtocol?domainid=gam24",
+      "streamType": "fetchJson",
+      "jsonPath": "data.hls_url",
+      "genre": "가요",
+      "metaUrl": "https://me.sayclub.com/api/bdcst/gam24/info",
+      "metaType": "sayCast"
+    },
+    {
+      "name": "뮤직라이프",
+      "broadcaster": "SayCast",
+      "logo": "kr.internet.vbnm227.jpg",
+      "fetchBody": "{}",
+      "url": "https://me.sayclub.com/api/saydj/selectBdcstProtocol?domainid=vbnm227",
+      "streamType": "fetchJson",
+      "jsonPath": "data.hls_url",
+      "genre": "가요",
+      "metaUrl": "https://me.sayclub.com/api/bdcst/vbnm227/info",
+      "metaType": "sayCast"
+    },
+    {
+      "name": "사랑과추억7080",
+      "broadcaster": "SayCast",
+      "logo": "kr.internet.odin.jpg",
+      "fetchBody": "{}",
+      "url": "https://me.sayclub.com/api/saydj/selectBdcstProtocol?domainid=odin",
+      "streamType": "fetchJson",
+      "jsonPath": "data.hls_url",
+      "genre": "가요",
+      "metaUrl": "https://me.sayclub.com/api/bdcst/odin/info",
+      "metaType": "sayCast"
+    },
+    {
+      "name": "그리고ll발라드",
+      "broadcaster": "SayCast",
+      "logo": "kr.internet.idrami.jpg",
+      "fetchBody": "{}",
+      "url": "https://me.sayclub.com/api/saydj/selectBdcstProtocol?domainid=idrami",
+      "streamType": "fetchJson",
+      "jsonPath": "data.hls_url",
+      "genre": "가요",
+      "metaUrl": "https://me.sayclub.com/api/bdcst/idrami/info",
+      "metaType": "sayCast"
+    },
+    {
+      "name": "d최신가요b",
+      "broadcaster": "SayCast",
+      "logo": "kr.internet.djsr1.jpg",
+      "fetchBody": "{}",
+      "url": "https://me.sayclub.com/api/saydj/selectBdcstProtocol?domainid=djsr1",
+      "streamType": "fetchJson",
+      "jsonPath": "data.hls_url",
+      "genre": "가요",
+      "metaUrl": "https://me.sayclub.com/api/bdcst/djsr1/info",
+      "metaType": "sayCast"
+    },
+
+    {
+      "name": "RomanticPiano1",
+      "broadcaster": "SayCast",
+      "logo": "kr.internet.tjdahsla88.jpg",
+      "fetchBody": "{}",
+      "url": "https://me.sayclub.com/api/saydj/selectBdcstProtocol?domainid=tjdahsla88",
+      "streamType": "fetchJson",
+      "jsonPath": "data.hls_url",
+      "genre": "뉴에이지",
+      "metaUrl": "https://me.sayclub.com/api/bdcst/tjdahsla88/info",
+      "metaType": "sayCast"
+    },
+    {
+      "name": "Sallak",
+      "broadcaster": "SayCast",
+      "logo": "kr.internet.3099sallak.jpg",
+      "fetchBody": "{}",
+      "url": "https://me.sayclub.com/api/saydj/selectBdcstProtocol?domainid=3099sallak",
+      "streamType": "fetchJson",
+      "jsonPath": "data.hls_url",
+      "genre": "뉴에이지",
+      "metaUrl": "https://me.sayclub.com/api/bdcst/3099sallak/info",
+      "metaType": "sayCast"
+    },
+    {
+      "name": "NEWAGE",
+      "broadcaster": "SayCast",
+      "logo": "kr.internet.toqha.gif",
+      "fetchBody": "{}",
+      "url": "https://me.sayclub.com/api/saydj/selectBdcstProtocol?domainid=toqha",
+      "streamType": "fetchJson",
+      "jsonPath": "data.hls_url",
+      "genre": "뉴에이지",
+      "metaUrl": "https://me.sayclub.com/api/bdcst/toqha/info",
+      "metaType": "sayCast"
+    },
+    {
+      "name": "먼여행",
+      "broadcaster": "SayCast",
+      "logo": "kr.internet.cadenza.jpg",
+      "fetchBody": "{}",
+      "url": "https://me.sayclub.com/api/saydj/selectBdcstProtocol?domainid=cadenza",
+      "streamType": "fetchJson",
+      "jsonPath": "data.hls_url",
+      "genre": "뉴에이지",
+      "metaUrl": "https://me.sayclub.com/api/bdcst/cadenza/info",
+      "metaType": "sayCast"
+    },
+    {
+      "name": "SilentNight",
+      "broadcaster": "SayCast",
+      "logo": "kr.internet.twilight1719.jpg",
+      "fetchBody": "{}",
+      "url": "https://me.sayclub.com/api/saydj/selectBdcstProtocol?domainid=twilight1719",
+      "streamType": "fetchJson",
+      "jsonPath": "data.hls_url",
+      "genre": "뉴에이지",
+      "metaUrl": "https://me.sayclub.com/api/bdcst/twilight1719/info",
+      "metaType": "sayCast"
+    },
+    {
+      "name": "별까지가는배Blues방송",
+      "broadcaster": "SayCast",
+      "logo": "kr.internet.sunroadkr",
+      "fetchBody": "{}",
+      "url": "https://me.sayclub.com/api/saydj/selectBdcstProtocol?domainid=sunroadkr",
+      "streamType": "fetchJson",
+      "jsonPath": "data.hls_url",
+      "genre": "재즈",
+      "metaUrl": "https://me.sayclub.com/api/bdcst/sunroadkr/info",
+      "metaType": "sayCast"
+    },
+    {
+      "name": "SilentNight",
+      "broadcaster": "SayCast",
+      "logo": "kr.internet.bird.jpg",
+      "fetchBody": "{}",
+      "url": "https://me.sayclub.com/api/saydj/selectBdcstProtocol?domainid=bird",
+      "streamType": "fetchJson",
+      "jsonPath": "data.hls_url",
+      "genre": "재즈",
+      "metaUrl": "https://me.sayclub.com/api/bdcst/bird/info",
+      "metaType": "sayCast"
     }
   ]
 }
