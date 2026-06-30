@@ -79,7 +79,9 @@
       "schedule": "https://www.obs.co.kr/schedule/?type=radio",
       "app": "https://play.google.com/store/apps/details?id=kr.co.obs.obsradio",
       "url": "https://vod3.obs.co.kr:444/live/obsstream1/radio.stream/playlist.m3u8",
-      "streamType": "direct"
+      "streamType": "direct",
+      "metaUrl": "https://www.obs.co.kr/renewal/api/radio_stat.php?type=mobile",
+      "metaType": "obs"
     },
     {
       "name": "SBS 파워FM",
