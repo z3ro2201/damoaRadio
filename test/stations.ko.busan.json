@@ -129,7 +129,10 @@
       "frequency": "90.5MHz FM (부산), 103.3MHz FM(서부산, 기장, 정관)",
       "logo": "kr.befm",
       "url": "https://live.cdn.smilecdn.com/befm905_live/live/playlist.m3u8",
-      "streamType": "direct"
+      "streamType": "direct",
+      "schedule": "https://www.befm.or.kr/sub/template.php?midx=37&lang=ko",
+      "homepage": "https://www.befm.or.kr",
+      "app": "https://play.google.com/store/apps/details?id=kr.co.vipsapp"
     },
     {
       "name": "국악방송",
