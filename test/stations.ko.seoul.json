@@ -159,7 +159,8 @@
       "schedule": "https://m.radio.ytn.co.kr/timetable.php",
       "streamType": "direct",
       "metaUrl": "https://radio.ytn.co.kr/incfile/nowSchedule.xml",
-      "metaType": "ytn"
+      "metaType": "ytn",
+      "app": "https://play.google.com/store/apps/details?id=com.yejit.ytnradio"
     },
     {
       "name": "TBN 교통방송 (경인)",

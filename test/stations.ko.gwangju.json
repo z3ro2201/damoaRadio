@@ -101,7 +101,9 @@
       "broadcaster": "cpbc 가톨릭평화방송",
       "frequency": "FM 99.9MHz(광주), 99.5MHz(여수/순천)",
       "url": "http://pbcradio.dynamicsmart.com:1935/radio/kjpbc2/index.m3u8",
-      "streamType": "direct"
+      "streamType": "direct",
+      "homepage": "https://kjpbc.com/main.php",
+      "schedule": "https://kjpbc.com/sub.php?PID=0201"
     },
     {
       "name": "BBS 불교방송 (광주)",

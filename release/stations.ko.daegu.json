@@ -61,7 +61,9 @@
       "frequency": "FM 99.3MHz(대구), 106.5MHz(대구성서), 106.5MHz(안동), 99.7MHz(포항)",
       "logo": "kr.tbc",
       "url": "http://203.251.91.122:1935/on-air-Backup/fm/playlist.m3u8",
-      "streamType": "direct"
+      "streamType": "direct",
+      "schedule": "https://www.tbc.co.kr/schedule/?mid=7_181&end=",
+      "homepage": "https://www.tbc.co.kr/fm/?mid=3"
     },
     {
       "name": "국악방송",
@@ -93,7 +95,9 @@
       "broadcaster": "cpbc 가톨릭평화방송",
       "frequency": "FM 93.1MHz (대구), 96.9MHz(포항), 100.7MHz(안동), 100.5MHz(김천/구미)",
       "url": "http://live.dgcpbc.co.kr/dgcpbclive/livestream/playlist.m3u8",
-      "streamType": "direct"
+      "streamType": "direct",
+      "schedule": "http://dgcpbc.co.kr/m/table.html",
+      "homepage": "http://dgcpbc.co.kr/m/"
     },
     {
       "name": "대구동구FM",
